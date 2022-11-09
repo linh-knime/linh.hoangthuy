@@ -1,0 +1,247 @@
+﻿Name;annual_percentage_rate;monthly_rate;free_special_redemption;number_months
+SWK Bank;0,68%;836,40 ;TRUE;12
+Younited Credit;1,48%;839,98 ;TRUE;12
+Postbank;1,55%;840,30 ;TRUE;12
+norisbank;1,69%;840,92 ;TRUE;12
+Deutsche Bank AG;1,75%;841,19 ;TRUE;12
+UniCredit Bank;1,89%;841,82 ;TRUE;12
+SWK Bank;1,92%;841,95 ;TRUE;12
+TARGOBANK;1,95%;842,08 ;TRUE;12
+SKG BANK;1,95%;842,08 ;TRUE;12
+Santander Consumer Bank;1,99%;842,26 ;FALSE;12
+Creditplus Bank;1,99%;842,26 ;TRUE;12
+Oldenburgische Landesbank;1,99%;842,26 ;FALSE;12
+Barclays;1,99%;842,26 ;TRUE;12
+Consors Finanz;2,37%;843,95 ;TRUE;12
+Volkswagen Bank GmbH;2,99%;846,71 ;FALSE;12
+Ferratum;2,99%;846,71 ;FALSE;12
+Deutsche Kreditbank;3,45%;848,74 ;TRUE;12
+S-Kreditpartner;3,49%;848,92 ;TRUE;12
+PSD Bank Rhein-Ruhr;3,80%;850,29 ;FALSE;12
+1822direkt;6,28%;861,15 ;TRUE;12
+SWK Bank;0,68%;558,54 ;TRUE;18
+Postbank;1,55%;562,35 ;TRUE;18
+norisbank;1,69%;562,96 ;TRUE;18
+Deutsche Bank AG;1,75%;563,22 ;TRUE;18
+UniCredit Bank;1,89%;563,83 ;TRUE;18
+SKG BANK;1,95%;564,09 ;TRUE;18
+Santander Consumer Bank;1,99%;564,27 ;FALSE;18
+Creditplus Bank;1,99%;564,27 ;TRUE;18
+Oldenburgische Landesbank;1,99%;564,27 ;FALSE;18
+Barclays;1,99%;564,27 ;TRUE;18
+Consors Finanz;2,37%;565,92 ;TRUE;18
+Deutsche Kreditbank;3,45%;570,61 ;TRUE;18
+S-Kreditpartner;3,49%;570,79 ;TRUE;18
+SWK Bank;0,68%;419,62 ;TRUE;24
+Younited Credit;1,48%;423,08 ;TRUE;24
+Postbank;1,55%;423,38 ;TRUE;24
+norisbank;1,69%;423,98 ;TRUE;24
+Deutsche Bank AG;1,75%;424,24 ;TRUE;24
+UniCredit Bank;1,89%;424,85 ;TRUE;24
+SWK Bank;1,92%;424,98 ;TRUE;24
+TARGOBANK;1,95%;425,11 ;TRUE;24
+SKG BANK;1,95%;425,11 ;TRUE;24
+Degussa Bank;1,99%;425,28 ;TRUE;24
+Santander Consumer Bank;1,99%;425,28 ;FALSE;24
+Creditplus Bank;1,99%;425,28 ;TRUE;24
+Oldenburgische Landesbank;1,99%;425,28 ;FALSE;24
+Barclays;1,99%;425,28 ;TRUE;24
+Consors Finanz;2,37%;426,92 ;TRUE;24
+SWK Bank;2,75%;428,56 ;TRUE;24
+Volkswagen Bank GmbH;2,99%;429,59 ;FALSE;24
+Ferratum;2,99%;429,59 ;FALSE;24
+Deutsche Kreditbank;3,45%;431,57 ;TRUE;24
+S-Kreditpartner;3,49%;431,74 ;TRUE;24
+ING;3,69%;432,60 ;TRUE;24
+PSD Bank Rhein-Ruhr;3,80%;433,07 ;FALSE;24
+SWK Bank;3,99%;433,89 ;TRUE;24
+1822direkt;3,99%;433,89 ;TRUE;24
+SWK Bank;0,68%;280,69 ;TRUE;36
+Younited Credit;1,48%;284,12 ;TRUE;36
+OYAK ANKER Bank;1,49%;284,16 ;TRUE;36
+Postbank;1,55%;284,42 ;TRUE;36
+norisbank;1,69%;285,02 ;TRUE;36
+Deutsche Bank AG;1,75%;285,28 ;TRUE;36
+UniCredit Bank;1,89%;285,88 ;TRUE;36
+SWK Bank;1,92%;286,00 ;TRUE;36
+TARGOBANK;1,95%;286,13 ;TRUE;36
+SKG BANK;1,95%;286,13 ;TRUE;36
+Degussa Bank;1,99%;286,30 ;TRUE;36
+Santander Consumer Bank;1,99%;286,30 ;FALSE;36
+Creditplus Bank;1,99%;286,30 ;TRUE;36
+Barclays;1,99%;286,30 ;TRUE;36
+Oldenburgische Landesbank;1,99%;286,30 ;FALSE;36
+Consors Finanz;2,37%;287,93 ;TRUE;36
+SWK Bank;2,75%;289,56 ;TRUE;36
+Volkswagen Bank GmbH;2,99%;290,59 ;FALSE;36
+Ferratum;2,99%;290,59 ;FALSE;36
+Deutsche Kreditbank;3,45%;292,56 ;TRUE;36
+S-Kreditpartner;3,49%;292,73 ;TRUE;36
+ING;3,69%;293,59 ;TRUE;36
+PSD Bank Rhein-Ruhr;3,80%;294,06 ;FALSE;36
+SWK Bank;3,99%;294,88 ;TRUE;36
+1822direkt;3,99%;294,88 ;TRUE;36
+DSL Bank;4,95%;299,00 ;TRUE;36
+SWK Bank;0,68%;211,23 ;TRUE;48
+Younited Credit;1,48%;214,65 ;TRUE;48
+OYAK ANKER Bank;1,49%;214,69 ;TRUE;48
+Degussa Bank;1,49%;214,69 ;TRUE;48
+Postbank;1,55%;214,95 ;TRUE;48
+norisbank;1,69%;215,54 ;TRUE;48
+Deutsche Bank AG;1,75%;215,80 ;TRUE;48
+UniCredit Bank;1,89%;216,40 ;TRUE;48
+SWK Bank;1,92%;216,53 ;TRUE;48
+TARGOBANK;1,95%;216,66 ;TRUE;48
+SKG BANK;1,95%;216,66 ;TRUE;48
+Santander Consumer Bank;1,99%;216,83 ;FALSE;48
+Creditplus Bank;1,99%;216,83 ;TRUE;48
+Oldenburgische Landesbank;1,99%;216,83 ;FALSE;48
+Barclays;1,99%;216,83 ;TRUE;48
+Consors Finanz;2,37%;218,46 ;TRUE;48
+SWK Bank;2,75%;220,09 ;TRUE;48
+Volkswagen Bank GmbH;2,99%;221,12 ;FALSE;48
+Ferratum;2,99%;221,12 ;FALSE;48
+Deutsche Kreditbank;3,45%;223,10 ;TRUE;48
+S-Kreditpartner;3,49%;223,27 ;TRUE;48
+ING;3,69%;224,13 ;TRUE;48
+PSD Bank Rhein-Ruhr;3,80%;224,61 ;FALSE;48
+SWK Bank;3,99%;225,43 ;TRUE;48
+1822direkt;3,99%;225,43 ;TRUE;48
+DSL Bank;4,95%;229,57 ;TRUE;48
+SWK Bank;0,68%;169,55 ;TRUE;60
+Younited Credit;1,48%;172,97 ;TRUE;60
+OYAK ANKER Bank;1,49%;173,01 ;TRUE;60
+Degussa Bank;1,49%;173,01 ;TRUE;60
+Postbank;1,55%;173,27 ;TRUE;60
+SÜDWESTBANK - BAWAG AG Niederlassung Deutschland;1,67%;173,78 ;TRUE;60
+norisbank;1,69%;173,87 ;TRUE;60
+Deutsche Bank AG;1,75%;174,13 ;TRUE;60
+UniCredit Bank;1,89%;174,73 ;TRUE;60
+SWK Bank;1,92%;174,85 ;TRUE;60
+TARGOBANK;1,95%;174,98 ;TRUE;60
+SKG BANK;1,95%;174,98 ;TRUE;60
+Santander Consumer Bank;1,99%;175,16 ;FALSE;60
+1822direkt;1,99%;175,16 ;TRUE;60
+SWK Bank;1,99%;175,16 ;TRUE;60
+Creditplus Bank;1,99%;175,16 ;TRUE;60
+Oldenburgische Landesbank;1,99%;175,16 ;FALSE;60
+Barclays;1,99%;175,16 ;TRUE;60
+Consors Finanz;2,37%;176,79 ;TRUE;60
+SWK Bank;2,75%;178,43 ;TRUE;60
+Volkswagen Bank GmbH;2,99%;179,46 ;FALSE;60
+Ferratum;2,99%;179,46 ;FALSE;60
+Deutsche Kreditbank;3,45%;181,45 ;TRUE;60
+S-Kreditpartner;3,49%;181,63 ;TRUE;60
+ING;3,69%;182,50 ;TRUE;60
+PSD Bank Rhein-Ruhr;3,80%;182,97 ;FALSE;60
+DSL Bank;4,40%;185,58 ;TRUE;60
+SWK Bank;0,68%;141,77 ;TRUE;72
+Younited Credit;1,48%;145,19 ;TRUE;72
+OYAK ANKER Bank;1,49%;145,23 ;TRUE;72
+Degussa Bank;1,49%;145,23 ;TRUE;72
+Postbank;1,55%;145,49 ;TRUE;72
+SÜDWESTBANK - BAWAG AG Niederlassung Deutschland;1,67%;146,00 ;TRUE;72
+norisbank;1,69%;146,09 ;TRUE;72
+Deutsche Bank AG;1,75%;146,35 ;TRUE;72
+UniCredit Bank;1,89%;146,95 ;TRUE;72
+SWK Bank;1,92%;147,08 ;TRUE;72
+TARGOBANK;1,95%;147,21 ;TRUE;72
+SKG BANK;1,95%;147,21 ;TRUE;72
+Santander Consumer Bank;1,99%;147,38 ;FALSE;72
+1822direkt;1,99%;147,38 ;TRUE;72
+SWK Bank;1,99%;147,38 ;TRUE;72
+Creditplus Bank;1,99%;147,38 ;TRUE;72
+Barclays;1,99%;147,38 ;TRUE;72
+Oldenburgische Landesbank;1,99%;147,38 ;FALSE;72
+Consors Finanz;2,37%;149,02 ;TRUE;72
+SWK Bank;2,75%;150,67 ;TRUE;72
+Volkswagen Bank GmbH;2,99%;151,71 ;FALSE;72
+Ferratum;2,99%;151,71 ;FALSE;72
+Deutsche Kreditbank;3,45%;153,72 ;TRUE;72
+S-Kreditpartner;3,49%;153,89 ;TRUE;72
+ING;3,69%;154,77 ;TRUE;72
+PSD Bank Rhein-Ruhr;3,70%;154,81 ;FALSE;72
+DSL Bank;4,40%;157,89 ;TRUE;72
+SWK Bank;0,68%;121,93 ;TRUE;84
+Younited Credit;1,48%;125,35 ;TRUE;84
+OYAK ANKER Bank;1,49%;125,39 ;TRUE;84
+Degussa Bank;1,49%;125,39 ;TRUE;84
+Postbank;1,55%;125,65 ;TRUE;84
+SÜDWESTBANK - BAWAG AG Niederlassung Deutschland;1,67%;126,17 ;TRUE;84
+norisbank;1,69%;126,26 ;TRUE;84
+Deutsche Bank AG;1,75%;126,51 ;TRUE;84
+UniCredit Bank;1,89%;127,12 ;TRUE;84
+SWK Bank;1,92%;127,25 ;TRUE;84
+TARGOBANK;1,95%;127,38 ;TRUE;84
+SKG BANK;1,95%;127,38 ;TRUE;84
+Santander Consumer Bank;1,99%;127,55 ;FALSE;84
+1822direkt;1,99%;127,55 ;TRUE;84
+SWK Bank;1,99%;127,55 ;TRUE;84
+Creditplus Bank;1,99%;127,55 ;TRUE;84
+Barclays;1,99%;127,55 ;TRUE;84
+Oldenburgische Landesbank;1,99%;127,55 ;FALSE;84
+Consors Finanz;2,37%;129,20 ;TRUE;84
+SWK Bank;2,75%;130,86 ;TRUE;84
+Volkswagen Bank GmbH;2,99%;131,91 ;FALSE;84
+Ferratum;2,99%;131,91 ;FALSE;84
+Deutsche Kreditbank;3,45%;133,93 ;TRUE;84
+S-Kreditpartner;3,49%;134,10 ;TRUE;84
+ING;3,69%;134,99 ;TRUE;84
+PSD Bank Rhein-Ruhr;3,70%;135,03 ;FALSE;84
+DSL Bank;4,40%;138,14 ;TRUE;84
+DSL Bank;0,99%;108,37 ;TRUE;96
+Degussa Bank;1,49%;110,52 ;TRUE;96
+SÜDWESTBANK - BAWAG AG Niederlassung Deutschland;1,67%;111,30 ;TRUE;96
+norisbank;1,69%;111,38 ;TRUE;96
+Deutsche Bank AG;1,75%;111,64 ;TRUE;96
+UniCredit Bank;1,89%;112,25 ;TRUE;96
+TARGOBANK;1,95%;112,51 ;TRUE;96
+Santander Consumer Bank;1,99%;112,69 ;FALSE;96
+Oldenburgische Landesbank;1,99%;112,69 ;FALSE;96
+OYAK ANKER Bank;2,19%;113,56 ;TRUE;96
+Consors Finanz;2,37%;114,34 ;TRUE;96
+SKG BANK;2,59%;115,31 ;TRUE;96
+Ferratum;2,99%;117,07 ;FALSE;96
+S-Kreditpartner;3,49%;119,28 ;TRUE;96
+ING;3,69%;120,17 ;TRUE;96
+PSD Bank Rhein-Ruhr;3,70%;120,22 ;FALSE;96
+Creditplus Bank;3,99%;121,52 ;TRUE;96
+SWK Bank;3,99%;121,52 ;TRUE;96
+1822direkt;3,99%;121,52 ;TRUE;96
+Deutsche Kreditbank;4,19%;122,41 ;TRUE;96
+DSL Bank;4,80%;125,16 ;TRUE;96
+Volkswagen Bank GmbH;4,99%;126,03 ;FALSE;96
+DSL Bank;0,99%;96,80 ;TRUE;108
+Degussa Bank;1,49%;98,95 ;TRUE;108
+norisbank;1,69%;99,82 ;TRUE;108
+Deutsche Bank AG;1,75%;100,08 ;TRUE;108
+Oldenburgische Landesbank;1,99%;101,13 ;FALSE;108
+OYAK ANKER Bank;2,19%;102,00 ;TRUE;108
+SKG BANK;2,59%;103,77 ;TRUE;108
+SÜDWESTBANK - BAWAG AG Niederlassung Deutschland;2,75%;104,47 ;TRUE;108
+S-Kreditpartner;3,49%;107,77 ;TRUE;108
+PSD Bank Rhein-Ruhr;3,70%;108,72 ;FALSE;108
+Creditplus Bank;3,99%;110,03 ;TRUE;108
+SWK Bank;3,99%;110,03 ;TRUE;108
+1822direkt;3,99%;110,03 ;TRUE;108
+Deutsche Kreditbank;4,19%;110,94 ;TRUE;108
+DSL Bank;4,80%;113,72 ;TRUE;108
+Volkswagen Bank GmbH;4,99%;114,59 ;FALSE;108
+DSL Bank;0,99%;87,54 ;TRUE;120
+Degussa Bank;1,49%;89,70 ;TRUE;120
+norisbank;1,69%;90,57 ;TRUE;120
+Deutsche Bank AG;1,75%;90,84 ;TRUE;120
+Oldenburgische Landesbank;1,99%;91,89 ;FALSE;120
+OYAK ANKER Bank;2,19%;92,77 ;TRUE;120
+SKG BANK;2,59%;94,54 ;TRUE;120
+SÜDWESTBANK - BAWAG AG Niederlassung Deutschland;2,75%;95,26 ;TRUE;120
+S-Kreditpartner;3,49%;98,58 ;TRUE;120
+PSD Bank Rhein-Ruhr;3,70%;99,54 ;FALSE;120
+Creditplus Bank;3,99%;100,86 ;TRUE;120
+SWK Bank;3,99%;100,86 ;TRUE;120
+1822direkt;3,99%;100,86 ;TRUE;120
+Deutsche Kreditbank;4,19%;101,78 ;TRUE;120
+DSL Bank;4,80%;104,59 ;TRUE;120
+Volkswagen Bank GmbH;4,99%;105,48 ;FALSE;120
+PSD Bank Rhein-Ruhr;3,91%;86,79 ;FALSE;144
+PSD Bank Rhein-Ruhr;3,91%;73,18 ;FALSE;180
