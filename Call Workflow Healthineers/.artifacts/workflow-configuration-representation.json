@@ -1,0 +1,78 @@
+
+{
+    "workflow-path-3": {
+        "@class": "org.knime.js.base.node.configuration.input.filechooser.FileChooserDialogNodeRepresentation",
+        "label": "Label",
+        "description": "Enter Description",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.filechooser.FileChooserDialogNodeValue",
+            "items": [
+                {
+                    "path": "knime://datascience1.knime.com/xMas2020",
+                    "type": "WORKFLOW"
+                }
+            ]
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.filechooser.FileChooserDialogNodeValue",
+            "items": [
+                {
+                    "path": "knime://datascience1.knime.com/xMas2020",
+                    "type": "WORKFLOW"
+                }
+            ]
+        },
+        "selectWorkflows": true,
+        "selectDirectories": false,
+        "selectDataFiles": false,
+        "useDefaultMountId": true,
+        "customMountId": "",
+        "rootDir": "",
+        "fileTypes": [
+        ],
+        "multipleSelection": false,
+        "errorMessage": ""
+    },
+    "base-address-1": {
+        "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeRepresentation",
+        "label": "Label",
+        "description": "Enter Description",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeValue",
+            "string": "https://datascience1.knime.com/knime"
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeValue",
+            "string": "https://datascience1.knime.com/knime"
+        },
+        "regex": "",
+        "errorMessage": "",
+        "editorType": "Single-line",
+        "multilineEditorWidth": 40,
+        "multilineEditorHeight": 5
+    },
+    "credentials-2": {
+        "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeRepresentation",
+        "label": "Label",
+        "description": "Enter Description",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
+            "isSavePassword": false,
+            "username": "linh.hoangthuy",
+            "magicDefaultPassword": "*************"
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
+            "isSavePassword": false,
+            "username": "linh.hoangthuy",
+            "magicDefaultPassword": "*************"
+        },
+        "promptUsername": true,
+        "useServerLoginCredentials": false,
+        "errorMessage": "",
+        "noDisplay": false
+    }
+}
