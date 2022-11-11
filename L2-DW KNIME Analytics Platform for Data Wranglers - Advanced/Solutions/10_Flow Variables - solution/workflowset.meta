@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">Maarit</element><element xmlns="" form="date" name="Creation Date">16/6/2019/12:0:1 +02:00</element><element xmlns="" form="multiline" name="Comments">Flow Variables - Solution
+
+Solution to the exercise 7 for KNIME User Training&#xd;
+- Filtering rows by an attribute value &#xd;
+- Filtering rows by an attribute value that fulfils a condition and that is updated automatically&#xd;
+- Filtering rows based on a user selection&#xd;
+- Creating a component
+
+VIDEO: Flow Variables https://youtu.be/Y8hVkTvHR9I
+VIDEO: From Data to Variables https://youtu.be/wJaDFElADmk
+URL: Slides (KNIME Analytics Platform Course) https://www.knime.com/form/material-download-registration
+TAGS: flow variable,configuration,workflow automation,workflow control,workflow abstraction,component,user selection,parameterization,education</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-12-08 16:38:05 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2020-12-07 18:23:34 +0100</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

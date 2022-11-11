@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+    <met:element form="text" read-only="false" name="Author">&lt;unknown&gt;</met:element>
+    <met:element form="date" read-only="false" name="Creation Date">15/3/2020/12:00:01 +02:00</met:element>
+    <met:element form="multiline" read-only="false" name="Comments">Visualization - Exercise
+
+Exercise 8 for the KNIME Analytics Platform for Data Wranglers course&#13;
+- Visualize the customer data using a scatter plot, a stacked area chart, and a bar chart &#13;
+- Produce an interactive table using the Table View node&#13;
+- Define a custom color for the data to plot&#13;
+- Combine the visualizations into a composite view&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+&#13;
+
+
+URL: Slides (KNIME Analytics Platform for Data Wranglers) https://www.knime.com/form/material-download-registration
+VIDEO: Data Visualization &amp; Interactive Data Exploration with KNIME https://www.youtube.com/watch?v=ELqZ1NjQffg
+TAGS: visualization,exploration,bar chart,stacked area chart,data viz,color manager,component,education</met:element>
+</met:KNIMEMetaInfo>

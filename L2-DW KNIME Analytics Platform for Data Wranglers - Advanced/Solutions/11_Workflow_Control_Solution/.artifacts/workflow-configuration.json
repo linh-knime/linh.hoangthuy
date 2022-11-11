@@ -1,0 +1,8 @@
+
+{
+    "plot_type-48": {
+        "label": "Select plot type:",
+        "type": "string",
+        "default": "bar"
+    }
+}

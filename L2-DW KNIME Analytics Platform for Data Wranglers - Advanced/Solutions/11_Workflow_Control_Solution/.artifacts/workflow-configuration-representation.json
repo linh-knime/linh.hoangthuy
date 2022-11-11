@@ -1,0 +1,29 @@
+
+{
+    "plot_type-48": {
+        "@class": "org.knime.js.base.node.configuration.selection.single.SingleSelectionDialogNodeRepresentation",
+        "label": "Select plot type:",
+        "description": "",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.selection.single.SingleSelectionDialogNodeValue",
+            "value": [
+                "bar"
+            ]
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.selection.single.SingleSelectionDialogNodeValue",
+            "value": [
+                "bar"
+            ]
+        },
+        "possibleChoices": [
+            "scatter",
+            "bar"
+        ],
+        "type": "Dropdown",
+        "limitNumberVisOptions": false,
+        "numberVisOptions": 10,
+        "triggerReExecution": false
+    }
+}

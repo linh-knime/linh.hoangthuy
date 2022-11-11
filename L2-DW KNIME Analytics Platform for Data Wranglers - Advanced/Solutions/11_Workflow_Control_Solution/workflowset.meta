@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">Maarit</element><element xmlns="" form="date" name="Creation Date">16/6/2019/12:0:1 +02:00</element><element xmlns="" form="multiline" name="Comments">Workflow Control - Solution
+
+Solution to exercise 11 for the KNIME Analytics Platform for Data Wranglers course
+- Write subsets of a file using a loop
+- Read and concatenate many files using a loop
+- Activate a workflow branch based on a user selection
+
+
+VIDEO: What is a Loop? https://youtu.be/h1uDSRXts70
+VIDEO: Loop End Nodes https://youtu.be/eu2gIr7jr8U
+VIDEO: Loop Commands https://youtu.be/lLTP3bbPZow
+URL: Slides (KNIME Analytics Platform for Data Wranglers) https://www.knime.com/form/material-download-registration
+TAGS: loop,reading many files,switch,alternative branch,workflow control,education</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-12-08 16:40:50 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2020-12-08 10:44:22 +0100</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

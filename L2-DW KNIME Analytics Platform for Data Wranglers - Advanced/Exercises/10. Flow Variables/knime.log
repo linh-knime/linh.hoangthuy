@@ -1,0 +1,71 @@
+2017-02-27 12:37:33,674 : DEBUG : ModalContext : RowFilterNodeFactory : 08. Flow Variables - solution : 15 : Factory is already initialized. Nothing to do.
+2017-02-27 12:37:33,684 : DEBUG : ModalContext : GroupByNodeFactory : 08. Flow Variables - solution : 15 : Factory is already initialized. Nothing to do.
+2017-02-27 12:37:33,741 : DEBUG : ModalContext : SorterNodeFactory : 08. Flow Variables - solution : 15 : Factory is already initialized. Nothing to do.
+2017-02-27 12:37:33,760 : DEBUG : ModalContext : TableToVariableNodeFactory : 08. Flow Variables - solution : 15 : Factory is already initialized. Nothing to do.
+2017-02-27 12:37:33,770 : DEBUG : ModalContext : ReadTableNodeFactory : 08. Flow Variables - solution : 15 : Factory is already initialized. Nothing to do.
+2017-02-27 12:37:33,802 : DEBUG : ModalContext : RowFilterNodeFactory : 08. Flow Variables - solution : 15 : Factory is already initialized. Nothing to do.
+2017-02-27 12:37:34,050 : DEBUG : ModalContext : ValueSelectionQuickFormNodeFactory : 08. Flow Variables - solution : 15 : Factory is already initialized. Nothing to do.
+2017-02-27 12:37:34,146 : DEBUG : ModalContext : Table Reader : Table Reader : 15:10 : Configure succeeded. (Table Reader)
+2017-02-27 12:37:34,157 : DEBUG : ModalContext : RowFilterNodeFactory : Category Selection : 15:11 : Factory is already initialized. Nothing to do.
+2017-02-27 12:37:34,163 : DEBUG : ModalContext : ValueSelectionQuickFormNodeFactory : Category Selection : 15:11 : Factory is already initialized. Nothing to do.
+2017-02-27 12:37:34,227 : DEBUG : ModalContext : Value Selection : Value Selection : 15:13 : Configure succeeded. (Value Selection)
+2017-02-27 12:37:34,244 : DEBUG : ModalContext : GroupByNodeModel : GroupBy : 15:4 : [Age->Count false]
+2017-02-27 12:37:34,247 : DEBUG : ModalContext : GroupBy : GroupBy : 15:4 : Configure succeeded. (GroupBy)
+2017-02-27 12:37:34,262 : DEBUG : ModalContext : Row Filter : Row Filter : 15:12 : Configure succeeded. (Row Filter)
+2017-02-27 12:37:34,267 : DEBUG : ModalContext : Sorter : Sorter : 15:5 : Configure succeeded. (Sorter)
+2017-02-27 12:37:34,269 : DEBUG : ModalContext : Table Row to Variable : Table Row to Variable : 15:6 : Configure succeeded. (Table Row to Variable)
+2017-02-27 12:37:34,276 : WARN  : ModalContext : Row Filter : Row Filter : 15:2 : Errors loading flow variables into node : String compare filter: NodeSettings object contains invalid (empty) pattern
+2017-02-27 12:37:34,278 : DEBUG : ModalContext : Row Filter : Row Filter : 15:2 : Errors loading flow variables into node : String compare filter: NodeSettings object contains invalid (empty) pattern
+org.knime.core.node.InvalidSettingsException: Errors loading flow variables into node : String compare filter: NodeSettings object contains invalid (empty) pattern
+	at org.knime.core.node.workflow.SingleNodeContainer.applySettingsUsingFlowObjectStack(SingleNodeContainer.java:352)
+	at org.knime.core.node.workflow.SingleNodeContainer.access$2(SingleNodeContainer.java:326)
+	at org.knime.core.node.workflow.SingleNodeContainer$1.preConfigure(SingleNodeContainer.java:281)
+	at org.knime.core.node.Node.configure(Node.java:1726)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:532)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:302)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:187)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:5888)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:7830)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:7667)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:7793)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:7667)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7619)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7543)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:7516)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:7365)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:163)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.knime.core.node.InvalidSettingsException: String compare filter: NodeSettings object contains invalid (empty) pattern
+	at org.knime.base.node.preproc.filter.row.rowfilter.StringCompareRowFilter.loadSettingsFrom(StringCompareRowFilter.java:240)
+	at org.knime.base.node.preproc.filter.row.rowfilter.RowFilterFactory.createRowFilter(RowFilterFactory.java:238)
+	at org.knime.base.node.preproc.filter.row.RowFilterNodeModel.loadOrValidateSettingsFrom(RowFilterNodeModel.java:152)
+	at org.knime.base.node.preproc.filter.row.RowFilterNodeModel.validateSettings(RowFilterNodeModel.java:129)
+	at org.knime.core.node.Node.validateModelSettings(Node.java:578)
+	at org.knime.core.node.workflow.NativeNodeContainer.performValidateSettings(NativeNodeContainer.java:898)
+	at org.knime.core.node.workflow.SingleNodeContainer.applySettingsUsingFlowObjectStack(SingleNodeContainer.java:349)
+	... 17 more
+2017-02-27 12:49:44,979 : DEBUG : main : ProjectWorkflowMap : 08. Flow Variables - solution : 15 : Removing "file:/C:/Users/iris.adae/knime-workspace_testing/KNIMEUserTraining/solutions/08.%20Flow%20Variables%20-%20solution/" from project map (11 remaining)
+2017-02-27 12:49:44,980 : DEBUG : main : WorkflowManager : 08. Flow Variables - solution : 15 : Removing project "08. Flow Variables - solution 15"
+2017-02-27 12:49:44,984 : DEBUG : main : RowFilterNodeModel : Row Filter : 15:2 : Removing all (0) views from model.
+2017-02-27 12:49:44,985 : DEBUG : main : Row Filter : Row Filter : 15:2 : clean output ports.
+2017-02-27 12:49:44,985 : DEBUG : main : TableToVariableNodeModel : Table Row to Variable : 15:6 : Removing all (0) views from model.
+2017-02-27 12:49:44,986 : DEBUG : main : Table Row to Variable : Table Row to Variable : 15:6 : clean output ports.
+2017-02-27 12:49:44,986 : DEBUG : main : SorterNodeModel : Sorter : 15:5 : Removing all (0) views from model.
+2017-02-27 12:49:44,987 : DEBUG : main : Sorter : Sorter : 15:5 : clean output ports.
+2017-02-27 12:49:44,987 : DEBUG : main : RowFilterNodeModel : Row Filter : 15:12 : Removing all (0) views from model.
+2017-02-27 12:49:44,987 : DEBUG : main : Row Filter : Row Filter : 15:12 : clean output ports.
+2017-02-27 12:49:44,988 : DEBUG : main : GroupByNodeModel : GroupBy : 15:4 : Removing all (0) views from model.
+2017-02-27 12:49:44,988 : DEBUG : main : GroupBy : GroupBy : 15:4 : clean output ports.
+2017-02-27 12:49:44,989 : DEBUG : main : ValueSelectionQuickFormNodeModel : Value Selection : 15:13 : Removing all (0) views from model.
+2017-02-27 12:49:44,989 : DEBUG : main : Value Selection : Value Selection : 15:13 : clean output ports.
+2017-02-27 12:49:44,990 : DEBUG : main : VirtualSubNodeOutputNodeModel : WrappedNode Output : 15:11:0:10 : Removing all (0) views from model.
+2017-02-27 12:49:44,991 : DEBUG : main : WrappedNode Output : WrappedNode Output : 15:11:0:10 : clean output ports.
+2017-02-27 12:49:44,991 : DEBUG : main : RowFilterNodeModel : Row Filter : 15:11:0:7 : Removing all (0) views from model.
+2017-02-27 12:49:44,992 : DEBUG : main : Row Filter : Row Filter : 15:11:0:7 : clean output ports.
+2017-02-27 12:49:44,992 : DEBUG : main : ValueSelectionQuickFormNodeModel : Value Selection : 15:11:0:8 : Removing all (0) views from model.
+2017-02-27 12:49:44,992 : DEBUG : main : Value Selection : Value Selection : 15:11:0:8 : clean output ports.
+2017-02-27 12:49:44,993 : DEBUG : main : VirtualSubNodeInputNodeModel : WrappedNode Input : 15:11:0:9 : Removing all (0) views from model.
+2017-02-27 12:49:44,993 : DEBUG : main : WrappedNode Input : WrappedNode Input : 15:11:0:9 : clean output ports.
+2017-02-27 12:49:44,994 : DEBUG : main : ReadTableNodeModel : Table Reader : 15:10 : Removing all (0) views from model.
+2017-02-27 12:49:44,994 : DEBUG : main : Table Reader : Table Reader : 15:10 : clean output ports.
+2017-02-27 12:49:44,995 : DEBUG : main : WorkflowManager : 08. Flow Variables - solution : 15 : Project "08. Flow Variables - solution 15" removed (12 remaining)

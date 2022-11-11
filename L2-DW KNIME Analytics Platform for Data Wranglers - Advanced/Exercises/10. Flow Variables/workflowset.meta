@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+    <met:element form="text" read-only="false" name="Author">Maarit</met:element>
+    <met:element form="date" read-only="false" name="Creation Date">16/6/2019/12:00:01 +02:00</met:element>
+    <met:element form="multiline" read-only="false" name="Comments">Flow Variables - Exercise
+
+Exercise 10 for the KNIME Analytics Platform for Data Wranglers course&#13;
+- Filter rows by an attribute value &#13;
+- Filter rows by an attribute value that fulfils a condition and that is updated automatically&#13;
+- Filter rows based on a user selection&#13;
+- Create a component&#13;
+&#13;
+&#13;
+
+
+VIDEO: Flow Variables https://youtu.be/Y8hVkTvHR9I
+VIDEO: From Data to Variables https://youtu.be/wJaDFElADmk
+URL: Slides (KNIME Analytics Platform for Data Wranglers) https://www.knime.com/form/material-download-registration
+TAGS: flow variable,configuration,workflow automation,workflow control,workflow abstraction,component,user selection,parameterization,education</met:element>
+</met:KNIMEMetaInfo>

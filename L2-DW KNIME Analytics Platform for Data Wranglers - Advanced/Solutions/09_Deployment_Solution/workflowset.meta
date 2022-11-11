@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">&lt;unknown></element><element xmlns="" form="date" name="Creation Date">14/3/2020/12:0:1 +02:00</element><element xmlns="" form="multiline" name="Comments">Deployment - Solution
+
+Solution to exercise 9 for the KNIME Analytics Platform for Data Wranglers course
+- Write data on an .xls file using the Excel Writer node
+- Write the data on SQLite database
+
+
+
+
+
+
+URL: Slides (KNIME Analytics Platform for Data Wranglers) https://www.knime.com/form/material-download-registration
+VIDEO: Deployment Options within KNIME https://www.youtube.com/watch?v=Og7VZOJhsOc
+TAGS: deployment,file writer,DB writer,SQLite,ETL,education,database</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2020-12-08 16:40:50 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2020-12-07 11:17:21 +0100</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>
