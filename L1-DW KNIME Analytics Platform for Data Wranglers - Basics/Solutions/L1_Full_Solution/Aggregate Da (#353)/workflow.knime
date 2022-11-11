@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="workflow.knime">
+    <entry key="created_by" type="xstring" value="4.6.3.v202209271016"/>
+    <entry key="created_by_nightly" type="xboolean" value="false"/>
+    <entry key="version" type="xstring" value="4.1.0"/>
+    <entry key="name" type="xstring" value="Aggregate Data"/>
+    <config key="authorInformation">
+        <entry key="authored-by" type="xstring" value="&lt;unknown&gt;"/>
+        <entry key="authored-when" type="xstring" value="1970-01-01 00:00:00 +0000"/>
+        <entry key="lastEdited-by" type="xstring" isnull="true" value=""/>
+        <entry key="lastEdited-when" type="xstring" isnull="true" value=""/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Join and Pivot Data"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="724"/>
+        <entry key="y-coordinate" type="xint" value="189"/>
+        <entry key="width" type="xint" value="104"/>
+        <entry key="height" type="xint" value="13"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles">
+            <config key="style_0">
+                <entry key="start" type="xint" value="0"/>
+                <entry key="length" type="xint" value="19"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="0"/>
+                <entry key="fontsize" type="xint" value="9"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="workflow_credentials"/>
+    <config key="annotations">
+        <config key="annotation_0">
+            <entry key="text" type="xstring" value="Exercise 7: Data Aggregation%%00013%%00010%%00013%%00010In this exercise you generate new columns by aggregating data by groups and create pivot tables that show aggregated values by two or more groups%%00013%%00010%%00013%%00010%%00013%%00010"/>
+            <entry key="bgcolor" type="xint" value="16777215"/>
+            <entry key="x-coordinate" type="xint" value="-350"/>
+            <entry key="y-coordinate" type="xint" value="-235"/>
+            <entry key="width" type="xint" value="822"/>
+            <entry key="height" type="xint" value="121"/>
+            <entry key="alignment" type="xstring" value="LEFT"/>
+            <entry key="borderSize" type="xint" value="5"/>
+            <entry key="borderColor" type="xint" value="16766976"/>
+            <entry key="defFontSize" type="xint" value="9"/>
+            <entry key="annotation-version" type="xint" value="20151123"/>
+            <config key="styles">
+                <config key="style_0">
+                    <entry key="start" type="xint" value="0"/>
+                    <entry key="length" type="xint" value="28"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="12"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_1">
+                    <entry key="start" type="xint" value="28"/>
+                    <entry key="length" type="xint" value="151"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="12"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_2">
+                    <entry key="start" type="xint" value="179"/>
+                    <entry key="length" type="xint" value="2"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="12"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_3">
+                    <entry key="start" type="xint" value="181"/>
+                    <entry key="length" type="xint" value="2"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="12"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+            </config>
+        </config>
+        <config key="annotation_1">
+            <entry key="text" type="xstring" value="4) (optional) Convert the dates of births of the customers to Date&amp;Time and extract the birth year into a separate column%%00010(String to Date&amp;Time,%%00010Extract Date&amp;Time Fields)"/>
+            <entry key="bgcolor" type="xint" value="16777215"/>
+            <entry key="x-coordinate" type="xint" value="710"/>
+            <entry key="y-coordinate" type="xint" value="-95"/>
+            <entry key="width" type="xint" value="261"/>
+            <entry key="height" type="xint" value="401"/>
+            <entry key="alignment" type="xstring" value="LEFT"/>
+            <entry key="borderSize" type="xint" value="5"/>
+            <entry key="borderColor" type="xint" value="16766976"/>
+            <entry key="defFontSize" type="xint" value="11"/>
+            <entry key="annotation-version" type="xint" value="20151123"/>
+            <config key="styles">
+                <config key="style_0">
+                    <entry key="start" type="xint" value="0"/>
+                    <entry key="length" type="xint" value="169"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+            </config>
+        </config>
+        <config key="annotation_2">
+            <entry key="text" type="xstring" value="2a) Calculate the total purchase amount by quarter and transaction type (Pivoting)%%00013%%000102b) Set missing numeric values to zero (Missing Value)%%00013%%000102c) Combine the year and quarter information to a single column. Use &quot;/&quot; as separator. (String Manipulation node)%%00009%%00013%%00010"/>
+            <entry key="bgcolor" type="xint" value="16777215"/>
+            <entry key="x-coordinate" type="xint" value="90"/>
+            <entry key="y-coordinate" type="xint" value="325"/>
+            <entry key="width" type="xint" value="601"/>
+            <entry key="height" type="xint" value="181"/>
+            <entry key="alignment" type="xstring" value="LEFT"/>
+            <entry key="borderSize" type="xint" value="5"/>
+            <entry key="borderColor" type="xint" value="16766976"/>
+            <entry key="defFontSize" type="xint" value="9"/>
+            <entry key="annotation-version" type="xint" value="20151123"/>
+            <config key="styles">
+                <config key="style_0">
+                    <entry key="start" type="xint" value="0"/>
+                    <entry key="length" type="xint" value="3"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_1">
+                    <entry key="start" type="xint" value="3"/>
+                    <entry key="length" type="xint" value="81"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_2">
+                    <entry key="start" type="xint" value="84"/>
+                    <entry key="length" type="xint" value="3"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_3">
+                    <entry key="start" type="xint" value="87"/>
+                    <entry key="length" type="xint" value="53"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_4">
+                    <entry key="start" type="xint" value="140"/>
+                    <entry key="length" type="xint" value="3"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_5">
+                    <entry key="start" type="xint" value="143"/>
+                    <entry key="length" type="xint" value="113"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+            </config>
+        </config>
+        <config key="annotation_3">
+            <entry key="text" type="xstring" value="3a) (optional) Calculate the numbers of orders by a basket size and a transaction type%%00013%%00010 3.1 Calculate the number of purchased products by an order number. Retain the information on the transaction type. (GroupBy)%%00013%%00010 3.2 Create a pivot table that shows the numbers of orders by a basket size and a transaction type (Pivoting)%%00013%%000103b) (optional) Set missing integers to zero (Missing Value)%%00013%%000103c) (optional) Calculate the proportions of the different basket sizes among each transaction type (Math Formula Multi-Column)%%00013%%00010%%00013%%00010%%00009%%00013%%00010"/>
+            <entry key="bgcolor" type="xint" value="16777215"/>
+            <entry key="x-coordinate" type="xint" value="90"/>
+            <entry key="y-coordinate" type="xint" value="525"/>
+            <entry key="width" type="xint" value="661"/>
+            <entry key="height" type="xint" value="281"/>
+            <entry key="alignment" type="xstring" value="LEFT"/>
+            <entry key="borderSize" type="xint" value="5"/>
+            <entry key="borderColor" type="xint" value="16766976"/>
+            <entry key="defFontSize" type="xint" value="9"/>
+            <entry key="annotation-version" type="xint" value="20151123"/>
+            <config key="styles">
+                <config key="style_0">
+                    <entry key="start" type="xint" value="0"/>
+                    <entry key="length" type="xint" value="3"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_1">
+                    <entry key="start" type="xint" value="3"/>
+                    <entry key="length" type="xint" value="86"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_2">
+                    <entry key="start" type="xint" value="89"/>
+                    <entry key="length" type="xint" value="3"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_3">
+                    <entry key="start" type="xint" value="92"/>
+                    <entry key="length" type="xint" value="124"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_4">
+                    <entry key="start" type="xint" value="216"/>
+                    <entry key="length" type="xint" value="3"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_5">
+                    <entry key="start" type="xint" value="219"/>
+                    <entry key="length" type="xint" value="107"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_6">
+                    <entry key="start" type="xint" value="326"/>
+                    <entry key="length" type="xint" value="3"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_7">
+                    <entry key="start" type="xint" value="329"/>
+                    <entry key="length" type="xint" value="58"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_8">
+                    <entry key="start" type="xint" value="387"/>
+                    <entry key="length" type="xint" value="3"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_9">
+                    <entry key="start" type="xint" value="390"/>
+                    <entry key="length" type="xint" value="123"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_10">
+                    <entry key="start" type="xint" value="513"/>
+                    <entry key="length" type="xint" value="2"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="20"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_11">
+                    <entry key="start" type="xint" value="515"/>
+                    <entry key="length" type="xint" value="5"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="11"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+            </config>
+        </config>
+        <config key="annotation_4">
+            <entry key="text" type="xstring" value="1a) Calculate the total purchase amount by a customer ID both in 2019 and earlier%%00013%%00010%%000091.1 Calculate the sum of product prices by a customer ID in the data for purchases in 2019 and retain the information whether or not a customer has signed up for the newsletter (GroupBy node)%%00013%%00010%%000091.2 Rename the aggregated column to &quot;Basket Sum 2019&quot; (Column Rename)%%00013%%00010%%000091.3 Calculate the sum of product prices by a customer ID concerning the purchases earlier than 2019. Rename the aggregated column to &quot;Basket Sum Overall&quot; (GroupBy node, column rename)%%00013%%00010%%000091.4 Use an inner join to join the aggregated columns on the CustomerID. (for now we are only interested in the customers who bought something in 2019 AND before 2019)%%00013%%00010%%00013%%00010%%00013%%00010%%00013%%00010%%00009%%00013%%00010"/>
+            <entry key="bgcolor" type="xint" value="16777215"/>
+            <entry key="x-coordinate" type="xint" value="90"/>
+            <entry key="y-coordinate" type="xint" value="-94"/>
+            <entry key="width" type="xint" value="601"/>
+            <entry key="height" type="xint" value="401"/>
+            <entry key="alignment" type="xstring" value="LEFT"/>
+            <entry key="borderSize" type="xint" value="5"/>
+            <entry key="borderColor" type="xint" value="16766976"/>
+            <entry key="defFontSize" type="xint" value="9"/>
+            <entry key="annotation-version" type="xint" value="20151123"/>
+            <config key="styles">
+                <config key="style_0">
+                    <entry key="start" type="xint" value="0"/>
+                    <entry key="length" type="xint" value="3"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_1">
+                    <entry key="start" type="xint" value="3"/>
+                    <entry key="length" type="xint" value="81"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_2">
+                    <entry key="start" type="xint" value="84"/>
+                    <entry key="length" type="xint" value="3"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_3">
+                    <entry key="start" type="xint" value="87"/>
+                    <entry key="length" type="xint" value="191"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_4">
+                    <entry key="start" type="xint" value="278"/>
+                    <entry key="length" type="xint" value="3"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_5">
+                    <entry key="start" type="xint" value="281"/>
+                    <entry key="length" type="xint" value="69"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_6">
+                    <entry key="start" type="xint" value="350"/>
+                    <entry key="length" type="xint" value="3"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_7">
+                    <entry key="start" type="xint" value="353"/>
+                    <entry key="length" type="xint" value="183"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_8">
+                    <entry key="start" type="xint" value="536"/>
+                    <entry key="length" type="xint" value="3"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_9">
+                    <entry key="start" type="xint" value="539"/>
+                    <entry key="length" type="xint" value="163"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_10">
+                    <entry key="start" type="xint" value="702"/>
+                    <entry key="length" type="xint" value="2"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="10747904"/>
+                </config>
+                <config key="style_11">
+                    <entry key="start" type="xint" value="704"/>
+                    <entry key="length" type="xint" value="2"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="13"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_12">
+                    <entry key="start" type="xint" value="706"/>
+                    <entry key="length" type="xint" value="2"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="20"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_13">
+                    <entry key="start" type="xint" value="708"/>
+                    <entry key="length" type="xint" value="5"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="11"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="nodes">
+        <config key="node_233">
+            <entry key="id" type="xint" value="233"/>
+            <entry key="node_settings_file" type="xstring" value="Pivoting (#233)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="150"/>
+                    <entry key="1" type="xint" value="421"/>
+                    <entry key="2" type="xint" value="50"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_235">
+            <entry key="id" type="xint" value="235"/>
+            <entry key="node_settings_file" type="xstring" value="Missing Value (#235)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="289"/>
+                    <entry key="1" type="xint" value="411"/>
+                    <entry key="2" type="xint" value="80"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_251">
+            <entry key="id" type="xint" value="251"/>
+            <entry key="node_settings_file" type="xstring" value="GroupBy (#251)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="269"/>
+                    <entry key="1" type="xint" value="93"/>
+                    <entry key="2" type="xint" value="52"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_252">
+            <entry key="id" type="xint" value="252"/>
+            <entry key="node_settings_file" type="xstring" value="GroupBy (#252)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="269"/>
+                    <entry key="1" type="xint" value="205"/>
+                    <entry key="2" type="xint" value="52"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_260">
+            <entry key="id" type="xint" value="260"/>
+            <entry key="node_settings_file" type="xstring" value="String to Date_Time (#260)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="764"/>
+                    <entry key="1" type="xint" value="142"/>
+                    <entry key="2" type="xint" value="116"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_266">
+            <entry key="id" type="xint" value="266"/>
+            <entry key="node_settings_file" type="xstring" value="Column Rename (#266)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="439"/>
+                    <entry key="1" type="xint" value="93"/>
+                    <entry key="2" type="xint" value="95"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_267">
+            <entry key="id" type="xint" value="267"/>
+            <entry key="node_settings_file" type="xstring" value="Column Rename (#267)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="439"/>
+                    <entry key="1" type="xint" value="199"/>
+                    <entry key="2" type="xint" value="95"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_270">
+            <entry key="id" type="xint" value="270"/>
+            <entry key="node_settings_file" type="xstring" value="GroupBy (#270)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="169"/>
+                    <entry key="1" type="xint" value="686"/>
+                    <entry key="2" type="xint" value="52"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_271">
+            <entry key="id" type="xint" value="271"/>
+            <entry key="node_settings_file" type="xstring" value="Pivoting (#271)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="269"/>
+                    <entry key="1" type="xint" value="685"/>
+                    <entry key="2" type="xint" value="50"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_272">
+            <entry key="id" type="xint" value="272"/>
+            <entry key="node_settings_file" type="xstring" value="Missing Value (#272)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="389"/>
+                    <entry key="1" type="xint" value="685"/>
+                    <entry key="2" type="xint" value="80"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_273">
+            <entry key="id" type="xint" value="273"/>
+            <entry key="node_settings_file" type="xstring" value="Math Formula _Multi Column_ (#273)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="509"/>
+                    <entry key="1" type="xint" value="686"/>
+                    <entry key="2" type="xint" value="84"/>
+                    <entry key="3" type="xint" value="89"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_304">
+            <entry key="id" type="xint" value="304"/>
+            <entry key="node_settings_file" type="xstring" value="String Manipulation (#304)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="428"/>
+                    <entry key="1" type="xint" value="411"/>
+                    <entry key="2" type="xint" value="113"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_314">
+            <entry key="id" type="xint" value="314"/>
+            <entry key="node_settings_file" type="xstring" value="Extract Date_Time Fields (#314)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="883"/>
+                    <entry key="1" type="xint" value="141"/>
+                    <entry key="2" type="xint" value="107"/>
+                    <entry key="3" type="xint" value="89"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_315">
+            <entry key="id" type="xint" value="315"/>
+            <entry key="node_settings_file" type="xstring" value="Joiner (#315)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="618"/>
+                    <entry key="1" type="xint" value="142"/>
+                    <entry key="2" type="xint" value="50"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_317">
+            <entry key="id" type="xint" value="317"/>
+            <entry key="node_settings_file" type="xstring" value="Column Rename (#317)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="893"/>
+                    <entry key="1" type="xint" value="568"/>
+                    <entry key="2" type="xint" value="95"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="connections">
+        <config key="connection_0">
+            <entry key="sourceID" type="xint" value="-1"/>
+            <entry key="destID" type="xint" value="252"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+        </config>
+        <config key="connection_1">
+            <entry key="sourceID" type="xint" value="-1"/>
+            <entry key="destID" type="xint" value="251"/>
+            <entry key="sourcePort" type="xint" value="0"/>
+            <entry key="destPort" type="xint" value="1"/>
+        </config>
+        <config key="connection_2">
+            <entry key="sourceID" type="xint" value="-1"/>
+            <entry key="destID" type="xint" value="270"/>
+            <entry key="sourcePort" type="xint" value="2"/>
+            <entry key="destPort" type="xint" value="1"/>
+        </config>
+        <config key="connection_3">
+            <entry key="sourceID" type="xint" value="-1"/>
+            <entry key="destID" type="xint" value="233"/>
+            <entry key="sourcePort" type="xint" value="2"/>
+            <entry key="destPort" type="xint" value="1"/>
+        </config>
+        <config key="connection_4">
+            <entry key="sourceID" type="xint" value="233"/>
+            <entry key="destID" type="xint" value="235"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+        </config>
+        <config key="connection_5">
+            <entry key="sourceID" type="xint" value="235"/>
+            <entry key="destID" type="xint" value="304"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
+            <config key="ui_settings">
+                <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
+            </config>
+        </config>
+        <config key="connection_6">
+            <entry key="sourceID" type="xint" value="251"/>
+            <entry key="destID" type="xint" value="266"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+        </config>
+        <config key="connection_7">
+            <entry key="sourceID" type="xint" value="252"/>
+            <entry key="destID" type="xint" value="267"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+        </config>
+        <config key="connection_8">
+            <entry key="sourceID" type="xint" value="260"/>
+            <entry key="destID" type="xint" value="314"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
+            <config key="ui_settings">
+                <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
+            </config>
+        </config>
+        <config key="connection_9">
+            <entry key="sourceID" type="xint" value="266"/>
+            <entry key="destID" type="xint" value="315"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+        </config>
+        <config key="connection_10">
+            <entry key="sourceID" type="xint" value="267"/>
+            <entry key="destID" type="xint" value="315"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="2"/>
+        </config>
+        <config key="connection_11">
+            <entry key="sourceID" type="xint" value="270"/>
+            <entry key="destID" type="xint" value="271"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
+            <config key="ui_settings">
+                <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
+            </config>
+        </config>
+        <config key="connection_12">
+            <entry key="sourceID" type="xint" value="271"/>
+            <entry key="destID" type="xint" value="272"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+        </config>
+        <config key="connection_13">
+            <entry key="sourceID" type="xint" value="272"/>
+            <entry key="destID" type="xint" value="273"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
+            <config key="ui_settings">
+                <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
+            </config>
+        </config>
+        <config key="connection_14">
+            <entry key="sourceID" type="xint" value="273"/>
+            <entry key="destID" type="xint" value="317"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+        </config>
+        <config key="connection_15">
+            <entry key="sourceID" type="xint" value="304"/>
+            <entry key="destID" type="xint" value="-1"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+        </config>
+        <config key="connection_16">
+            <entry key="sourceID" type="xint" value="314"/>
+            <entry key="destID" type="xint" value="-1"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="0"/>
+        </config>
+        <config key="connection_17">
+            <entry key="sourceID" type="xint" value="315"/>
+            <entry key="destID" type="xint" value="260"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
+            <config key="ui_settings">
+                <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
+            </config>
+        </config>
+        <config key="connection_18">
+            <entry key="sourceID" type="xint" value="317"/>
+            <entry key="destID" type="xint" value="-1"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="2"/>
+        </config>
+    </config>
+    <config key="meta_in_ports">
+        <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+        <config key="ui_settings">
+            <config key="extrainfo.node.bounds">
+                <entry key="array-size" type="xint" value="4"/>
+                <entry key="0" type="xint" value="-412"/>
+                <entry key="1" type="xint" value="121"/>
+                <entry key="2" type="xint" value="50"/>
+                <entry key="3" type="xint" value="423"/>
+            </config>
+        </config>
+        <config key="port_enum">
+            <config key="inport_0">
+                <entry key="index" type="xint" value="0"/>
+                <entry key="name" type="xstring" value="Inport 0"/>
+                <config key="type">
+                    <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+                </config>
+            </config>
+            <config key="inport_1">
+                <entry key="index" type="xint" value="1"/>
+                <entry key="name" type="xstring" value="Inport 1"/>
+                <config key="type">
+                    <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+                </config>
+            </config>
+            <config key="inport_2">
+                <entry key="index" type="xint" value="2"/>
+                <entry key="name" type="xstring" value="Inport 2"/>
+                <config key="type">
+                    <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="meta_out_ports">
+        <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+        <config key="ui_settings">
+            <config key="extrainfo.node.bounds">
+                <entry key="array-size" type="xint" value="4"/>
+                <entry key="0" type="xint" value="1087"/>
+                <entry key="1" type="xint" value="164"/>
+                <entry key="2" type="xint" value="50"/>
+                <entry key="3" type="xint" value="423"/>
+            </config>
+        </config>
+        <config key="port_enum">
+            <config key="outport_0">
+                <entry key="index" type="xint" value="0"/>
+                <entry key="name" type="xstring" value="Connected to: Output table"/>
+                <config key="type">
+                    <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+                </config>
+            </config>
+            <config key="outport_1">
+                <entry key="index" type="xint" value="1"/>
+                <entry key="name" type="xstring" value="Connected to: Appended table"/>
+                <config key="type">
+                    <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+                </config>
+            </config>
+            <config key="outport_2">
+                <entry key="index" type="xint" value="2"/>
+                <entry key="name" type="xstring" value="Connected to: Renamed/Retyped table"/>
+                <config key="type">
+                    <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="workflow_editor_settings">
+        <entry key="workflow.editor.snapToGrid" type="xboolean" value="false"/>
+        <entry key="workflow.editor.ShowGrid" type="xboolean" value="false"/>
+        <entry key="workflow.editor.gridX" type="xint" value="-1"/>
+        <entry key="workflow.editor.gridY" type="xint" value="-1"/>
+        <entry key="workflow.editor.zoomLevel" type="xdouble" value="1.0"/>
+        <entry key="workflow.editor.curvedConnections" type="xboolean" value="false"/>
+        <entry key="workflow.editor.connectionWidth" type="xint" value="1"/>
+    </config>
+</config>
