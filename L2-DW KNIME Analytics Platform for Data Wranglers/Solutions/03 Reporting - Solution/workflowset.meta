@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">Maarit Laukkanen</met:element>
+<met:element form="date" read-only="false" name="Creation Date">23/9/2020/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">03 Reporting - Solution
+
+Solution to an exercise for creating a report.&#13;
+&#13;
+Send image and data to a BIRT Report. Build and design the report in the BIRT environment.&#13;
+
+
+VIDEO: Producing a Simple Report with BIRT https://youtu.be/mLq6hgH9LS0
+TAGS: BIRT,report</met:element>
+</met:KNIMEMetaInfo>

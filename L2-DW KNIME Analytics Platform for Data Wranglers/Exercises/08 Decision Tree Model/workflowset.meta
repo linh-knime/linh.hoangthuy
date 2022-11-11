@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">Maarit Laukkanen</met:element>
+<met:element form="date" read-only="false" name="Creation Date">23/9/2020/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">08 Decision Tree Model
+
+Exercise for training a decision tree model.&#13;
+&#13;
+Train, apply, and evaluate a decision tree model.&#13;
+&#13;
+
+
+VIDEO: The Learner-Predictor Construct https://youtu.be/bKrJkdPvpeA
+VIDEO: Drag &amp; Drop Data Science https://youtu.be/n8HbUUc51fc
+VIDEO: Decision Tree Learner Node: Algorithm Settings https://youtu.be/CSwM92yTrJw
+TAGS: classification,decision tree,scorer</met:element>
+</met:KNIMEMetaInfo>

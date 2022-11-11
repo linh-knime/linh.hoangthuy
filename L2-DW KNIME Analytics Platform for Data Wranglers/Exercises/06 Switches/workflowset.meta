@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">Maarit Laukkanen</met:element>
+<met:element form="date" read-only="false" name="Creation Date">23/9/2020/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">06 Switches
+
+Exercise for creating an IF switch.&#13;
+&#13;
+Use a switch to build one of the alternative graphs.&#13;
+&#13;
+
+
+VIDEO: Deciding Between Parallel Branches: Switches in KNIME Analytics Platform https://youtu.be/E0-zPQsQhIE
+TAGS: switch</met:element>
+</met:KNIMEMetaInfo>

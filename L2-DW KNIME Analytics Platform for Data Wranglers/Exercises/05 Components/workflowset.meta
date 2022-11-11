@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">Maarit Laukkanen</met:element>
+<met:element form="date" read-only="false" name="Creation Date">23/9/2020/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">05 Components
+
+Exercise for creating a component and using a shared component.&#13;
+&#13;
+Use a flow variable to customize the workflow based on a user selection. Create a component and use a publicly available shared component.&#13;
+&#13;
+&#13;
+&#13;
+
+
+VIDEO: Flow Variables https://youtu.be/EvcRiQea3FA
+VIDEO: What is a Component? https://youtu.be/NppFyVaL9IY
+VIDEO: Sharing and Linking Components https://youtu.be/vt807Bg7Jag
+VIDEO: Component Configurations https://youtu.be/x3hAKezILX0
+URL: Choropleth World Map https://kni.me/c/MDMPYVV5ZyxNSB8y
+TAGS: flow variable,component,shared component,configuration</met:element>
+</met:KNIMEMetaInfo>

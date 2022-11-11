@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">Maarit Laukkanen</met:element>
+<met:element form="date" read-only="false" name="Creation Date">23/9/2020/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">01 Visualization
+
+Exercise for visualizing data.&#13;
+&#13;
+Visualize data in a scatter plot, explore columns with the Data Explorer node, and explore rows in an interactive Table View. Build an interactive dashboard with two or more views.&#13;
+&#13;
+
+
+VIDEO: Data Explorer https://youtu.be/iHr9V94Kxk8
+VIDEO: The Scatter Plot Node https://youtu.be/Yn0OMjhlDMk
+VIDEO: 3 Steps to Build an Interactive Dashboard https://youtu.be/4a3Wm3WTlgo
+TAGS: scatter plot,table view,data explorer,dashboard</met:element>
+</met:KNIMEMetaInfo>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">Maarit Laukkanen</met:element>
+<met:element form="date" read-only="false" name="Creation Date">23/9/2020/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">07 Loops
+
+Exercise for building a loop.&#13;
+&#13;
+Build a group loop and a counting loop.&#13;
+&#13;
+
+
+VIDEO: What is a Loop? https://youtu.be/h1uDSRXts70
+VIDEO: How to Build a Counting Loop https://youtu.be/ORvyOHfyZSg
+VIDEO: How to Build a Generic Loop https://youtu.be/c32BZO1aTjE
+VIDEO: Loop End Nodes https://youtu.be/K6D6PEf4PWU
+VIDEO: Loop Commands https://youtu.be/oNFUCZDHnew
+VIDEO: The Group Loop Start Node and the Chunk Loop Start Node https://youtu.be/fFcOKql8aLs
+TAGS: group loop,counting loop,loop end (column append)</met:element>
+</met:KNIMEMetaInfo>

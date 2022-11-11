@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="workflow.knime">
+    <entry key="created_by" type="xstring" value="4.6.3.v202209271016"/>
+    <entry key="created_by_nightly" type="xboolean" value="false"/>
+    <entry key="version" type="xstring" value="4.1.0"/>
+    <entry key="name" type="xstring" isnull="true" value=""/>
+    <config key="authorInformation">
+        <entry key="authored-by" type="xstring" value="Maarit Laukkanen"/>
+        <entry key="authored-when" type="xstring" value="2020-10-23 11:33:11 +0200"/>
+        <entry key="lastEdited-by" type="xstring" value="karenabraham"/>
+        <entry key="lastEdited-when" type="xstring" value="2022-10-04 22:50:17 +0200"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="workflow_credentials"/>
+    <config key="annotations">
+        <config key="annotation_0">
+            <entry key="text" type="xstring" value="Exercise: Switches%%00013%%00010%%00013%%00010The workflow below accesses life expectancy data for countries and regions. The bar chart shows the average life expectancy values by regions, and the choropleth world map shows the life expectancy values by countries. Your task is to build an IF switch that controls which of the two visualizations is shown.%%00013%%00010%%00013%%000101.1) Create a Single Selection Configuration node with two options: &quot;Regions&quot; and &quot;Countries&quot;%%00013%%000101.2) Encode the flow variable values Regions and Countries into &quot;top&quot; and &quot;bottom&quot;, respectively, with the Rule Engine Variable node%%00013%%000101.3) Use an IF switch node to separate the two workflow branches. Control the active port by the flow variable with the possible values top and bottom.%%00013%%000101.4) Encapsulate the nodes into a component. Select Countries or Regions in the component's configuration dialog. Execute and open the component's view. Do you see the right graph?   %%00013%%00010"/>
+            <entry key="bgcolor" type="xint" value="16777215"/>
+            <entry key="x-coordinate" type="xint" value="20"/>
+            <entry key="y-coordinate" type="xint" value="40"/>
+            <entry key="width" type="xint" value="561"/>
+            <entry key="height" type="xint" value="241"/>
+            <entry key="alignment" type="xstring" value="LEFT"/>
+            <entry key="borderSize" type="xint" value="4"/>
+            <entry key="borderColor" type="xint" value="16766976"/>
+            <entry key="defFontSize" type="xint" value="9"/>
+            <entry key="annotation-version" type="xint" value="20151123"/>
+            <config key="styles">
+                <config key="style_0">
+                    <entry key="start" type="xint" value="0"/>
+                    <entry key="length" type="xint" value="22"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_1">
+                    <entry key="start" type="xint" value="22"/>
+                    <entry key="length" type="xint" value="327"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_2">
+                    <entry key="start" type="xint" value="349"/>
+                    <entry key="length" type="xint" value="35"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="16087296"/>
+                </config>
+                <config key="style_3">
+                    <entry key="start" type="xint" value="384"/>
+                    <entry key="length" type="xint" value="83"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_4">
+                    <entry key="start" type="xint" value="467"/>
+                    <entry key="length" type="xint" value="7"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="2"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_5">
+                    <entry key="start" type="xint" value="474"/>
+                    <entry key="length" type="xint" value="5"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_6">
+                    <entry key="start" type="xint" value="479"/>
+                    <entry key="length" type="xint" value="9"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="2"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_7">
+                    <entry key="start" type="xint" value="488"/>
+                    <entry key="length" type="xint" value="49"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_8">
+                    <entry key="start" type="xint" value="537"/>
+                    <entry key="length" type="xint" value="25"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="16087296"/>
+                </config>
+                <config key="style_9">
+                    <entry key="start" type="xint" value="562"/>
+                    <entry key="length" type="xint" value="14"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_10">
+                    <entry key="start" type="xint" value="576"/>
+                    <entry key="length" type="xint" value="14"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="1"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="16087296"/>
+                </config>
+                <config key="style_11">
+                    <entry key="start" type="xint" value="590"/>
+                    <entry key="length" type="xint" value="110"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_12">
+                    <entry key="start" type="xint" value="700"/>
+                    <entry key="length" type="xint" value="3"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="2"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_13">
+                    <entry key="start" type="xint" value="703"/>
+                    <entry key="length" type="xint" value="5"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_14">
+                    <entry key="start" type="xint" value="708"/>
+                    <entry key="length" type="xint" value="6"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="2"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_15">
+                    <entry key="start" type="xint" value="714"/>
+                    <entry key="length" type="xint" value="55"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_16">
+                    <entry key="start" type="xint" value="769"/>
+                    <entry key="length" type="xint" value="9"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="2"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_17">
+                    <entry key="start" type="xint" value="778"/>
+                    <entry key="length" type="xint" value="4"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_18">
+                    <entry key="start" type="xint" value="782"/>
+                    <entry key="length" type="xint" value="7"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="2"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+                <config key="style_19">
+                    <entry key="start" type="xint" value="789"/>
+                    <entry key="length" type="xint" value="113"/>
+                    <entry key="fontname" type="xstring" value="Arial"/>
+                    <entry key="fontstyle" type="xint" value="0"/>
+                    <entry key="fontsize" type="xint" value="9"/>
+                    <entry key="fgcolor" type="xint" value="0"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="nodes">
+        <config key="node_0">
+            <entry key="id" type="xint" value="0"/>
+            <entry key="node_settings_file" type="xstring" value="Choropleth W (#0)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="true"/>
+            <entry key="node_type" type="xstring" value="SubNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="404"/>
+                    <entry key="1" type="xint" value="457"/>
+                    <entry key="2" type="xint" value="64"/>
+                    <entry key="3" type="xint" value="89"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_2">
+            <entry key="id" type="xint" value="2"/>
+            <entry key="node_settings_file" type="xstring" value="Table Reader (#2)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="84"/>
+                    <entry key="1" type="xint" value="317"/>
+                    <entry key="2" type="xint" value="75"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_25">
+            <entry key="id" type="xint" value="25"/>
+            <entry key="node_settings_file" type="xstring" value="Bar Chart (#25)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="404"/>
+                    <entry key="1" type="xint" value="317"/>
+                    <entry key="2" type="xint" value="56"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_27">
+            <entry key="id" type="xint" value="27"/>
+            <entry key="node_settings_file" type="xstring" value="Row Filter (#27)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="284"/>
+                    <entry key="1" type="xint" value="317"/>
+                    <entry key="2" type="xint" value="59"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="connections">
+        <config key="connection_0">
+            <entry key="sourceID" type="xint" value="2"/>
+            <entry key="destID" type="xint" value="0"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
+            <config key="ui_settings">
+                <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
+            </config>
+        </config>
+        <config key="connection_1">
+            <entry key="sourceID" type="xint" value="2"/>
+            <entry key="destID" type="xint" value="27"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
+            <config key="ui_settings">
+                <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
+            </config>
+        </config>
+        <config key="connection_2">
+            <entry key="sourceID" type="xint" value="27"/>
+            <entry key="destID" type="xint" value="25"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
+            <config key="ui_settings">
+                <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
+    <config key="workflow_editor_settings">
+        <entry key="workflow.editor.snapToGrid" type="xboolean" value="true"/>
+        <entry key="workflow.editor.ShowGrid" type="xboolean" value="true"/>
+        <entry key="workflow.editor.gridX" type="xint" value="20"/>
+        <entry key="workflow.editor.gridY" type="xint" value="20"/>
+        <entry key="workflow.editor.zoomLevel" type="xdouble" value="1.0"/>
+        <entry key="workflow.editor.curvedConnections" type="xboolean" value="true"/>
+        <entry key="workflow.editor.connectionWidth" type="xint" value="2"/>
+    </config>
+</config>
