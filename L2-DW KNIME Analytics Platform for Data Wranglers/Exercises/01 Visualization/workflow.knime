@@ -7,11 +7,11 @@
     <config key="authorInformation">
         <entry key="authored-by" type="xstring" value="Maarit Laukkanen"/>
         <entry key="authored-when" type="xstring" value="2020-10-23 11:33:11 +0200"/>
-        <entry key="lastEdited-by" type="xstring" value="karenabraham"/>
-        <entry key="lastEdited-when" type="xstring" value="2022-10-04 22:19:10 +0200"/>
+        <entry key="lastEdited-by" type="xstring" value="linhthuy"/>
+        <entry key="lastEdited-when" type="xstring" value="2022-11-14 15:54:17 +0100"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="state" type="xstring" value="IDLE"/>
     <config key="workflow_credentials"/>
     <config key="annotations">
         <config key="annotation_0">
@@ -214,7 +214,24 @@
             </config>
         </config>
     </config>
-    <config key="nodes"/>
+    <config key="nodes">
+        <config key="node_1">
+            <entry key="id" type="xint" value="1"/>
+            <entry key="node_settings_file" type="xstring" value="Table Reader (#1)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="64"/>
+                    <entry key="1" type="xint" value="357"/>
+                    <entry key="2" type="xint" value="75"/>
+                    <entry key="3" type="xint" value="76"/>
+                </config>
+            </config>
+        </config>
+    </config>
     <config key="connections"/>
     <config key="workflow_editor_settings">
         <entry key="workflow.editor.snapToGrid" type="xboolean" value="true"/>
