@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">&lt;unknown></element><element xmlns="" form="date" name="Creation Date">18/9/2019/13:13:43 +02:00</element><element xmlns="" form="multiline" name="Comments">Data Aggregation - Solution
+
+Solution to exercise 7 for the KNIME Analytics Platform for Data Wranglers course
+- Calculate multiple aggregation using the Pivoting and GroupBy node
+- Join grouped data
+- Extract date fields from a DateTime value
+- Handle missing values
+- Manipulate strings
+- Calculate new features using the Math Formula node
+
+
+
+
+
+
+URL: Slides (KNIME Analytics Platform for Data Wranglers) https://www.knime.com/form/material-download-registration
+VIDEO: Basic Aggregations with the GroupBy node https://www.youtube.com/watch?v=JQ-OWMt48ew
+VIDEO: Advanced Aggregations with the GroupBy Node https://www.youtube.com/watch?v=i2LIKPOgNoM
+VIDEO: The Pivoting node https://www.youtube.com/watch?v=zo9YdH9kgKQ
+TAGS: aggregate,GroupBy,pivot,date&amp;time,ETL,education</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2022-11-04 16:37:50 +0000</element><element xmlns="" form="text " name="Last Edited" read-only="true">2022-11-04 15:00:24 +0100</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

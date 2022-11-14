@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">&lt;unknown&gt;</met:element>
+<met:element form="date" read-only="false" name="Creation Date">15/3/2020/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">DateTime Manipulation
+
+Exercise 6 for the KNIME Analytics Platform for Data Wranglers course
+- Convert a String column to Date&amp;Time format
+- Extract rows according to a date value
+- Extract date fields from a date column
+
+
+
+
+
+URL: Slides (KNIME Analytics Platform for Data Wranglers) https://www.knime.com/form/material-download-registration
+VIDEO: String to DateTime node https://www.youtube.com/watch?v=uNgaEGzetkU
+TAGS: date,date&amp;time,filter,ETL,education</met:element>
+</met:KNIMEMetaInfo>
