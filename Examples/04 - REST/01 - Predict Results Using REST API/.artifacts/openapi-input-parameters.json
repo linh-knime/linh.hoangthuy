@@ -1,0 +1,84 @@
+
+{
+    "type": "object",
+    "properties": {
+        "adult-record-1": {
+            "type": "object",
+            "properties": {
+                "age": {
+                    "type": "integer",
+                    "default": 42
+                },
+                "workclass": {
+                    "type": "string",
+                    "default": "State-gov"
+                },
+                "fnlwgt": {
+                    "type": "integer",
+                    "default": 77516
+                },
+                "education": {
+                    "type": "string",
+                    "default": "Bachelors"
+                },
+                "education-num": {
+                    "type": "integer",
+                    "default": 12
+                },
+                "marital-status": {
+                    "type": "string",
+                    "default": "Never-married"
+                },
+                "occupation": {
+                    "type": "string",
+                    "default": "Adm-clerical"
+                },
+                "relationship": {
+                    "type": "string",
+                    "default": "Not-in-family"
+                },
+                "race": {
+                    "type": "string",
+                    "default": "White"
+                },
+                "sex": {
+                    "type": "string",
+                    "default": "Male"
+                },
+                "capital-gain": {
+                    "type": "integer",
+                    "default": 2174
+                },
+                "capital-loss": {
+                    "type": "integer",
+                    "default": 0
+                },
+                "hours-per-week": {
+                    "type": "integer",
+                    "default": 40
+                },
+                "native-country": {
+                    "type": "string",
+                    "default": "United-States"
+                }
+            },
+            "description": "",
+            "example": {
+                "age": 42,
+                "workclass": "State-gov",
+                "fnlwgt": 77516,
+                "education": "Bachelors",
+                "education-num": 12,
+                "marital-status": "Never-married",
+                "occupation": "Adm-clerical",
+                "relationship": "Not-in-family",
+                "race": "White",
+                "sex": "Male",
+                "capital-gain": 2174,
+                "capital-loss": 0,
+                "hours-per-week": 40,
+                "native-country": "United-States"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+
+{
+    "type": "object",
+    "properties": {
+        "models-143": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "Model Name": {
+                        "type": "string",
+                        "default": "Gradient Boosted Trees (MLLib)_20200114110545"
+                    },
+                    "Model Type": {
+                        "type": "string",
+                        "default": "Gradient Boosted Trees (MLLib)"
+                    },
+                    "Accuracy": {
+                        "type": "number",
+                        "default": 0.952286282306163
+                    },
+                    "Cohen's kappa": {
+                        "type": "number",
+                        "default": 0.7923596897091452
+                    },
+                    "Model Category": {
+                        "type": "string",
+                        "default": "mllib"
+                    },
+                    "Creation Date": {
+                        "type": "string",
+                        "default": "2020-01-14T11:05:45"
+                    }
+                }
+            },
+            "description": "",
+            "example": [
+                {
+                    "Model Name": "Gradient Boosted Trees (MLLib)_20200114110545",
+                    "Model Type": "Gradient Boosted Trees (MLLib)",
+                    "Accuracy": 0.952286282306163,
+                    "Cohen's kappa": 0.7923596897091452,
+                    "Model Category": "mllib",
+                    "Creation Date": "2020-01-14T11:05:45"
+                },
+                {
+                    "Model Name": "mymodel",
+                    "Model Type": "Decision Tree",
+                    "Accuracy": 0.9224652087475149,
+                    "Cohen's kappa": 0.656252190369384,
+                    "Model Category": "native",
+                    "Creation Date": "2020-01-14T14:15:31"
+                }
+            ]
+        }
+    }
+}

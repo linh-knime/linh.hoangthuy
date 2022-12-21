@@ -1,0 +1,139 @@
+
+{
+    "type": "object",
+    "properties": {
+        "Deploy-Output-1190": {
+            "type": "object",
+            "properties": {
+                "VMail Message": {
+                    "type": "integer",
+                    "default": 25
+                },
+                "Day Mins": {
+                    "type": "number",
+                    "default": 265.1
+                },
+                "Eve Mins": {
+                    "type": "number",
+                    "default": 197.4
+                },
+                "Night Mins": {
+                    "type": "number",
+                    "default": 244.7
+                },
+                "Intl Mins": {
+                    "type": "number",
+                    "default": 10.0
+                },
+                "CustServ Calls": {
+                    "type": "integer",
+                    "default": 1
+                },
+                "Day Calls": {
+                    "type": "integer",
+                    "default": 110
+                },
+                "Day Charge": {
+                    "type": "number",
+                    "default": 45.07
+                },
+                "Eve Calls": {
+                    "type": "integer",
+                    "default": 99
+                },
+                "Eve Charge": {
+                    "type": "number",
+                    "default": 16.78
+                },
+                "Night Calls": {
+                    "type": "integer",
+                    "default": 91
+                },
+                "Night Charge": {
+                    "type": "number",
+                    "default": 11.01
+                },
+                "Intl Calls": {
+                    "type": "integer",
+                    "default": 3
+                },
+                "Intl Charge": {
+                    "type": "number",
+                    "default": 2.7
+                },
+                "Area Code": {
+                    "type": "string",
+                    "default": "415"
+                },
+                "Phone": {
+                    "type": "string",
+                    "default": "382-4657"
+                },
+                "Account Length": {
+                    "type": "integer",
+                    "default": 128
+                },
+                "Churn": {
+                    "type": "string",
+                    "default": "0"
+                },
+                "Int'l Plan": {
+                    "type": "integer",
+                    "default": 0
+                },
+                "VMail Plan": {
+                    "type": "integer",
+                    "default": 1
+                },
+                "State": {
+                    "type": "string",
+                    "default": "KS"
+                },
+                "P (Churn=0)": {
+                    "type": "number",
+                    "default": 0.9090909361839294
+                },
+                "P (Churn=1)": {
+                    "type": "number",
+                    "default": 0.09090909361839294
+                },
+                "Prediction (Churn)": {
+                    "type": "string",
+                    "default": "0"
+                },
+                "Optimized Prediction (Churn)": {
+                    "type": "string",
+                    "default": "0"
+                }
+            },
+            "description": "",
+            "example": {
+                "VMail Message": 25,
+                "Day Mins": 265.1,
+                "Eve Mins": 197.4,
+                "Night Mins": 244.7,
+                "Intl Mins": 10.0,
+                "CustServ Calls": 1,
+                "Day Calls": 110,
+                "Day Charge": 45.07,
+                "Eve Calls": 99,
+                "Eve Charge": 16.78,
+                "Night Calls": 91,
+                "Night Charge": 11.01,
+                "Intl Calls": 3,
+                "Intl Charge": 2.7,
+                "Area Code": "415",
+                "Phone": "382-4657",
+                "Account Length": 128,
+                "Churn": "0",
+                "Int'l Plan": 0,
+                "VMail Plan": 1,
+                "State": "KS",
+                "P (Churn=0)": 0.9090909361839294,
+                "P (Churn=1)": 0.09090909361839294,
+                "Prediction (Churn)": "0",
+                "Optimized Prediction (Churn)": "0"
+            }
+        }
+    }
+}

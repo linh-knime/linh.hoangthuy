@@ -1,0 +1,20 @@
+
+{
+    "base-address-1": {
+        "label": "Server Address",
+        "type": "string",
+        "default": "http://localhost:8080/knime"
+    },
+    "credentials-61": {
+        "label": "Credentials",
+        "type": "object",
+        "username": {
+            "type": "string",
+            "default": "knimeadmin"
+        },
+        "password": {
+            "type": "string",
+            "default": null
+        }
+    }
+}

@@ -1,0 +1,8 @@
+
+{
+    "country-6": {
+        "label": "Country",
+        "type": "string",
+        "default": "Greece"
+    }
+}

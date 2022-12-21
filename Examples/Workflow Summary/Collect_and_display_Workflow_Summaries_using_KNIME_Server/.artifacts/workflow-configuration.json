@@ -1,0 +1,40 @@
+
+{
+    "workflowGroup-46": {
+        "label": "Workflow Group",
+        "type": "array",
+        "items": {
+            "type": "object"
+        },
+        "default": [
+            {
+                "type": "object",
+                "path": {
+                    "type": "string",
+                    "default": "knime://knime-server/Examples/04%20-%20REST"
+                },
+                "fileType": {
+                    "type": "string",
+                    "default": "DIRECTORY"
+                }
+            }
+        ]
+    },
+    "baseURL-52": {
+        "label": "Server Base URL",
+        "type": "string",
+        "default": "http://localhost:8080/knime"
+    },
+    "servercredentials-48": {
+        "label": "Credentials",
+        "type": "object",
+        "username": {
+            "type": "string",
+            "default": "<logged.in.user>"
+        },
+        "password": {
+            "type": "string",
+            "default": "*************"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+
+{
+    "type": "object",
+    "properties": {
+        "json-input": {
+            "type": "object",
+            "properties": {
+                "head_width": {
+                    "type": "number",
+                    "default": 1.0
+                },
+                "thread_length": {
+                    "type": "number",
+                    "default": 1.0
+                },
+                "thread_width": {
+                    "type": "number",
+                    "default": 1.0
+                },
+                "head_length": {
+                    "type": "number",
+                    "default": 1.0
+                }
+            },
+            "description": "",
+            "example": {
+                "head_width": 1.0,
+                "thread_length": 1.0,
+                "thread_width": 1.0,
+                "head_length": 1.0
+            }
+        }
+    }
+}

@@ -1,0 +1,126 @@
+
+{
+    "type": "object",
+    "properties": {
+        "input-1": {
+            "type": "object",
+            "properties": {
+                "model": {
+                    "type": "string",
+                    "default": "my_gb_model"
+                },
+                "data": {
+                    "type": "object",
+                    "properties": {
+                        "VMail Message": {
+                            "type": "string",
+                            "default": "25"
+                        },
+                        "Day Mins": {
+                            "type": "string",
+                            "default": "265.1"
+                        },
+                        "Eve Mins": {
+                            "type": "string",
+                            "default": "197.4"
+                        },
+                        "Night Mins": {
+                            "type": "string",
+                            "default": "244.7"
+                        },
+                        "Intl Mins": {
+                            "type": "string",
+                            "default": "10.0"
+                        },
+                        "CustServ Calls": {
+                            "type": "string",
+                            "default": "1"
+                        },
+                        "Day Calls": {
+                            "type": "string",
+                            "default": "110"
+                        },
+                        "Day Charge": {
+                            "type": "string",
+                            "default": "45.07"
+                        },
+                        "Eve Calls": {
+                            "type": "string",
+                            "default": "99"
+                        },
+                        "Eve Charge": {
+                            "type": "string",
+                            "default": "16.78"
+                        },
+                        "Night Calls": {
+                            "type": "string",
+                            "default": "91"
+                        },
+                        "Night Charge": {
+                            "type": "string",
+                            "default": "11.01"
+                        },
+                        "Intl Calls": {
+                            "type": "string",
+                            "default": "3"
+                        },
+                        "Intl Charge": {
+                            "type": "string",
+                            "default": "2.7"
+                        },
+                        "Area Code": {
+                            "type": "string",
+                            "default": "415"
+                        },
+                        "Phone": {
+                            "type": "string",
+                            "default": "382-4657"
+                        },
+                        "Account Length": {
+                            "type": "string",
+                            "default": "128"
+                        },
+                        "Int'l Plan": {
+                            "type": "string",
+                            "default": "0"
+                        },
+                        "VMail Plan": {
+                            "type": "string",
+                            "default": "1"
+                        },
+                        "State": {
+                            "type": "string",
+                            "default": "KS"
+                        }
+                    }
+                }
+            },
+            "description": "",
+            "example": {
+                "model": "my_gb_model",
+                "data": {
+                    "VMail Message": "25",
+                    "Day Mins": "265.1",
+                    "Eve Mins": "197.4",
+                    "Night Mins": "244.7",
+                    "Intl Mins": "10.0",
+                    "CustServ Calls": "1",
+                    "Day Calls": "110",
+                    "Day Charge": "45.07",
+                    "Eve Calls": "99",
+                    "Eve Charge": "16.78",
+                    "Night Calls": "91",
+                    "Night Charge": "11.01",
+                    "Intl Calls": "3",
+                    "Intl Charge": "2.7",
+                    "Area Code": "415",
+                    "Phone": "382-4657",
+                    "Account Length": "128",
+                    "Int'l Plan": "0",
+                    "VMail Plan": "1",
+                    "State": "KS"
+                }
+            }
+        }
+    }
+}

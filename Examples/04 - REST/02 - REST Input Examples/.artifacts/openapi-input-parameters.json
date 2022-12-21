@@ -1,0 +1,134 @@
+
+{
+    "type": "object",
+    "properties": {
+        "variable-input": {
+            "type": "object",
+            "properties": {
+            },
+            "description": "",
+            "example": {
+            }
+        },
+        "row-input": {
+            "type": "object",
+            "properties": {
+                "City": {
+                    "type": "string",
+                    "default": "Austin"
+                },
+                "Country": {
+                    "type": "string",
+                    "default": "us"
+                }
+            },
+            "description": "",
+            "example": {
+                "City": "Austin",
+                "Country": "us"
+            }
+        },
+        "input-location": {
+            "type": "object",
+            "properties": {
+                "city": {
+                    "type": "string",
+                    "default": "Dallas"
+                },
+                "country": {
+                    "type": "string",
+                    "default": "us"
+                }
+            },
+            "description": "",
+            "example": {
+                "city": "Dallas",
+                "country": "us"
+            }
+        },
+        "table-input": {
+            "type": "object",
+            "properties": {
+                "table-spec": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "City": {
+                                "type": "string",
+                                "default": "string"
+                            }
+                        }
+                    }
+                },
+                "table-data": {
+                    "type": "array",
+                    "items": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "default": "Austin"
+                        }
+                    }
+                }
+            },
+            "description": "",
+            "example": {
+                "table-spec": [
+                    {
+                        "City": "string"
+                    },
+                    {
+                        "Country": "string"
+                    }
+                ],
+                "table-data": [
+                    [
+                        "Austin",
+                        "us"
+                    ]
+                ]
+            }
+        },
+        "credential-input": {
+            "type": "object",
+            "properties": {
+                "isEncrypted": {
+                    "type": "boolean",
+                    "default": "false"
+                },
+                "credentials": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "id": {
+                                "type": "string",
+                                "default": "id"
+                            },
+                            "user": {
+                                "type": "string",
+                                "default": "user"
+                            },
+                            "password": {
+                                "type": "string",
+                                "default": "password"
+                            }
+                        }
+                    }
+                }
+            },
+            "description": "",
+            "example": {
+                "isEncrypted": false,
+                "credentials": [
+                    {
+                        "id": "id",
+                        "user": "user",
+                        "password": "password"
+                    }
+                ]
+            }
+        }
+    }
+}

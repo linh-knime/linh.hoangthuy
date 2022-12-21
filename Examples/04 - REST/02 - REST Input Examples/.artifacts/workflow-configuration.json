@@ -1,0 +1,8 @@
+
+{
+    "api-key-1227": {
+        "label": "API Key",
+        "type": "string",
+        "default": "9258b2a6603d28f00f5268209dfe3225"
+    }
+}

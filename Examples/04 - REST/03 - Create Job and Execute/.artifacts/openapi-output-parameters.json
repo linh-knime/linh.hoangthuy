@@ -1,0 +1,14 @@
+
+{
+    "type": "object",
+    "properties": {
+        "ConfigurationUsed-28": {
+            "type": "object",
+            "properties": {
+            },
+            "description": "",
+            "example": {
+            }
+        }
+    }
+}

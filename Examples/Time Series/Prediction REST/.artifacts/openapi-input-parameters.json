@@ -1,0 +1,24 @@
+
+{
+    "type": "object",
+    "properties": {
+        "json-input-86": {
+            "type": "object",
+            "properties": {
+                "forecast-until": {
+                    "type": "string",
+                    "default": "2020-01-01"
+                },
+                "product-selection": {
+                    "type": "string",
+                    "default": "Glas_white"
+                }
+            },
+            "description": "",
+            "example": {
+                "forecast-until": "2020-01-01",
+                "product-selection": "Glas_white"
+            }
+        }
+    }
+}

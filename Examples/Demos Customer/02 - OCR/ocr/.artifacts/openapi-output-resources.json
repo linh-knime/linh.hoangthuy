@@ -1,0 +1,17 @@
+
+{
+    "schema": {
+        "type": "object",
+        "properties": {
+            "file-download-1407:1402": {
+                "type": "string",
+                "format": "binary"
+            }
+        }
+    },
+    "encoding": {
+        "file-download-1407:1402": {
+            "contentType": "application/octet-stream"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+
+{
+    "type": "object",
+    "properties": {
+        "output-weather": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "temp": {
+                        "type": "number",
+                        "default": 290.24
+                    },
+                    "main": {
+                        "type": "string",
+                        "default": "Clouds"
+                    },
+                    "description": {
+                        "type": "string",
+                        "default": "overcast clouds"
+                    },
+                    "feels_like": {
+                        "type": "number",
+                        "default": 287.58
+                    }
+                }
+            },
+            "description": "",
+            "example": [
+                {
+                    "temp": 290.24,
+                    "main": "Clouds",
+                    "description": "overcast clouds",
+                    "feels_like": 287.58
+                }
+            ]
+        }
+    }
+}

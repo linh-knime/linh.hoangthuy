@@ -1,0 +1,24 @@
+
+{
+    "type": "object",
+    "properties": {
+        "flow-variable-input": {
+            "type": "object",
+            "properties": {
+                "alarm 2": {
+                    "type": "integer",
+                    "default": 1
+                },
+                "RowID": {
+                    "type": "string",
+                    "default": "Row0"
+                }
+            },
+            "description": "",
+            "example": {
+                "alarm 2": 1,
+                "RowID": "Row0"
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+
+{
+    "type": "object",
+    "properties": {
+        "target-column-222:190": {
+            "type": "object",
+            "properties": {
+                "column": {
+                    "type": "string",
+                    "default": "Churn"
+                }
+            },
+            "description": "The column to learn",
+            "example": {
+                "column": "Churn"
+            }
+        },
+        "target-column-231:190": {
+            "type": "object",
+            "properties": {
+                "column": {
+                    "type": "string",
+                    "default": "Churn"
+                }
+            },
+            "description": "The column to learn",
+            "example": {
+                "column": "Churn"
+            }
+        }
+    }
+}

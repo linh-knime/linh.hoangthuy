@@ -1,0 +1,29 @@
+
+{
+    "type": "object",
+    "properties": {
+        "prediction-2": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "P (Churn=1)": {
+                        "type": "number",
+                        "default": 0.40283921093923725
+                    },
+                    "Prediction (Churn)": {
+                        "type": "string",
+                        "default": "0"
+                    }
+                }
+            },
+            "description": "",
+            "example": [
+                {
+                    "P (Churn=1)": 0.40283921093923725,
+                    "Prediction (Churn)": "0"
+                }
+            ]
+        }
+    }
+}

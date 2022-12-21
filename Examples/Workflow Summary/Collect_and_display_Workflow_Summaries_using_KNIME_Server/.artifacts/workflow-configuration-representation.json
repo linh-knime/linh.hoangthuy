@@ -1,0 +1,78 @@
+
+{
+    "workflowGroup-46": {
+        "@class": "org.knime.js.base.node.configuration.input.filechooser.FileChooserDialogNodeRepresentation",
+        "label": "Workflow Group",
+        "description": "The workflow group to extract information from",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.filechooser.FileChooserDialogNodeValue",
+            "items": [
+                {
+                    "path": "knime://knime-server/Examples/04%20-%20REST",
+                    "type": "DIRECTORY"
+                }
+            ]
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.filechooser.FileChooserDialogNodeValue",
+            "items": [
+                {
+                    "path": "knime://knime-server/Examples/04%20-%20REST",
+                    "type": "DIRECTORY"
+                }
+            ]
+        },
+        "selectWorkflows": false,
+        "selectDirectories": true,
+        "selectDataFiles": false,
+        "useDefaultMountId": true,
+        "customMountId": "",
+        "rootDir": "/",
+        "fileTypes": [
+        ],
+        "multipleSelection": false,
+        "errorMessage": ""
+    },
+    "baseURL-52": {
+        "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeRepresentation",
+        "label": "Server Base URL",
+        "description": "Base URL of your KNIME Server installation.\nThe default installation URL ends with /knime, so for example https://example.com/knime",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeValue",
+            "string": "http://localhost:8080/knime"
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeValue",
+            "string": "http://localhost:8080/knime"
+        },
+        "regex": "",
+        "errorMessage": "",
+        "editorType": "Single-line",
+        "multilineEditorWidth": 60,
+        "multilineEditorHeight": 5
+    },
+    "servercredentials-48": {
+        "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeRepresentation",
+        "label": "Credentials",
+        "description": "KNIME Server credentials",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
+            "username": "knimeadmin",
+            "isSavePassword": true,
+            "magicDefaultPassword": "*************"
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeValue",
+            "username": "knimeadmin",
+            "isSavePassword": true,
+            "magicDefaultPassword": "*************"
+        },
+        "promptUsername": true,
+        "useServerLoginCredentials": true,
+        "errorMessage": "",
+        "noDisplay": false
+    }
+}

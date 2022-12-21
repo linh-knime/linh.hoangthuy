@@ -1,0 +1,54 @@
+
+{
+    "type": "object",
+    "properties": {
+        "configuration": {
+            "type": "object",
+            "properties": {
+                "configuration": {
+                    "type": "object",
+                    "properties": {
+                        "filePath-1": {
+                            "type": "string",
+                            "default": "test"
+                        }
+                    }
+                }
+            },
+            "description": "",
+            "example": {
+                "configuration": {
+                    "filePath-1": "test"
+                }
+            }
+        },
+        "compulsorySettings": {
+            "type": "object",
+            "properties": {
+                "variables": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "jobPath": {
+                                "type": "string",
+                                "default": "http://localhost:8080/knime/rest/v4/repository/example(2):jobs?timeout=-1&asyncLoading=false"
+                            }
+                        }
+                    }
+                }
+            },
+            "description": "",
+            "example": {
+                "variables": [
+                    {
+                        "jobPath": "http://localhost:8080/knime/rest/v4/repository/example(2):jobs?timeout=-1&asyncLoading=false"
+                    },
+                    {
+                        "token": ""
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+
+{
+    "type": "object",
+    "properties": {
+        "cluster-label-152:108": {
+            "type": "string",
+            "default": "Label10",
+            "description": "Choose a suitable label for the displayed cluster.",
+            "example": "Label10"
+        },
+        "no-of-clusters-126:96": {
+            "type": "integer",
+            "default": 10,
+            "description": "Enter the number of clusters, minimum 2 and maximum 10.",
+            "example": 10
+        },
+        "column-filter-126:98": {
+            "type": "object",
+            "properties": {
+                "columns": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "default": "VMail Message"
+                    }
+                }
+            },
+            "description": "Choose the numeric columns to be taken into account for the succeeding clustering.",
+            "example": {
+                "columns": [
+                    "VMail Message",
+                    "Day Mins",
+                    "Eve Mins",
+                    "Night Mins",
+                    "Intl Mins",
+                    "CustServ Calls",
+                    "Day Calls",
+                    "Day Charge",
+                    "Eve Calls",
+                    "Eve Charge",
+                    "Night Calls",
+                    "Night Charge",
+                    "Intl Calls",
+                    "Intl Charge",
+                    "Account Length",
+                    "Int'l Plan",
+                    "VMail Plan"
+                ]
+            }
+        }
+    }
+}

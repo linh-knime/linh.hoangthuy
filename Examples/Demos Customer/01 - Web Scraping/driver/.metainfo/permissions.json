@@ -1,0 +1,14 @@
+{
+  "ownerName" : "knimeadmin",
+  "inheritPermissions" : true,
+  "world" : {
+    "name" : "<world>",
+    "rights" : [ ]
+  },
+  "owner" : {
+    "name" : "knimeadmin",
+    "rights" : [ "READ", "WRITE", "EXECUTE" ]
+  },
+  "group" : [ ],
+  "user" : [ ]
+}
