@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="result"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value=""/>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="result"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="[[&quot;9-2014&quot;,4.7958071903999996E8], [&quot;9-2016&quot;,1.1220159492079977E10], [&quot;9-2015&quot;,4.854767881170009E9], [&quot;9-2018&quot;,2.7318040644599613E10], [&quot;1-2019&quot;,3.1524608589129436E10], [&quot;9-2017&quot;,1.956159689808974E10], [&quot;11-2014&quot;,5.1637057849999994E8], [&quot;1-2018&quot;,2.394209978942959E10], [&quot;11-2015&quot;,5.792352066450017E9], [&quot;1-2017&quot;,1.5595001194469835E10], [&quot;9-2019&quot;,3.469002537379932E10], [&quot;11-2016&quot;,1.3063518927809921E10], [&quot;1-2026&quot;,4.4024271076E8], [&quot;11-2017&quot;,2.1167635319389706E10], [&quot;1-2025&quot;,1.6895948181299999E9], [&quot;11-2018&quot;,2.878520432169955E10], [&quot;1-2024&quot;,4.92269712921E9], [&quot;11-2019&quot;,3.55978145190294E10], [&quot;1-2023&quot;,1.1094857849330011E10], [&quot;1-2022&quot;,1.939645569966996E10], [&quot;1-2021&quot;,2.8543627342239834E10], [&quot;1-2020&quot;,3.6164100682279434E10], [&quot;2-2019&quot;,3.1874908498659428E10], [&quot;2-2018&quot;,2.4204573394689552E10], [&quot;10-2014&quot;,5.0858331578999996E8], [&quot;8-2020&quot;,3.3632454039759533E10], [&quot;8-2021&quot;,2.4778266535819958E10], [&quot;8-2022&quot;,1.5877433005059986E10], [&quot;8-2023&quot;,8.259284902600003E9], [&quot;2-2020&quot;,3.6364820555059456E10], [&quot;8-2024&quot;,3.31874407224E9], [&quot;8-2025&quot;,8.0359981795E8], [&quot;8-2026&quot;,2.5796342601E8], [&quot;2-2024&quot;,4.5517626227699995E9], [&quot;10-2018&quot;,2.81450342382496E10], [&quot;2-2023&quot;,1.068298375341001E10], [&quot;10-2017&quot;,2.0548859003909748E10], [&quot;2-2022&quot;,1.910667552982996E10], [&quot;10-2016&quot;,1.2311415941169931E10], [&quot;10-2015&quot;,5.416898103650013E9], [&quot;2-2021&quot;,2.824433310464986E10], [&quot;2-2026&quot;,4.0303265876E8], [&quot;2-2025&quot;,1.48642266007E9], [&quot;10-2019&quot;,3.536643434269939E10], [&quot;10-2021&quot;,2.270547718203996E10], [&quot;10-2020&quot;,3.201263502537973E10], [&quot;10-2025&quot;,6.2963453495E8], [&quot;10-2024&quot;,2.56681157699E9], [&quot;10-2023&quot;,6.942270889150002E9], [&quot;10-2022&quot;,1.4172420359649982E10], [&quot;8-2014&quot;,4.7958071903999996E8], [&quot;8-2015&quot;,3.91101315708E9], [&quot;5-2015&quot;,2.8624587903099995E9], [&quot;8-2016&quot;,1.0216128421030052E10], [&quot;5-2016&quot;,9.332349312430048E9], [&quot;8-2017&quot;,1.865000955122974E10], [&quot;8-2018&quot;,2.6603323392469696E10], [&quot;10-2026&quot;,9.425284551E7], [&quot;5-2014&quot;,4.7450471903999996E8], [&quot;8-2019&quot;,3.3984137952259357E10], [&quot;2-2017&quot;,1.5831353655359829E10], [&quot;5-2019&quot;,3.3157363843579403E10], [&quot;2-2016&quot;,7.7585822005900345E9], [&quot;2-2015&quot;,1.55890100452E9], [&quot;5-2017&quot;,1.7382358297079773E10], [&quot;2-2014&quot;,4.7450471903999996E8], [&quot;5-2018&quot;,2.559269272602967E10], [&quot;6-2024&quot;,3.49050878782E9], [&quot;6-2023&quot;,8.680695531010002E9], [&quot;6-2022&quot;,1.6490095668539986E10], [&quot;6-2021&quot;,2.565617639253994E10], [&quot;6-2020&quot;,3.446637823772948E10], [&quot;6-2026&quot;,2.7296187976E8], [&quot;6-2025&quot;,9.148756037E8], [&quot;4-2017&quot;,1.6641738056589806E10], [&quot;4-2016&quot;,8.843933038570044E9], [&quot;4-2019&quot;,3.2547357864209415E10], [&quot;4-2018&quot;,2.486431609826967E10], [&quot;5-2022&quot;,1.7396221612149975E10], [&quot;5-2023&quot;,9.302666553950008E9], [&quot;4-2015&quot;,2.1223580857799993E9], [&quot;5-2020&quot;,3.502672615215955E10], [&quot;4-2014&quot;,4.7450471903999996E8], [&quot;5-2021&quot;,2.633806601645993E10], [&quot;5-2026&quot;,2.7296187976E8], [&quot;5-2024&quot;,3.73184306469E9], [&quot;5-2025&quot;,1.0186125564499999E9], [&quot;3-2014&quot;,4.7450471903999996E8], [&quot;3-2015&quot;,1.85188642473E9], [&quot;3-2016&quot;,8.299453317250045E9], [&quot;3-2017&quot;,1.6187407322009808E10], [&quot;3-2018&quot;,2.4440308539079594E10], [&quot;6-2019&quot;,3.3908509230769363E10], [&quot;6-2018&quot;,2.630349067140969E10], [&quot;6-2017&quot;,1.8361947492529747E10], [&quot;6-2016&quot;,9.829864278060059E9], [&quot;6-2015&quot;,3.3701972780999985E9], [&quot;6-2014&quot;,4.7458071903999996E8], [&quot;7-2026&quot;,2.7296187976E8], [&quot;4-2024&quot;,3.97039302038E9], [&quot;4-2023&quot;,9.719083067520008E9], [&quot;4-2026&quot;,2.7296187976E8], [&quot;4-2025&quot;,1.1580044246999998E9], [&quot;7-2022&quot;,1.6064704844299986E10], [&quot;4-2020&quot;,3.574090467179954E10], [&quot;7-2023&quot;,8.407189437810003E9], [&quot;7-2024&quot;,3.3893666341899996E9], [&quot;4-2022&quot;,1.8177012515159973E10], [&quot;7-2025&quot;,8.3716645095E8], [&quot;4-2021&quot;,2.71837096970399E10], [&quot;7-2020&quot;,3.3867623606099514E10], [&quot;7-2021&quot;,2.5064500644559937E10], [&quot;9-2025&quot;,6.6949920795E8], [&quot;3-2022&quot;,1.870416780318997E10], [&quot;9-2024&quot;,2.9353607473299994E9], [&quot;3-2023&quot;,1.026253499813001E10], [&quot;3-2024&quot;,4.24416494912E9], [&quot;9-2026&quot;,1.6924090926E8], [&quot;3-2025&quot;,1.33038650733E9], [&quot;3-2026&quot;,3.4043131876E8], [&quot;9-2021&quot;,2.376912959579998E10], [&quot;9-2020&quot;,3.284630455585967E10], [&quot;9-2023&quot;,7.668273992420003E9], [&quot;9-2022&quot;,1.5034493047459986E10], [&quot;11-2020&quot;,3.131598629889977E10], [&quot;11-2021&quot;,2.2033464236699955E10], [&quot;11-2022&quot;,1.3636923725049982E10], [&quot;11-2023&quot;,6.585867424200001E9], [&quot;11-2024&quot;,2.43828609916E9], [&quot;11-2025&quot;,6.1307208531E8], [&quot;3-2020&quot;,3.607654683482949E10], [&quot;11-2026&quot;,7.926716301E7], [&quot;3-2021&quot;,2.7726268097249893E10], [&quot;1-2016&quot;,7.333180518400032E9], [&quot;7-2019&quot;,3.395128821873937E10], [&quot;1-2015&quot;,1.2987615159299998E9], [&quot;1-2014&quot;,4.7450471903999996E8], [&quot;7-2015&quot;,3.7707437721399994E9], [&quot;7-2016&quot;,1.0065035033470058E10], [&quot;7-2017&quot;,1.854409766380975E10], [&quot;7-2018&quot;,2.6501504930639694E10], [&quot;12-2025&quot;,6.0634341401E8], [&quot;3-2019&quot;,3.217891351041941E10], [&quot;12-2024&quot;,2.37445178346E9], [&quot;12-2026&quot;,6.4267163010000005E7], [&quot;7-2014&quot;,4.7458071903999996E8], [&quot;12-2021&quot;,2.1288781314469963E10], [&quot;12-2020&quot;,3.07240032964598E10], [&quot;12-2023&quot;,6.32683141381E9], [&quot;12-2022&quot;,1.3278410805819988E10], [&quot;12-2018&quot;,2.9203151567709473E10], [&quot;12-2017&quot;,2.1525370241929684E10], [&quot;12-2019&quot;,3.5754322531039406E10], [&quot;12-2014&quot;,6.976937897099999E8], [&quot;12-2016&quot;,1.353634527358992E10], [&quot;12-2015&quot;,6.071134472270017E9]]"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="scriptImports" type="xstring" value="// Your custom imports:%%00010import java.util.HashMap;%%00010import java.time.temporal.ChronoField;%%00010import java.time.temporal.TemporalField;%%00010import java.util.stream.Collectors;"/>
+        <entry key="scriptFields" type="xstring" value="// Your custom variables:%%00010HashMap&lt;String, Double&gt; monthCounts = new HashMap&lt;&gt;();%%00010TemporalField MONTH = ChronoField.MONTH_OF_YEAR;%%00010TemporalField YEAR = ChronoField.YEAR;%%00010"/>
+        <entry key="scriptBody" type="xstring" value="// Enter your code here:%%00010int y = c_startDate.get(YEAR);%%00010int m = c_startDate.get(MONTH);%%00010int endYear = c_endDate.get(YEAR);%%00010int endMonth = c_endDate.get(MONTH);%%00010%%00010while(true) {%%00010%%00009String key = String.format(&quot;%d-%d&quot;, m, y);%%00010%%00009monthCounts.compute(key, (String k, Double v) -&gt; v == null ? c_ecMaxContribution : (v + c_ecMaxContribution));%%00010%%00009if (m == endMonth &amp;&amp; y == endYear) break;%%00010%%00009m++;%%00010%%00009if (m == 13) {%%00010%%00009%%00009m = 1;%%00010%%00009%%00009y++;%%00009%%00010%%00009}%%00010}%%00010if (ROWINDEX == ROWCOUNT - 1)%%00010{%%00010out_res = &quot;[&quot; +monthCounts.entrySet().stream()%%00010    .map(e -&gt; &quot;[\&quot;&quot;+ e.getKey() + &quot;\&quot;&quot; + &quot;,&quot; + String.valueOf(e.getValue()) + &quot;]&quot;)%%00010    .collect(Collectors.joining(&quot;, &quot;))+&quot;]&quot;;%%00010} else {%%00010%%00009out_res = &quot;&quot;;%%00010}"/>
+        <config key="jarFiles">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="outCols">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="outVars">
+            <entry key="array-size" type="xint" value="1"/>
+            <config key="0">
+                <entry key="Name" type="xstring" value="result"/>
+                <entry key="JavaName" type="xstring" value="out_res"/>
+                <entry key="JavaType" type="xstring" value="java.lang.String"/>
+                <entry key="Type" type="xstring" value="STRING"/>
+                <entry key="replaceExisting" type="xboolean" value="false"/>
+            </config>
+        </config>
+        <config key="inCols">
+            <entry key="array-size" type="xint" value="5"/>
+            <config key="0">
+                <entry key="Name" type="xstring" value="startDate"/>
+                <entry key="JavaName" type="xstring" value="c_startDate"/>
+                <entry key="JavaType" type="xstring" value="java.time.LocalDate"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.time.localdate.LocalDateCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(LocalDateValue,class java.time.LocalDate,LocalDate)"/>
+            </config>
+            <config key="1">
+                <entry key="Name" type="xstring" value="endDate"/>
+                <entry key="JavaName" type="xstring" value="c_endDate"/>
+                <entry key="JavaType" type="xstring" value="java.time.LocalDate"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.time.localdate.LocalDateCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(LocalDateValue,class java.time.LocalDate,LocalDate)"/>
+            </config>
+            <config key="2">
+                <entry key="Name" type="xstring" value="coordinatorCountry"/>
+                <entry key="JavaName" type="xstring" value="c_coordinatorCountry"/>
+                <entry key="JavaType" type="xstring" value="java.lang.String"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(StringValue,class java.lang.String,String)"/>
+            </config>
+            <config key="3">
+                <entry key="Name" type="xstring" value="totalCost"/>
+                <entry key="JavaName" type="xstring" value="c_totalCost"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+            </config>
+            <config key="4">
+                <entry key="Name" type="xstring" value="ecMaxContribution"/>
+                <entry key="JavaName" type="xstring" value="c_ecMaxContribution"/>
+                <entry key="JavaType" type="xstring" value="java.lang.Double"/>
+                <config key="Type">
+                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+                    <entry key="is_null" type="xboolean" value="false"/>
+                </config>
+                <entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(DoubleValue,class java.lang.Double,Double)"/>
+            </config>
+        </config>
+        <config key="inVars">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <entry key="version" type="xstring" value="version 1.x"/>
+        <entry key="templateUUID" type="xstring" isnull="true" value=""/>
+        <entry key="runOnExecute" type="xboolean" value="false"/>
+        <config key="bundles">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Group max contrib"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="108"/>
+        <entry key="y-coordinate" type="xint" value="519"/>
+        <entry key="width" type="xint" value="104"/>
+        <entry key="height" type="xint" value="13"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="11"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.jsnippet.JavaSnippetNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Java Snippet"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.4.1.v202108201736"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Javasnippet"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.javasnippet.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.4.1.v202108201736"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Java Snippet"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

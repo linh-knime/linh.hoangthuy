@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">paolotamag</element><element xmlns="" form="date" name="Creation Date">2/7/2021/14:45:31 +02:00</element><element xmlns="" form="multiline" name="Comments">Refresh Button Widget Example: Dynamic Content 
+
+The new Refresh Button Widget released with KNIME 4.4 (July 2021) lets you build complex interactive views where you can partially re-execute the workflow inside the component. This new framework enables you to build with visual programming data apps that otherwise would require a team of full stack developers.&#xd;
+&#xd;
+To learn how to use the node we built a collection of examples. In this workflow we learn how to: &#xd;
+&#xd;
+dynamically change which node is being displayed or hidden in the composite view of the component.&#xd;
+&#xd;
+Download the workflow and open the component view (Right Click > Open Interactive View). To inspect how the workflow inside the component looks open the component: Right Click > Component > Open
+
+URL: Guided Analytics - knime.com https://www.knime.com/guided-analytics
+URL: Re-execution and Refresh Button Widget node - docs.knime.com https://docs.knime.com/2021-06/analytics_platform_components_guide/index.html#_widget_nodes
+TAGS: data app,refresh button,button,dynamic,webportal,guided analytics,visualization</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2021-08-13 12:33:48 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2021-08-13 12:32:30 +0200</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

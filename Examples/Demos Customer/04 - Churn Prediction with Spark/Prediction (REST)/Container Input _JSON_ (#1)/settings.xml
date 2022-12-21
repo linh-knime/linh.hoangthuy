@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="parameterName" type="xstring" value="input"/>
+<entry key="json" type="xstring" value="{&quot;model&quot;:&quot;my_gb_model&quot;,&quot;data&quot;:{&quot;VMail Message&quot;:&quot;25&quot;,&quot;Day Mins&quot;:&quot;265.1&quot;,&quot;Eve Mins&quot;:&quot;197.4&quot;,&quot;Night Mins&quot;:&quot;244.7&quot;,&quot;Intl Mins&quot;:&quot;10.0&quot;,&quot;CustServ Calls&quot;:&quot;1&quot;,&quot;Day Calls&quot;:&quot;110&quot;,&quot;Day Charge&quot;:&quot;45.07&quot;,&quot;Eve Calls&quot;:&quot;99&quot;,&quot;Eve Charge&quot;:&quot;16.78&quot;,&quot;Night Calls&quot;:&quot;91&quot;,&quot;Night Charge&quot;:&quot;11.01&quot;,&quot;Intl Calls&quot;:&quot;3&quot;,&quot;Intl Charge&quot;:&quot;2.7&quot;,&quot;Area Code&quot;:&quot;415&quot;,&quot;Phone&quot;:&quot;382-4657&quot;,&quot;Account Length&quot;:&quot;128&quot;,&quot;Int'l Plan&quot;:&quot;0&quot;,&quot;VMail Plan&quot;:&quot;1&quot;,&quot;State&quot;:&quot;KS&quot;}}"/>
+<entry key="description" type="xstring" value=""/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value=""/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="48"/>
+<entry key="y-coordinate" type="xint" value="379"/>
+<entry key="width" type="xint" value="104"/>
+<entry key="height" type="xint" value="13"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="11"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="factory" type="xstring" value="org.knime.json.node.input.JSONInputNodeFactory"/>
+<entry key="node-name" type="xstring" value="Container Input (JSON)"/>
+<entry key="node-bundle-name" type="xstring" value="JSON related functionality for KNIME"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.json"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.1.0.v201911110939"/>
+<entry key="node-feature-name" type="xstring" value="KNIME JSON-Processing"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.json.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.1.0.v201911110939"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Container Input (JSON)"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

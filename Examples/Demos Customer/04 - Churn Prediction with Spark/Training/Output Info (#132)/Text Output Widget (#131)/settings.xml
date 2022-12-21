@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="label" type="xstring" value=""/>
+        <entry key="description" type="xstring" value="Enter Description"/>
+        <entry key="hideInWizard" type="xboolean" value="false"/>
+        <entry key="customCSS" type="xstring" value=""/>
+        <entry key="textFormat" type="xstring" value="Html"/>
+        <entry key="text" type="xstring" value="&lt;style&gt;%%00010.content {%%00010%%00009width: 500px;%%00010%%00009margin: 5px auto !important;%%00010%%00009padding: 10px;%%00010%%00009border: 1px solid #ddd;%%00010%%00009border-radius: 5px;%%00010}%%00010%%00010.training-results-table {%%00010%%00009width: 300px;%%00010%%00009margin: 0 auto;%%00010%%00009border-spacing: 10px;%%00010}%%00010%%00010.training-results-table td {%%00010%%00009font-size: 44px;%%00010%%00009text-align: center;%%00010%%00009padding: 10px;%%00010%%00009background-color: #a7f2af;%%00010%%00009border: 2px solid darkgreen;%%00010}%%00010&lt;/style&gt;%%00010&lt;div class=&quot;content&quot;&gt;%%00010&lt;h2&gt;Training Successful&lt;/h2&gt;%%00010&lt;p&gt;$${Smodel-type}$$ model &amp;quot;$${Smodel-name}$$&amp;quot; was trained successfully.&lt;/p&gt;%%00010&lt;table class=&quot;training-results-table&quot;&gt;%%00010&lt;tbody&gt;%%00010%%00009&lt;tr&gt;&lt;td&gt;$${DAccuracy}$$&lt;/td&gt;&lt;td&gt;$${DCohen's kappa}$$&lt;/td&gt;&lt;/tr&gt;%%00010%%00009&lt;tr&gt;&lt;th&gt;Accuracy&lt;/th&gt;&lt;th&gt;Cohen's Kappa&lt;/th&gt;&lt;/tr&gt;%%00010&lt;/tbody&gt;%%00010&lt;/table&gt;%%00010&lt;p&gt;Model saved under: $${SfilePath_location}$$&lt;/p&gt;%%00010&lt;/div&gt;"/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Output information"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="528"/>
+        <entry key="y-coordinate" type="xint" value="259"/>
+        <entry key="width" type="xint" value="104"/>
+        <entry key="height" type="xint" value="13"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="11"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.js.base.node.widget.output.text.TextOutputWidgetNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Text Output Widget"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.0.v202112011347"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.2.v202203171029"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Text Output Widget"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports"/>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="feb59266-518f-42c5-8d4b-a44dee923339"/>
+    </config>
+</config>

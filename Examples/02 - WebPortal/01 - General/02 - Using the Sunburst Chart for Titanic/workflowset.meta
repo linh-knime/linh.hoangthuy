@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">wiswedel</element><element xmlns="" form="date" name="Creation Date">4/6/2017/13:42:13 +02:00</element><element xmlns="" form="multiline" name="Comments">Visualizing the Titanic Deaths using a Sunburst Chart
+
+This workflow shows the functionality of the Sunburst Chart. We here are visualizing the well known Titanic Data Set from the Kaggle Challenge. The sunburst chart here is used to visually inspect the ratio between class, gender and survival.
+
+Source: Titanic Data Set https://www.kaggle.com/c/titanic/data</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2018-08-28 14:59:15 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2021-08-23 10:45:20 +0200</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

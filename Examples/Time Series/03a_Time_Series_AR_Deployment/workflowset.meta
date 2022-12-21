@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">Maarit</element><element xmlns="" form="date" name="Creation Date">1/0/1970/1:0:0 +01:00</element><element xmlns="" form="multiline" name="Comments">Anomaly Detection. Time Series AR Deployment
+
+This workflow deploys a previously trained auto-regressive model for anomaly detection:&#xd;
+- Select the date for deployment. Two months of its past values must be available.&#xd;
+- Loop over each frequency column&#xd;
+- Apply the previously trained auto-regressive model to the data&#xd;
+- Calculate 1st level alarms based on the prediction errors&#xd;
+- Calculate 2nd level alarms as the moving average of the 1st level alarms&#xd;
+- Trigger an action if a 2nd level alarm is active&#xd;
+
+
+TAGS: anomaly detection,time series analysis,auto-regressive models,IoT,Internet of Things,deployment,call workflow,predictive maintenance,sensor</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2022-08-23 10:10:23 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2022-08-23 10:10:00 +0200</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

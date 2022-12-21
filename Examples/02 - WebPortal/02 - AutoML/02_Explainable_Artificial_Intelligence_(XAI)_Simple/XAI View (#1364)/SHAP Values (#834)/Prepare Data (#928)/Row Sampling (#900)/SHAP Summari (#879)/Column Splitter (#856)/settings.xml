@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="Filter Column Settings">
+            <entry key="filter-type" type="xstring" value="name_pattern"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="357"/>
+                <entry key="0" type="xstring" value="count"/>
+                <entry key="1" type="xstring" value="Pclass"/>
+                <entry key="2" type="xstring" value="Age"/>
+                <entry key="3" type="xstring" value="SibSp"/>
+                <entry key="4" type="xstring" value="1_-categorical_feat_enconded-_Survived"/>
+                <entry key="5" type="xstring" value="0_-categorical_feat_enconded-_Survived"/>
+                <entry key="6" type="xstring" value="Baclini, Miss. Eugenie_-categorical_feat_enconded-_Name"/>
+                <entry key="7" type="xstring" value="Andreasson, Mr. Paul Edvin_-categorical_feat_enconded-_Name"/>
+                <entry key="8" type="xstring" value="Allison, Master. Hudson Trevor_-categorical_feat_enconded-_Name"/>
+                <entry key="9" type="xstring" value="Newell, Miss. Marjorie_-categorical_feat_enconded-_Name"/>
+                <entry key="10" type="xstring" value="Palsson, Miss. Torborg Danira_-categorical_feat_enconded-_Name"/>
+                <entry key="11" type="xstring" value="Sirayanian, Mr. Orsen_-categorical_feat_enconded-_Name"/>
+                <entry key="12" type="xstring" value="Hedman, Mr. Oskar Arvid_-categorical_feat_enconded-_Name"/>
+                <entry key="13" type="xstring" value="LeRoy, Miss. Bertha_-categorical_feat_enconded-_Name"/>
+                <entry key="14" type="xstring" value="Rice, Master. George Hugh_-categorical_feat_enconded-_Name"/>
+                <entry key="15" type="xstring" value="Beckwith, Mr. Richard Leonard_-categorical_feat_enconded-_Name"/>
+                <entry key="16" type="xstring" value="Dimic, Mr. Jovan_-categorical_feat_enconded-_Name"/>
+                <entry key="17" type="xstring" value="Toomey, Miss. Ellen_-categorical_feat_enconded-_Name"/>
+                <entry key="18" type="xstring" value="Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)_-categorical_feat_enconded-_Name"/>
+                <entry key="19" type="xstring" value="Compton, Miss. Sara Rebecca_-categorical_feat_enconded-_Name"/>
+                <entry key="20" type="xstring" value="Allison, Miss. Helen Loraine_-categorical_feat_enconded-_Name"/>
+                <entry key="21" type="xstring" value="Stankovic, Mr. Ivan_-categorical_feat_enconded-_Name"/>
+                <entry key="22" type="xstring" value="Goldschmidt, Mr. George B_-categorical_feat_enconded-_Name"/>
+                <entry key="23" type="xstring" value="Reuchlin, Jonkheer. John George_-categorical_feat_enconded-_Name"/>
+                <entry key="24" type="xstring" value="Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)_-categorical_feat_enconded-_Name"/>
+                <entry key="25" type="xstring" value="West, Mrs. Edwy Arthur (Ada Mary Worth)_-categorical_feat_enconded-_Name"/>
+                <entry key="26" type="xstring" value="Hampe, Mr. Leon_-categorical_feat_enconded-_Name"/>
+                <entry key="27" type="xstring" value="Holverson, Mrs. Alexander Oskar (Mary Aline Towner)_-categorical_feat_enconded-_Name"/>
+                <entry key="28" type="xstring" value="Allison, Mrs. Hudson J C (Bessie Waldo Daniels)_-categorical_feat_enconded-_Name"/>
+                <entry key="29" type="xstring" value="Hassan, Mr. Houssein G N_-categorical_feat_enconded-_Name"/>
+                <entry key="30" type="xstring" value="Baclini, Miss. Marie Catherine_-categorical_feat_enconded-_Name"/>
+                <entry key="31" type="xstring" value="Skoog, Miss. Margit Elizabeth_-categorical_feat_enconded-_Name"/>
+                <entry key="32" type="xstring" value="Alexander, Mr. William_-categorical_feat_enconded-_Name"/>
+                <entry key="33" type="xstring" value="Hansen, Mr. Henrik Juul_-categorical_feat_enconded-_Name"/>
+                <entry key="34" type="xstring" value="Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)_-categorical_feat_enconded-_Name"/>
+                <entry key="35" type="xstring" value="Maenpaa, Mr. Matti Alexanteri_-categorical_feat_enconded-_Name"/>
+                <entry key="36" type="xstring" value="Matthews, Mr. William John_-categorical_feat_enconded-_Name"/>
+                <entry key="37" type="xstring" value="Walker, Mr. William Anderson_-categorical_feat_enconded-_Name"/>
+                <entry key="38" type="xstring" value="Norman, Mr. Robert Douglas_-categorical_feat_enconded-_Name"/>
+                <entry key="39" type="xstring" value="Panula, Mr. Jaako Arnold_-categorical_feat_enconded-_Name"/>
+                <entry key="40" type="xstring" value="Harris, Mr. Henry Birkhardt_-categorical_feat_enconded-_Name"/>
+                <entry key="41" type="xstring" value="Charters, Mr. David_-categorical_feat_enconded-_Name"/>
+                <entry key="42" type="xstring" value="Dantcheff, Mr. Ristiu_-categorical_feat_enconded-_Name"/>
+                <entry key="43" type="xstring" value="Dahl, Mr. Karl Edwart_-categorical_feat_enconded-_Name"/>
+                <entry key="44" type="xstring" value="Troutt, Miss. Edwina Celia Winnie_-categorical_feat_enconded-_Name"/>
+                <entry key="45" type="xstring" value="Clarke, Mrs. Charles V (Ada Maria Winfield)_-categorical_feat_enconded-_Name"/>
+                <entry key="46" type="xstring" value="Patchett, Mr. George_-categorical_feat_enconded-_Name"/>
+                <entry key="47" type="xstring" value="Panula, Master. Urho Abraham_-categorical_feat_enconded-_Name"/>
+                <entry key="48" type="xstring" value="Najib, Miss. Adele Kiamie Jane_-categorical_feat_enconded-_Name"/>
+                <entry key="49" type="xstring" value="Silvey, Mrs. William Baird (Alice Munger)_-categorical_feat_enconded-_Name"/>
+                <entry key="50" type="xstring" value="Fischer, Mr. Eberhard Thelander_-categorical_feat_enconded-_Name"/>
+                <entry key="51" type="xstring" value="Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)_-categorical_feat_enconded-_Name"/>
+                <entry key="52" type="xstring" value="Pain, Dr. Alfred_-categorical_feat_enconded-_Name"/>
+                <entry key="53" type="xstring" value="Kirkland, Rev. Charles Leonard_-categorical_feat_enconded-_Name"/>
+                <entry key="54" type="xstring" value="Ali, Mr. William_-categorical_feat_enconded-_Name"/>
+                <entry key="55" type="xstring" value="Slemen, Mr. Richard James_-categorical_feat_enconded-_Name"/>
+                <entry key="56" type="xstring" value="Vander Planke, Mr. Leo Edmondus_-categorical_feat_enconded-_Name"/>
+                <entry key="57" type="xstring" value="Buss, Miss. Kate_-categorical_feat_enconded-_Name"/>
+                <entry key="58" type="xstring" value="Sawyer, Mr. Frederick Charles_-categorical_feat_enconded-_Name"/>
+                <entry key="59" type="xstring" value="Jarvis, Mr. John Denzil_-categorical_feat_enconded-_Name"/>
+                <entry key="60" type="xstring" value="Birkeland, Mr. Hans Martin Monsen_-categorical_feat_enconded-_Name"/>
+                <entry key="61" type="xstring" value="Ponesell, Mr. Martin_-categorical_feat_enconded-_Name"/>
+                <entry key="62" type="xstring" value="Duran y More, Miss. Asuncion_-categorical_feat_enconded-_Name"/>
+                <entry key="63" type="xstring" value="Skoog, Master. Harald_-categorical_feat_enconded-_Name"/>
+                <entry key="64" type="xstring" value="Rosblom, Mr. Viktor Richard_-categorical_feat_enconded-_Name"/>
+                <entry key="65" type="xstring" value="Pears, Mrs. Thomas (Edith Wearne)_-categorical_feat_enconded-_Name"/>
+                <entry key="66" type="xstring" value="Homer, Mr. Harry (Mr E Haven)_-categorical_feat_enconded-_Name"/>
+                <entry key="67" type="xstring" value="Coleff, Mr. Satio_-categorical_feat_enconded-_Name"/>
+                <entry key="68" type="xstring" value="Goodwin, Mrs. Frederick (Augusta Tyler)_-categorical_feat_enconded-_Name"/>
+                <entry key="69" type="xstring" value="Dean, Mr. Bertram Frank_-categorical_feat_enconded-_Name"/>
+                <entry key="70" type="xstring" value="Perreault, Miss. Anne_-categorical_feat_enconded-_Name"/>
+                <entry key="71" type="xstring" value="Van Impe, Mr. Jean Baptiste_-categorical_feat_enconded-_Name"/>
+                <entry key="72" type="xstring" value="Kantor, Mrs. Sinai (Miriam Sternin)_-categorical_feat_enconded-_Name"/>
+                <entry key="73" type="xstring" value="Tikkanen, Mr. Juho_-categorical_feat_enconded-_Name"/>
+                <entry key="74" type="xstring" value="Carter, Mrs. William Ernest (Lucile Polk)_-categorical_feat_enconded-_Name"/>
+                <entry key="75" type="xstring" value="Nye, Mrs. (Elizabeth Ramell)_-categorical_feat_enconded-_Name"/>
+                <entry key="76" type="xstring" value="Cumings, Mrs. John Bradley (Florence Briggs Thayer)_-categorical_feat_enconded-_Name"/>
+                <entry key="77" type="xstring" value="Brown, Mrs. James Joseph (Margaret Tobin)_-categorical_feat_enconded-_Name"/>
+                <entry key="78" type="xstring" value="Johnson, Miss. Eleanor Ileen_-categorical_feat_enconded-_Name"/>
+                <entry key="79" type="xstring" value="Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)_-categorical_feat_enconded-_Name"/>
+                <entry key="80" type="xstring" value="Hale, Mr. Reginald_-categorical_feat_enconded-_Name"/>
+                <entry key="81" type="xstring" value="Danbom, Mr. Ernst Gilbert_-categorical_feat_enconded-_Name"/>
+                <entry key="82" type="xstring" value="Turcin, Mr. Stjepan_-categorical_feat_enconded-_Name"/>
+                <entry key="83" type="xstring" value="Leeni, Mr. Fahim (Philip Zenni)_-categorical_feat_enconded-_Name"/>
+                <entry key="84" type="xstring" value="Vovk, Mr. Janko_-categorical_feat_enconded-_Name"/>
+                <entry key="85" type="xstring" value="Torber, Mr. Ernst William_-categorical_feat_enconded-_Name"/>
+                <entry key="86" type="xstring" value="Humblen, Mr. Adolf Mathias Nicolai Olsen_-categorical_feat_enconded-_Name"/>
+                <entry key="87" type="xstring" value="Braund, Mr. Lewis Richard_-categorical_feat_enconded-_Name"/>
+                <entry key="88" type="xstring" value="Rice, Mrs. William (Margaret Norton)_-categorical_feat_enconded-_Name"/>
+                <entry key="89" type="xstring" value="Perkin, Mr. John Henry_-categorical_feat_enconded-_Name"/>
+                <entry key="90" type="xstring" value="Salonen, Mr. Johan Werner_-categorical_feat_enconded-_Name"/>
+                <entry key="91" type="xstring" value="Richards, Master. George Sibley_-categorical_feat_enconded-_Name"/>
+                <entry key="92" type="xstring" value="Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)_-categorical_feat_enconded-_Name"/>
+                <entry key="93" type="xstring" value="Theobald, Mr. Thomas Leonard_-categorical_feat_enconded-_Name"/>
+                <entry key="94" type="xstring" value="Vande Velde, Mr. Johannes Joseph_-categorical_feat_enconded-_Name"/>
+                <entry key="95" type="xstring" value="Troupiansky, Mr. Moses Aaron_-categorical_feat_enconded-_Name"/>
+                <entry key="96" type="xstring" value="Ward, Miss. Anna_-categorical_feat_enconded-_Name"/>
+                <entry key="97" type="xstring" value="Bengtsson, Mr. John Viktor_-categorical_feat_enconded-_Name"/>
+                <entry key="98" type="xstring" value="Duff Gordon, Sir. Cosmo Edmund (Mr Morgan)_-categorical_feat_enconded-_Name"/>
+                <entry key="99" type="xstring" value="Laroche, Mr. Joseph Philippe Lemercier_-categorical_feat_enconded-_Name"/>
+                <entry key="100" type="xstring" value="Morley, Mr. Henry Samuel (Mr Henry Marshall)_-categorical_feat_enconded-_Name"/>
+                <entry key="101" type="xstring" value="Nirva, Mr. Iisakki Antino Aijo_-categorical_feat_enconded-_Name"/>
+                <entry key="102" type="xstring" value="Shutes, Miss. Elizabeth W_-categorical_feat_enconded-_Name"/>
+                <entry key="103" type="xstring" value="Futrelle, Mr. Jacques Heath_-categorical_feat_enconded-_Name"/>
+                <entry key="104" type="xstring" value="Thayer, Mrs. John Borland (Marian Longstreth Morris)_-categorical_feat_enconded-_Name"/>
+                <entry key="105" type="xstring" value="Kink-Heilmann, Miss. Luise Gretchen_-categorical_feat_enconded-_Name"/>
+                <entry key="106" type="xstring" value="Johnson, Mr. Alfred_-categorical_feat_enconded-_Name"/>
+                <entry key="107" type="xstring" value="Partner, Mr. Austen_-categorical_feat_enconded-_Name"/>
+                <entry key="108" type="xstring" value="Drew, Mrs. James Vivian (Lulu Thorne Christian)_-categorical_feat_enconded-_Name"/>
+                <entry key="109" type="xstring" value="Lindell, Mr. Edvard Bengtsson_-categorical_feat_enconded-_Name"/>
+                <entry key="110" type="xstring" value="Astor, Mrs. John Jacob (Madeleine Talmadge Force)_-categorical_feat_enconded-_Name"/>
+                <entry key="111" type="xstring" value="Longley, Miss. Gretchen Fiske_-categorical_feat_enconded-_Name"/>
+                <entry key="112" type="xstring" value="Heininen, Miss. Wendla Maria_-categorical_feat_enconded-_Name"/>
+                <entry key="113" type="xstring" value="Blackwell, Mr. Stephen Weart_-categorical_feat_enconded-_Name"/>
+                <entry key="114" type="xstring" value="Blank, Mr. Henry_-categorical_feat_enconded-_Name"/>
+                <entry key="115" type="xstring" value="Jussila, Miss. Mari Aina_-categorical_feat_enconded-_Name"/>
+                <entry key="116" type="xstring" value="Hickman, Mr. Lewis_-categorical_feat_enconded-_Name"/>
+                <entry key="117" type="xstring" value="Davis, Miss. Mary_-categorical_feat_enconded-_Name"/>
+                <entry key="118" type="xstring" value="Palsson, Mrs. Nils (Alma Cornelia Berglund)_-categorical_feat_enconded-_Name"/>
+                <entry key="119" type="xstring" value="Smith, Miss. Marion Elsie_-categorical_feat_enconded-_Name"/>
+                <entry key="120" type="xstring" value="Bjornstrom-Steffansson, Mr. Mauritz Hakan_-categorical_feat_enconded-_Name"/>
+                <entry key="121" type="xstring" value="Lurette, Miss. Elise_-categorical_feat_enconded-_Name"/>
+                <entry key="122" type="xstring" value="Mitchell, Mr. Henry Michael_-categorical_feat_enconded-_Name"/>
+                <entry key="123" type="xstring" value="Douglas, Mr. Walter Donald_-categorical_feat_enconded-_Name"/>
+                <entry key="124" type="xstring" value="Richards, Mrs. Sidney (Emily Hocking)_-categorical_feat_enconded-_Name"/>
+                <entry key="125" type="xstring" value="Bidois, Miss. Rosalie_-categorical_feat_enconded-_Name"/>
+                <entry key="126" type="xstring" value="Herman, Mrs. Samuel (Jane Laver)_-categorical_feat_enconded-_Name"/>
+                <entry key="127" type="xstring" value="Hart, Mrs. Benjamin (Esther Ada Bloomfield)_-categorical_feat_enconded-_Name"/>
+                <entry key="128" type="xstring" value="Strom, Miss. Telma Matilda_-categorical_feat_enconded-_Name"/>
+                <entry key="129" type="xstring" value="Elias, Mr. Joseph Jr_-categorical_feat_enconded-_Name"/>
+                <entry key="130" type="xstring" value="Mellors, Mr. William John_-categorical_feat_enconded-_Name"/>
+                <entry key="131" type="xstring" value="Karun, Miss. Manca_-categorical_feat_enconded-_Name"/>
+                <entry key="132" type="xstring" value="Andersson, Miss. Sigrid Elisabeth_-categorical_feat_enconded-_Name"/>
+                <entry key="133" type="xstring" value="Markoff, Mr. Marin_-categorical_feat_enconded-_Name"/>
+                <entry key="134" type="xstring" value="Hocking, Mr. Richard George_-categorical_feat_enconded-_Name"/>
+                <entry key="135" type="xstring" value="Kimball, Mr. Edwin Nelson Jr_-categorical_feat_enconded-_Name"/>
+                <entry key="136" type="xstring" value="Shelley, Mrs. William (Imanita Parrish Hall)_-categorical_feat_enconded-_Name"/>
+                <entry key="137" type="xstring" value="Nasser, Mr. Nicholas_-categorical_feat_enconded-_Name"/>
+                <entry key="138" type="xstring" value="Ryerson, Miss. Emily Borie_-categorical_feat_enconded-_Name"/>
+                <entry key="139" type="xstring" value="Mayne, Mlle. Berthe Antonine (Mrs de Villiers)_-categorical_feat_enconded-_Name"/>
+                <entry key="140" type="xstring" value="Edvardsson, Mr. Gustaf Hjalmar_-categorical_feat_enconded-_Name"/>
+                <entry key="141" type="xstring" value="Harris, Mr. Walter_-categorical_feat_enconded-_Name"/>
+                <entry key="142" type="xstring" value="Carter, Rev. Ernest Courtenay_-categorical_feat_enconded-_Name"/>
+                <entry key="143" type="xstring" value="Robins, Mrs. Alexander A (Grace Charity Laury)_-categorical_feat_enconded-_Name"/>
+                <entry key="144" type="xstring" value="Wick, Miss. Mary Natalie_-categorical_feat_enconded-_Name"/>
+                <entry key="145" type="xstring" value="Daly, Mr. Eugene Patrick_-categorical_feat_enconded-_Name"/>
+                <entry key="146" type="xstring" value="Baxter, Mr. Quigg Edmond_-categorical_feat_enconded-_Name"/>
+                <entry key="147" type="xstring" value="Eklund, Mr. Hans Linus_-categorical_feat_enconded-_Name"/>
+                <entry key="148" type="xstring" value="Balkic, Mr. Cerin_-categorical_feat_enconded-_Name"/>
+                <entry key="149" type="xstring" value="Lahtinen, Mrs. William (Anna Sylfven)_-categorical_feat_enconded-_Name"/>
+                <entry key="150" type="xstring" value="Somerton, Mr. Francis William_-categorical_feat_enconded-_Name"/>
+                <entry key="151" type="xstring" value="Goldsmith, Mrs. Frank John (Emily Alice Brown)_-categorical_feat_enconded-_Name"/>
+                <entry key="152" type="xstring" value="Larsson, Mr. August Viktor_-categorical_feat_enconded-_Name"/>
+                <entry key="153" type="xstring" value="Millet, Mr. Francis Davis_-categorical_feat_enconded-_Name"/>
+                <entry key="154" type="xstring" value="Johansson, Mr. Erik_-categorical_feat_enconded-_Name"/>
+                <entry key="155" type="xstring" value="Sinkkonen, Miss. Anna_-categorical_feat_enconded-_Name"/>
+                <entry key="156" type="xstring" value="Madill, Miss. Georgette Alexandra_-categorical_feat_enconded-_Name"/>
+                <entry key="157" type="xstring" value="van Billiard, Mr. Austin Blyler_-categorical_feat_enconded-_Name"/>
+                <entry key="158" type="xstring" value="Davies, Mr. Charles Henry_-categorical_feat_enconded-_Name"/>
+                <entry key="159" type="xstring" value="Lundahl, Mr. Johan Svensson_-categorical_feat_enconded-_Name"/>
+                <entry key="160" type="xstring" value="Cann, Mr. Ernest Charles_-categorical_feat_enconded-_Name"/>
+                <entry key="161" type="xstring" value="Greenberg, Mr. Samuel_-categorical_feat_enconded-_Name"/>
+                <entry key="162" type="xstring" value="Hanna, Mr. Mansour_-categorical_feat_enconded-_Name"/>
+                <entry key="163" type="xstring" value="Skoog, Mrs. William (Anna Bernhardina Karlsson)_-categorical_feat_enconded-_Name"/>
+                <entry key="164" type="xstring" value="Becker, Master. Richard F_-categorical_feat_enconded-_Name"/>
+                <entry key="165" type="xstring" value="Harper, Mr. Henry Sleeper_-categorical_feat_enconded-_Name"/>
+                <entry key="166" type="xstring" value="Sedgwick, Mr. Charles Frederick Waddington_-categorical_feat_enconded-_Name"/>
+                <entry key="167" type="xstring" value="Bourke, Mr. John_-categorical_feat_enconded-_Name"/>
+                <entry key="168" type="xstring" value="Williams, Mr. Charles Duane_-categorical_feat_enconded-_Name"/>
+                <entry key="169" type="xstring" value="Strandberg, Miss. Ida Sofia_-categorical_feat_enconded-_Name"/>
+                <entry key="170" type="xstring" value="Strom, Mrs. Wilhelm (Elna Matilda Persson)_-categorical_feat_enconded-_Name"/>
+                <entry key="171" type="xstring" value="Ling, Mr. Lee_-categorical_feat_enconded-_Name"/>
+                <entry key="172" type="xstring" value="Jenkin, Mr. Stephen Curnow_-categorical_feat_enconded-_Name"/>
+                <entry key="173" type="xstring" value="Dooley, Mr. Patrick_-categorical_feat_enconded-_Name"/>
+                <entry key="174" type="xstring" value="Barton, Mr. David John_-categorical_feat_enconded-_Name"/>
+                <entry key="175" type="xstring" value="Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)_-categorical_feat_enconded-_Name"/>
+                <entry key="176" type="xstring" value="Nicholls, Mr. Joseph Charles_-categorical_feat_enconded-_Name"/>
+                <entry key="177" type="xstring" value="Zabour, Miss. Hileni_-categorical_feat_enconded-_Name"/>
+                <entry key="178" type="xstring" value="Hirvonen, Miss. Hildur E_-categorical_feat_enconded-_Name"/>
+                <entry key="179" type="xstring" value="Karlsson, Mr. Nils August_-categorical_feat_enconded-_Name"/>
+                <entry key="180" type="xstring" value="Carlsson, Mr. August Sigfrid_-categorical_feat_enconded-_Name"/>
+                <entry key="181" type="xstring" value="Ridsdale, Miss. Lucy_-categorical_feat_enconded-_Name"/>
+                <entry key="182" type="xstring" value="Petranec, Miss. Matilda_-categorical_feat_enconded-_Name"/>
+                <entry key="183" type="xstring" value="Goodwin, Master. Harold Victor_-categorical_feat_enconded-_Name"/>
+                <entry key="184" type="xstring" value="Andersen-Jensen, Miss. Carla Christine Nielsine_-categorical_feat_enconded-_Name"/>
+                <entry key="185" type="xstring" value="Baxter, Mrs. James (Helene DeLaudeniere Chaput)_-categorical_feat_enconded-_Name"/>
+                <entry key="186" type="xstring" value="Chip, Mr. Chang_-categorical_feat_enconded-_Name"/>
+                <entry key="187" type="xstring" value="Meo, Mr. Alfonzo_-categorical_feat_enconded-_Name"/>
+                <entry key="188" type="xstring" value="Cacic, Miss. Marija_-categorical_feat_enconded-_Name"/>
+                <entry key="189" type="xstring" value="Ryerson, Miss. Susan Parker Suzette_-categorical_feat_enconded-_Name"/>
+                <entry key="190" type="xstring" value="Andersson, Miss. Ebba Iris Alfrida_-categorical_feat_enconded-_Name"/>
+                <entry key="191" type="xstring" value="Warren, Mrs. Frank Manley (Anna Sophia Atkinson)_-categorical_feat_enconded-_Name"/>
+                <entry key="192" type="xstring" value="Augustsson, Mr. Albert_-categorical_feat_enconded-_Name"/>
+                <entry key="193" type="xstring" value="Gavey, Mr. Lawrence_-categorical_feat_enconded-_Name"/>
+                <entry key="194" type="xstring" value="Sivola, Mr. Antti Wilhelm_-categorical_feat_enconded-_Name"/>
+                <entry key="195" type="xstring" value="Hunt, Mr. George Henry_-categorical_feat_enconded-_Name"/>
+                <entry key="196" type="xstring" value="Nicola-Yarred, Master. Elias_-categorical_feat_enconded-_Name"/>
+                <entry key="197" type="xstring" value="Sandstrom, Miss. Marguerite Rut_-categorical_feat_enconded-_Name"/>
+                <entry key="198" type="xstring" value="Yrois, Miss. Henriette (Mrs Harbeck)_-categorical_feat_enconded-_Name"/>
+                <entry key="199" type="xstring" value="Olsen, Mr. Henry Margido_-categorical_feat_enconded-_Name"/>
+                <entry key="200" type="xstring" value="Barbara, Mrs. (Catherine David)_-categorical_feat_enconded-_Name"/>
+                <entry key="201" type="xstring" value="Pettersson, Miss. Ellen Natalia_-categorical_feat_enconded-_Name"/>
+                <entry key="202" type="xstring" value="Pavlovic, Mr. Stefo_-categorical_feat_enconded-_Name"/>
+                <entry key="203" type="xstring" value="Svensson, Mr. Johan_-categorical_feat_enconded-_Name"/>
+                <entry key="204" type="xstring" value="Francatelli, Miss. Laura Mabel_-categorical_feat_enconded-_Name"/>
+                <entry key="205" type="xstring" value="Andersson, Master. Sigvard Harald Elias_-categorical_feat_enconded-_Name"/>
+                <entry key="206" type="xstring" value="Coutts, Master. William Loch William_-categorical_feat_enconded-_Name"/>
+                <entry key="207" type="xstring" value="Ball, Mrs. (Ada E Hall)_-categorical_feat_enconded-_Name"/>
+                <entry key="208" type="xstring" value="Lovell, Mr. John Hall (Henry)_-categorical_feat_enconded-_Name"/>
+                <entry key="209" type="xstring" value="Ilett, Miss. Bertha_-categorical_feat_enconded-_Name"/>
+                <entry key="210" type="xstring" value="Dowdell, Miss. Elizabeth_-categorical_feat_enconded-_Name"/>
+                <entry key="211" type="xstring" value="Collander, Mr. Erik Gustaf_-categorical_feat_enconded-_Name"/>
+                <entry key="212" type="xstring" value="Collyer, Mr. Harvey_-categorical_feat_enconded-_Name"/>
+                <entry key="213" type="xstring" value="Maioni, Miss. Roberta_-categorical_feat_enconded-_Name"/>
+                <entry key="214" type="xstring" value="Chambers, Mr. Norman Campbell_-categorical_feat_enconded-_Name"/>
+                <entry key="215" type="xstring" value="Olsson, Miss. Elina_-categorical_feat_enconded-_Name"/>
+                <entry key="216" type="xstring" value="Allum, Mr. Owen George_-categorical_feat_enconded-_Name"/>
+                <entry key="217" type="xstring" value="Green, Mr. George Henry_-categorical_feat_enconded-_Name"/>
+                <entry key="218" type="xstring" value="Carter, Mrs. Ernest Courtenay (Lilian Hughes)_-categorical_feat_enconded-_Name"/>
+                <entry key="219" type="xstring" value="Adams, Mr. John_-categorical_feat_enconded-_Name"/>
+                <entry key="220" type="xstring" value="Jensen, Mr. Niels Peder_-categorical_feat_enconded-_Name"/>
+                <entry key="221" type="xstring" value="Markun, Mr. Johann_-categorical_feat_enconded-_Name"/>
+                <entry key="222" type="xstring" value="Hays, Mrs. Charles Melville (Clara Jennings Gregg)_-categorical_feat_enconded-_Name"/>
+                <entry key="223" type="xstring" value="Ringhini, Mr. Sante_-categorical_feat_enconded-_Name"/>
+                <entry key="224" type="xstring" value="Pears, Mr. Thomas Clinton_-categorical_feat_enconded-_Name"/>
+                <entry key="225" type="xstring" value="Collyer, Mrs. Harvey (Charlotte Annie Tate)_-categorical_feat_enconded-_Name"/>
+                <entry key="226" type="xstring" value="Calderhead, Mr. Edward Pennington_-categorical_feat_enconded-_Name"/>
+                <entry key="227" type="xstring" value="Youseff, Mr. Gerious_-categorical_feat_enconded-_Name"/>
+                <entry key="228" type="xstring" value="Badt, Mr. Mohamed_-categorical_feat_enconded-_Name"/>
+                <entry key="229" type="xstring" value="Stephenson, Mrs. Walter Bertram (Martha Eustis)_-categorical_feat_enconded-_Name"/>
+                <entry key="230" type="xstring" value="Sutton, Mr. Frederick_-categorical_feat_enconded-_Name"/>
+                <entry key="231" type="xstring" value="Moen, Mr. Sigurd Hansen_-categorical_feat_enconded-_Name"/>
+                <entry key="232" type="xstring" value="Ford, Mr. William Neal_-categorical_feat_enconded-_Name"/>
+                <entry key="233" type="xstring" value="Hansen, Mr. Henry Damsgaard_-categorical_feat_enconded-_Name"/>
+                <entry key="234" type="xstring" value="Ostby, Mr. Engelhart Cornelius_-categorical_feat_enconded-_Name"/>
+                <entry key="235" type="xstring" value="Dakic, Mr. Branko_-categorical_feat_enconded-_Name"/>
+                <entry key="236" type="xstring" value="Sivic, Mr. Husein_-categorical_feat_enconded-_Name"/>
+                <entry key="237" type="xstring" value="Madsen, Mr. Fridtjof Arne_-categorical_feat_enconded-_Name"/>
+                <entry key="238" type="xstring" value="Hippach, Miss. Jean Gertrude_-categorical_feat_enconded-_Name"/>
+                <entry key="239" type="xstring" value="Hakkarainen, Mr. Pekka Pietari_-categorical_feat_enconded-_Name"/>
+                <entry key="240" type="xstring" value="Hosono, Mr. Masabumi_-categorical_feat_enconded-_Name"/>
+                <entry key="241" type="xstring" value="Pekoniemi, Mr. Edvard_-categorical_feat_enconded-_Name"/>
+                <entry key="242" type="xstring" value="Greenfield, Mr. William Bertram_-categorical_feat_enconded-_Name"/>
+                <entry key="243" type="xstring" value="Goodwin, Miss. Lillian Amy_-categorical_feat_enconded-_Name"/>
+                <entry key="244" type="xstring" value="Holm, Mr. John Fredrik Alexander_-categorical_feat_enconded-_Name"/>
+                <entry key="245" type="xstring" value="Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)_-categorical_feat_enconded-_Name"/>
+                <entry key="246" type="xstring" value="Jensen, Mr. Svend Lauritz_-categorical_feat_enconded-_Name"/>
+                <entry key="247" type="xstring" value="Tornquist, Mr. William Henry_-categorical_feat_enconded-_Name"/>
+                <entry key="248" type="xstring" value="Bracken, Mr. James H_-categorical_feat_enconded-_Name"/>
+                <entry key="249" type="xstring" value="Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)_-categorical_feat_enconded-_Name"/>
+                <entry key="250" type="xstring" value="Dick, Mrs. Albert Adrian (Vera Gillespie)_-categorical_feat_enconded-_Name"/>
+                <entry key="251" type="xstring" value="Serepeca, Miss. Augusta_-categorical_feat_enconded-_Name"/>
+                <entry key="252" type="xstring" value="Skoog, Mr. Wilhelm_-categorical_feat_enconded-_Name"/>
+                <entry key="253" type="xstring" value="Marvin, Mr. Daniel Warner_-categorical_feat_enconded-_Name"/>
+                <entry key="254" type="xstring" value="Vestrom, Miss. Hulda Amanda Adolfina_-categorical_feat_enconded-_Name"/>
+                <entry key="255" type="xstring" value="Harder, Mr. George Achilles_-categorical_feat_enconded-_Name"/>
+                <entry key="256" type="xstring" value="Baclini, Mrs. Solomon (Latifa Qurban)_-categorical_feat_enconded-_Name"/>
+                <entry key="257" type="xstring" value="Nakid, Miss. Maria (Mary)_-categorical_feat_enconded-_Name"/>
+                <entry key="258" type="xstring" value="Ahlin, Mrs. Johan (Johanna Persdotter Larsson)_-categorical_feat_enconded-_Name"/>
+                <entry key="259" type="xstring" value="Fahlstrom, Mr. Arne Jonas_-categorical_feat_enconded-_Name"/>
+                <entry key="260" type="xstring" value="Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)_-categorical_feat_enconded-_Name"/>
+                <entry key="261" type="xstring" value="Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)_-categorical_feat_enconded-_Name"/>
+                <entry key="262" type="xstring" value="Dick, Mr. Albert Adrian_-categorical_feat_enconded-_Name"/>
+                <entry key="263" type="xstring" value="Adahl, Mr. Mauritz Nils Martin_-categorical_feat_enconded-_Name"/>
+                <entry key="264" type="xstring" value="Cohen, Mr. Gurshon Gus_-categorical_feat_enconded-_Name"/>
+                <entry key="265" type="xstring" value="Wheadon, Mr. Edward H_-categorical_feat_enconded-_Name"/>
+                <entry key="266" type="xstring" value="Guggenheim, Mr. Benjamin_-categorical_feat_enconded-_Name"/>
+                <entry key="267" type="xstring" value="Frauenthal, Dr. Henry William_-categorical_feat_enconded-_Name"/>
+                <entry key="268" type="xstring" value="Morley, Mr. William_-categorical_feat_enconded-_Name"/>
+                <entry key="269" type="xstring" value="Carr, Miss. Helen Ellen_-categorical_feat_enconded-_Name"/>
+                <entry key="270" type="xstring" value="Andrew, Mr. Edgardo Samuel_-categorical_feat_enconded-_Name"/>
+                <entry key="271" type="xstring" value="Leonard, Mr. Lionel_-categorical_feat_enconded-_Name"/>
+                <entry key="272" type="xstring" value="Elias, Mr. Tannous_-categorical_feat_enconded-_Name"/>
+                <entry key="273" type="xstring" value="Nysveen, Mr. Johan Hansen_-categorical_feat_enconded-_Name"/>
+                <entry key="274" type="xstring" value="Coutts, Master. Eden Leslie Neville_-categorical_feat_enconded-_Name"/>
+                <entry key="275" type="xstring" value="Niskanen, Mr. Juha_-categorical_feat_enconded-_Name"/>
+                <entry key="276" type="xstring" value="Andersson, Mr. August Edvard (Wennerstrom)_-categorical_feat_enconded-_Name"/>
+                <entry key="277" type="xstring" value="Aubart, Mme. Leontine Pauline_-categorical_feat_enconded-_Name"/>
+                <entry key="278" type="xstring" value="Chapman, Mr. John Henry_-categorical_feat_enconded-_Name"/>
+                <entry key="279" type="xstring" value="Graham, Mr. George Edward_-categorical_feat_enconded-_Name"/>
+                <entry key="280" type="xstring" value="Appleton, Mrs. Edward Dale (Charlotte Lamson)_-categorical_feat_enconded-_Name"/>
+                <entry key="281" type="xstring" value="Crosby, Capt. Edward Gifford_-categorical_feat_enconded-_Name"/>
+                <entry key="282" type="xstring" value="Daly, Mr. Peter Denis _-categorical_feat_enconded-_Name"/>
+                <entry key="283" type="xstring" value="Anderson, Mr. Harry_-categorical_feat_enconded-_Name"/>
+                <entry key="284" type="xstring" value="Berglund, Mr. Karl Ivar Sven_-categorical_feat_enconded-_Name"/>
+                <entry key="285" type="xstring" value="Mack, Mrs. (Mary)_-categorical_feat_enconded-_Name"/>
+                <entry key="286" type="xstring" value="Cribb, Mr. John Hatfield_-categorical_feat_enconded-_Name"/>
+                <entry key="287" type="xstring" value="Coleridge, Mr. Reginald Charles_-categorical_feat_enconded-_Name"/>
+                <entry key="288" type="xstring" value="Lemberopolous, Mr. Peter L_-categorical_feat_enconded-_Name"/>
+                <entry key="289" type="xstring" value="Taussig, Mrs. Emil (Tillie Mandelbaum)_-categorical_feat_enconded-_Name"/>
+                <entry key="290" type="xstring" value="Hickman, Mr. Stanley George_-categorical_feat_enconded-_Name"/>
+                <entry key="291" type="xstring" value="Sjoblom, Miss. Anna Sofia_-categorical_feat_enconded-_Name"/>
+                <entry key="292" type="xstring" value="Cavendish, Mr. Tyrell William_-categorical_feat_enconded-_Name"/>
+                <entry key="293" type="xstring" value="Bazzani, Miss. Albina_-categorical_feat_enconded-_Name"/>
+                <entry key="294" type="xstring" value="Jonsson, Mr. Carl_-categorical_feat_enconded-_Name"/>
+                <entry key="295" type="xstring" value="Andrews, Mr. Thomas Jr_-categorical_feat_enconded-_Name"/>
+                <entry key="296" type="xstring" value="Turpin, Mr. William John Robert_-categorical_feat_enconded-_Name"/>
+                <entry key="297" type="xstring" value="Penasco y Castellana, Mr. Victor de Satode_-categorical_feat_enconded-_Name"/>
+                <entry key="298" type="xstring" value="Beesley, Mr. Lawrence_-categorical_feat_enconded-_Name"/>
+                <entry key="299" type="xstring" value="Minahan, Miss. Daisy E_-categorical_feat_enconded-_Name"/>
+                <entry key="300" type="xstring" value="Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)_-categorical_feat_enconded-_Name"/>
+                <entry key="301" type="xstring" value="Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)_-categorical_feat_enconded-_Name"/>
+                <entry key="302" type="xstring" value="Carrau, Mr. Francisco M_-categorical_feat_enconded-_Name"/>
+                <entry key="303" type="xstring" value="Graham, Miss. Margaret Edith_-categorical_feat_enconded-_Name"/>
+                <entry key="304" type="xstring" value="McKane, Mr. Peter David_-categorical_feat_enconded-_Name"/>
+                <entry key="305" type="xstring" value="Gilnagh, Miss. Katherine Katie_-categorical_feat_enconded-_Name"/>
+                <entry key="306" type="xstring" value="Hodges, Mr. Henry Price_-categorical_feat_enconded-_Name"/>
+                <entry key="307" type="xstring" value="Carter, Master. William Thornton II_-categorical_feat_enconded-_Name"/>
+                <entry key="308" type="xstring" value="Stanley, Miss. Amy Zillah Elsie_-categorical_feat_enconded-_Name"/>
+                <entry key="309" type="xstring" value="Andersson, Miss. Erna Alexandra_-categorical_feat_enconded-_Name"/>
+                <entry key="310" type="xstring" value="Rosblom, Mrs. Viktor (Helena Wilhelmina)_-categorical_feat_enconded-_Name"/>
+                <entry key="311" type="xstring" value="Sagesser, Mlle. Emma_-categorical_feat_enconded-_Name"/>
+                <entry key="312" type="xstring" value="Touma, Mrs. Darwis (Hanne Youssef Razi)_-categorical_feat_enconded-_Name"/>
+                <entry key="313" type="xstring" value="Daniel, Mr. Robert Williams_-categorical_feat_enconded-_Name"/>
+                <entry key="314" type="xstring" value="Vander Cruyssen, Mr. Victor_-categorical_feat_enconded-_Name"/>
+                <entry key="315" type="xstring" value="Hogeboom, Mrs. John C (Anna Andrews)_-categorical_feat_enconded-_Name"/>
+                <entry key="316" type="xstring" value="Palsson, Miss. Stina Viola_-categorical_feat_enconded-_Name"/>
+                <entry key="317" type="xstring" value="Nosworthy, Mr. Richard Cater_-categorical_feat_enconded-_Name"/>
+                <entry key="318" type="xstring" value="Hamalainen, Master. Viljo_-categorical_feat_enconded-_Name"/>
+                <entry key="319" type="xstring" value="Reeves, Mr. David_-categorical_feat_enconded-_Name"/>
+                <entry key="320" type="xstring" value="Mudd, Mr. Thomas Charles_-categorical_feat_enconded-_Name"/>
+                <entry key="321" type="xstring" value="Quick, Miss. Phyllis May_-categorical_feat_enconded-_Name"/>
+                <entry key="322" type="xstring" value="Widegren, Mr. Carl/Charles Peter_-categorical_feat_enconded-_Name"/>
+                <entry key="323" type="xstring" value="Gustafsson, Mr. Johan Birger_-categorical_feat_enconded-_Name"/>
+                <entry key="324" type="xstring" value="Turja, Miss. Anna Sofia_-categorical_feat_enconded-_Name"/>
+                <entry key="325" type="xstring" value="Duff Gordon, Lady. (Lucille Christiana Sutherland) (Mrs Morgan)_-categorical_feat_enconded-_Name"/>
+                <entry key="326" type="xstring" value="Bishop, Mr. Dickinson H_-categorical_feat_enconded-_Name"/>
+                <entry key="327" type="xstring" value="Abbott, Mrs. Stanton (Rosa Hunt)_-categorical_feat_enconded-_Name"/>
+                <entry key="328" type="xstring" value="Lobb, Mrs. William Arthur (Cordelia K Stanlick)_-categorical_feat_enconded-_Name"/>
+                <entry key="329" type="xstring" value="Panula, Mr. Ernesti Arvid_-categorical_feat_enconded-_Name"/>
+                <entry key="330" type="xstring" value="Futrelle, Mrs. Jacques Heath (Lily May Peel)_-categorical_feat_enconded-_Name"/>
+                <entry key="331" type="xstring" value="Goldsmith, Master. Frank John William Frankie_-categorical_feat_enconded-_Name"/>
+                <entry key="332" type="xstring" value="Behr, Mr. Karl Howell_-categorical_feat_enconded-_Name"/>
+                <entry key="333" type="xstring" value="Hassab, Mr. Hammad_-categorical_feat_enconded-_Name"/>
+                <entry key="334" type="xstring" value="Connaghton, Mr. Michael_-categorical_feat_enconded-_Name"/>
+                <entry key="335" type="xstring" value="Nilsson, Miss. Helmina Josefina_-categorical_feat_enconded-_Name"/>
+                <entry key="336" type="xstring" value="Beane, Mr. Edward_-categorical_feat_enconded-_Name"/>
+                <entry key="337" type="xstring" value="Farrell, Mr. James_-categorical_feat_enconded-_Name"/>
+                <entry key="338" type="xstring" value="Connors, Mr. Patrick_-categorical_feat_enconded-_Name"/>
+                <entry key="339" type="xstring" value="Bishop, Mrs. Dickinson H (Helen Walton)_-categorical_feat_enconded-_Name"/>
+                <entry key="340" type="xstring" value="Natsch, Mr. Charles H_-categorical_feat_enconded-_Name"/>
+                <entry key="341" type="xstring" value="Newsom, Miss. Helen Monypeny_-categorical_feat_enconded-_Name"/>
+                <entry key="342" type="xstring" value="Moor, Mrs. (Beila)_-categorical_feat_enconded-_Name"/>
+                <entry key="343" type="xstring" value="Bystrom, Mrs. (Karolina)_-categorical_feat_enconded-_Name"/>
+                <entry key="344" type="xstring" value="Coxon, Mr. Daniel_-categorical_feat_enconded-_Name"/>
+                <entry key="345" type="xstring" value="Hold, Mr. Stephen_-categorical_feat_enconded-_Name"/>
+                <entry key="346" type="xstring" value="Sundman, Mr. Johan Julian_-categorical_feat_enconded-_Name"/>
+                <entry key="347" type="xstring" value="Ali, Mr. Ahmed_-categorical_feat_enconded-_Name"/>
+                <entry key="348" type="xstring" value="Bryhl, Mr. Kurt Arnold Gottfrid_-categorical_feat_enconded-_Name"/>
+                <entry key="349" type="xstring" value="Harris, Mrs. Henry Birkhardt (Irene Wallach)_-categorical_feat_enconded-_Name"/>
+                <entry key="350" type="xstring" value="Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)_-categorical_feat_enconded-_Name"/>
+                <entry key="351" type="xstring" value="Pinsky, Mrs. (Rosa)_-categorical_feat_enconded-_Name"/>
+                <entry key="352" type="xstring" value="female_-categorical_feat_enconded-_Sex"/>
+                <entry key="353" type="xstring" value="male_-categorical_feat_enconded-_Sex"/>
+                <entry key="354" type="xstring" value="C_-categorical_feat_enconded-_Embarked"/>
+                <entry key="355" type="xstring" value="S_-categorical_feat_enconded-_Embarked"/>
+                <entry key="356" type="xstring" value="Q_-categorical_feat_enconded-_Embarked"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value="*_-categorical_feat_enconded-_*"/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="true"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Split into numeric %%00013%%00010and OHE cols"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="987"/>
+        <entry key="y-coordinate" type="xint" value="239"/>
+        <entry key="width" type="xint" value="106"/>
+        <entry key="height" type="xint" value="30"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.split2.SplitNodeFactory2"/>
+    <entry key="node-name" type="xstring" value="Column Splitter"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.4.0.v202106241539"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.4.0.v202106261936"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Splitter"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

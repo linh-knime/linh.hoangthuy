@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">Lukas.Siedentop</element><element xmlns="" form="date" name="Creation Date">19/9/2021/10:11:52 +02:00</element><element xmlns="" form="multiline" name="Comments">[KNIME Server Onboarding] REST and Orchestration
+
+Your colleague Bob split up the workflow into two parts, one for fetching and preprocessing the data and the other one for visualizing the data. Now the visualizing workflow calls the preprocessing workflow: This concept of workflow A calling workflow B is called orchestration. For this purpose, there are dedicated nodes which make this possible. You’ll find them under “Workflow Abstraction → Workflow Invocation” in the KNIME Analytics Platforms Node Repository, in the “Control and Orchestration with KNIME Analytics Platform“ cheat sheet or by exploring the workflow group Examples/KNIME Server Onboarding/07 Email Database Orchestration.&#xd;
+
+
+URL: Control and Orchestration with KNIME Analytics Platform https://www.knime.com/sites/default/files/07252019_CheatSheet_Advanced_A4_Control_Orchestration.pdf
+TAGS: KNIME Server Onboarding,REST and Orchestration</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2022-06-08 17:31:44 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2021-11-22 15:17:03 +0100</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

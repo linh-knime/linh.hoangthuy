@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="generateImagemodel_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="generateImagemodel" type="xboolean" value="true"/>
+<config key="maxRowsmodel_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="maxRowsmodel" type="xint" value="2500"/>
+<config key="svg_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_svg"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="svg">
+<entry key="width" type="xint" value="800"/>
+<entry key="height" type="xint" value="600"/>
+<entry key="fullscreen" type="xboolean" value="true"/>
+<entry key="showFullscreen" type="xboolean" value="true"/>
+</config>
+<config key="xAxisColumn_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="xAxisColumn">
+<entry key="useRowID" type="xboolean" value="false"/>
+<entry key="columnName" type="xstring" value="Date&amp;Time"/>
+</config>
+<config key="columns_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="columns">
+<entry key="filter-type" type="xstring" value="name_pattern"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="12"/>
+<entry key="0" type="xstring" value="Value1"/>
+<entry key="1" type="xstring" value="Started 2010"/>
+<entry key="2" type="xstring" value="Started 2011"/>
+<entry key="3" type="xstring" value="Started 2012"/>
+<entry key="4" type="xstring" value="Started 2013"/>
+<entry key="5" type="xstring" value="Started 2014"/>
+<entry key="6" type="xstring" value="Started 2015"/>
+<entry key="7" type="xstring" value="Started 2016"/>
+<entry key="8" type="xstring" value="Started 2017"/>
+<entry key="9" type="xstring" value="Started 2018"/>
+<entry key="10" type="xstring" value="Started 2019"/>
+<entry key="11" type="xstring" value="Started 2020"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="Amount"/>
+<entry key="1" type="xstring" value="ColumnValues"/>
+<entry key="2" type="xstring" value="Year End"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value="Started*"/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+<config key="reportMissing_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="reportMissing" type="xboolean" value="false"/>
+<config key="mValues_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="mValues" type="xstring" value="Leave missing values"/>
+<config key="title_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="title" type="xstring" value="Line Plot"/>
+<config key="xAxisLabel_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="xAxisLabel" type="xstring" value="Time"/>
+<config key="yAxisLabel_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="yAxisLabel" type="xstring" value="Measure"/>
+<config key="showLegend_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="showLegend" type="xboolean" value="true"/>
+<config key="showGrid_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="showGrid" type="xboolean" value="true"/>
+<config key="showWarnings_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="showWarnings" type="xboolean" value="true"/>
+<config key="overrideColors_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="overrideColors" type="xboolean" value="true"/>
+<config key="dataColor_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_color"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="dataColor">
+<entry key="Red" type="xint" value="102"/>
+<entry key="Green" type="xint" value="102"/>
+<entry key="Blue" type="xint" value="102"/>
+<entry key="Alpha" type="xint" value="12"/>
+</config>
+<config key="backgroundColor_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_color"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="backgroundColor">
+<entry key="Red" type="xint" value="255"/>
+<entry key="Green" type="xint" value="255"/>
+<entry key="Blue" type="xint" value="255"/>
+<entry key="Alpha" type="xint" value="255"/>
+</config>
+<config key="daColor_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_color"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="daColor">
+<entry key="Red" type="xint" value="255"/>
+<entry key="Green" type="xint" value="255"/>
+<entry key="Blue" type="xint" value="255"/>
+<entry key="Alpha" type="xint" value="255"/>
+</config>
+<config key="gridColor_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_color"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="gridColor">
+<entry key="Red" type="xint" value="0"/>
+<entry key="Green" type="xint" value="0"/>
+<entry key="Blue" type="xint" value="0"/>
+<entry key="Alpha" type="xint" value="255"/>
+</config>
+<config key="enableGL_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="enableGL" type="xboolean" value="false"/>
+<config key="enableViewControls_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="enableViewControls" type="xboolean" value="true"/>
+<config key="showFullscreen_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="showFullscreen" type="xboolean" value="true"/>
+<config key="tooltipToggle_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="tooltipToggle" type="xboolean" value="true"/>
+<config key="enableFeatureSelection_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="enableFeatureSelection" type="xboolean" value="true"/>
+<config key="enableEditing_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="enableEditing" type="xboolean" value="false"/>
+<config key="showSelectedOnlyToggle_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="showSelectedOnlyToggle" type="xboolean" value="true"/>
+<config key="publishSelectionToggle_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="publishSelectionToggle" type="xboolean" value="true"/>
+<config key="subscribeSelectionToggle_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="subscribeSelectionToggle" type="xboolean" value="true"/>
+<config key="subscribeFilterToggle_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="subscribeFilterToggle" type="xboolean" value="true"/>
+<config key="enablePlotlyEditor_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="enablePlotlyEditor" type="xboolean" value="false"/>
+<config key="enableSelection_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="enableSelection" type="xboolean" value="true"/>
+<config key="showClearSelectionButton_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="showClearSelectionButton" type="xboolean" value="true"/>
+<config key="subscribeToSelection_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="subscribeToSelection" type="xboolean" value="true"/>
+<config key="publishSelection_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="publishSelection" type="xboolean" value="true"/>
+<config key="subscribeToFilters_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="subscribeToFilters" type="xboolean" value="true"/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="maxRows" type="xint" value="2500"/>
+<entry key="generateImage" type="xboolean" value="true"/>
+<entry key="customCSS" type="xstring" value=""/>
+</config>
+<config key="variables">
+<config key="xAxisColumn">
+<config key="columnName">
+<entry key="used_variable" type="xstring" value="period-col"/>
+<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="title">
+<entry key="used_variable" type="xstring" value="title_1"/>
+<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+</config>
+<config key="yAxisLabel">
+<entry key="used_variable" type="xstring" value="aggr-measure"/>
+<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="ARR/MRR/Customer Count%%00013%%00010Line Plot"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="246"/>
+<entry key="y-coordinate" type="xint" value="319"/>
+<entry key="width" type="xint" value="149"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.dynamic.js.v30.DynamicJSNodeFactory"/>
+<entry key="node-name" type="xstring" value="Line Plot (Plotly)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Dynamically Created JavaScript Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.dynamic.js"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.0.0.v201906241501"/>
+<entry key="node-feature-name" type="xstring" value="KNIME JavaScript Views"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.views.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.0.0.v201906241501"/>
+<config key="factory_settings">
+<entry key="nodeDir" type="xstring" value="org.knime.js.plotly:nodes/:linePlot"/>
+</config>
+<entry key="name" type="xstring" value="Line Plot (Plotly)"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

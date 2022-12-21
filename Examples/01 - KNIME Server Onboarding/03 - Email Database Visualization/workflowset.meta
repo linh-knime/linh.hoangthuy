@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">Lukas.Siedentop</element><element xmlns="" form="date" name="Creation Date">19/9/2021/10:11:52 +02:00</element><element xmlns="" form="multiline" name="Comments">[KNIME Server Onboarding] Collaboration and Components
+
+Task: Please go ahead, connect Alice’s component with the “Email DB Preprocessing” Components output in the workflow from last email and admire the visualization by right clicking -> Execute and Open Views!&#xd;
+&#xd;
+This is the resulting workflow.&#xd;
+&#xd;
+So how to build a DataApp? Surely, this must be complicated. Well, not at all: Alice already did that while composing the visualization from the third email! Deploy this workflow and see how it turns out on the WebPortal. Once deployed, right click it on the Server mountpoint and choose “Open -> in WebPortal”.&#xd;
+&#xd;
+&#xd;
+
+
+BLOG: Components are for Sharing https://www.knime.com/blog/knime-analytics-platform-40-components-are-for-sharing
+VIDEO: What is a Component? https://www.youtube.com/watch?v=NppFyVaL9IY
+URL: WebPortal User Guide https://docs.knime.com/2019-12/webportal_user_guide/index.html
+VIDEO: WebPortal Demo https://www.youtube.com/watch?v=JNNEAf0BTug
+TAGS: Collaboration and Components,WebPortal Workflows,KNIME Server Onboarding</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2022-06-08 17:31:45 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2021-11-22 15:16:58 +0100</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

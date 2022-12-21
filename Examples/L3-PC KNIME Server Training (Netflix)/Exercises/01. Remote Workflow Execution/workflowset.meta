@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">marten_kose</element><element xmlns="" form="date" name="Creation Date">1/0/1970/1:0:0 +01:00</element><element xmlns="" form="multiline" name="Comments">01. Remote Workflow Execution
+
+Exercise 01. Remote Workflow Execution&#xd;
+&#xd;
+This example workflow implements a basic customer segmentation through a clustering procedure on a preconfigured data set. No additional input is required.&#xd;
+&#xd;
+Purpose is to explore remote execution options via KNIME Server.
+
+TAGS: education</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2022-10-25 17:24:39 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2021-09-15 17:49:31 +0200</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

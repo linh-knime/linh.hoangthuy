@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">thomas.rosenau</element><element xmlns="" form="date" name="Creation Date">24/5/2020/12:37:10 +02:00</element><element xmlns="" form="multiline" name="Comments">Interactive Workflow Metadata exploration
+
+This workflow shows a simple guided analytics application for exploring the metadata of a workflow.&#xd;
+&#xd;
+The example uses the Analyze Workflow Summary component to extract metadata from the XML file.&#xd;
+&#xd;
+To interactively explore the metatdata of your own workflow, open the workflow then go to FILE > EXPORT > EXPORT WORKFLOW SUMMARY.  choose XML and a location.    &#xd;
+&#xd;
+You can now point this workflow to the files you have created .&#xd;
+&#xd;
+Note that this is a subset of afully automated example for both generating and extracting multiple workflows using KNIME Server available on HUB.KNIME.COM&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+
+
+URL: Analyze Workflow Summary component https://kni.me/c/uUPKxtYTuD6ez0xO
+TAGS: KNIMEServer,web application,workflow summary,Onboarding,data engineering</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2022-08-22 16:34:26 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2022-08-15 17:37:41 +0200</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

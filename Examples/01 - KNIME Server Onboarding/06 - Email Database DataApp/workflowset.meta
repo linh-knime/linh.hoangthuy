@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">Lukas.Siedentop</element><element xmlns="" form="date" name="Creation Date">19/9/2021/10:11:52 +02:00</element><element xmlns="" form="multiline" name="Comments">[KNIME Server Onboarding] WebPortal Workflows
+
+One more thing worth mentioning: if a workflow with a report template is uploaded to KNIME Server and accessed through the WebPortal, the report is generated and displayed after successful execution of the workflow. A preview of the report is shown in the result page and download links are offered for various formats including PDF, XLS, PPT and DOC. You can try out this feature with this workflow, where your colleagues greatly improved upon the BIRT report.
+
+VIDEO: WebPortal Demo https://www.youtube.com/watch?v=JNNEAf0BTug
+URL: WebPortal User Guide https://docs.knime.com/2019-12/webportal_user_guide/index.html
+TAGS: KNIME Server Onboarding,WebPortal Workflows</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2022-06-08 17:31:44 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2021-11-22 15:16:53 +0100</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

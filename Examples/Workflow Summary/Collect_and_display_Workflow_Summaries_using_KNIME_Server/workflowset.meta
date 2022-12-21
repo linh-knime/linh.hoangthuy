@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">thomas.rosenau</element><element xmlns="" form="date" name="Creation Date">24/5/2020/12:37:10 +02:00</element><element xmlns="" form="multiline" name="Comments">Collect Workflow Information from KNIME Server REST API
+
+This workflow collect, saves and analyzes workflow information throgh the Server's REST API.
+
+It can be run locally or on the KNIME Server itself. In any case, you need a KNIME Server installation and corresponding credentials.
+
+The example uses the Analyze Workflow Summary component.
+
+URL: Analyze Workflow Summary component https://kni.me/c/uUPKxtYTuD6ez0xO
+TAGS: workflow abstraction,flow variable,REST,KNIMEServer</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2022-08-22 16:34:26 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2022-08-16 10:08:26 +0200</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

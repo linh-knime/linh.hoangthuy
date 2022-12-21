@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PMML version="4.2" xmlns="http://www.dmg.org/PMML-4_2">
+  <Header copyright="Maarit Laukkanen">
+    <Application name="KNIME" version="4.3.1"/>
+  </Header>
+  <DataDictionary numberOfFields="12">
+    <DataField dataType="string" name="Date_time" optype="categorical"/>
+    <DataField dataType="double" name="Amp" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="0.002008357771260995" rightMargin="0.015525073313783003"/>
+    </DataField>
+    <DataField dataType="double" name="Amp(-1)" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="0.004883431085043984" rightMargin="0.009653152492668644"/>
+    </DataField>
+    <DataField dataType="double" name="Amp(-2)" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="0.004883431085043984" rightMargin="0.009653152492668644"/>
+    </DataField>
+    <DataField dataType="double" name="Amp(-3)" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="0.004883431085043984" rightMargin="0.009653152492668644"/>
+    </DataField>
+    <DataField dataType="double" name="Amp(-4)" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="0.004883431085043984" rightMargin="0.009653152492668644"/>
+    </DataField>
+    <DataField dataType="double" name="Amp(-5)" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="0.004883431085043984" rightMargin="0.009653152492668644"/>
+    </DataField>
+    <DataField dataType="double" name="Amp(-6)" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="0.004883431085043984" rightMargin="0.009653152492668644"/>
+    </DataField>
+    <DataField dataType="double" name="Amp(-7)" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="0.004883431085043984" rightMargin="0.009653152492668644"/>
+    </DataField>
+    <DataField dataType="double" name="Amp(-8)" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="0.004883431085043984" rightMargin="0.009653152492668644"/>
+    </DataField>
+    <DataField dataType="double" name="Amp(-9)" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="0.004883431085043984" rightMargin="0.009653152492668644"/>
+    </DataField>
+    <DataField dataType="double" name="Amp(-10)" optype="continuous">
+      <Interval closure="closedClosed" leftMargin="0.004883431085043984" rightMargin="0.009653152492668644"/>
+    </DataField>
+  </DataDictionary>
+  <GeneralRegressionModel modelType="generalLinear" functionName="regression" algorithmName="LinearRegression" modelName="KNIME Linear Regression">
+    <MiningSchema>
+      <MiningField name="Amp(-1)" invalidValueTreatment="asIs"/>
+      <MiningField name="Amp(-2)" invalidValueTreatment="asIs"/>
+      <MiningField name="Amp(-3)" invalidValueTreatment="asIs"/>
+      <MiningField name="Amp(-4)" invalidValueTreatment="asIs"/>
+      <MiningField name="Amp(-5)" invalidValueTreatment="asIs"/>
+      <MiningField name="Amp(-6)" invalidValueTreatment="asIs"/>
+      <MiningField name="Amp(-7)" invalidValueTreatment="asIs"/>
+      <MiningField name="Amp(-8)" invalidValueTreatment="asIs"/>
+      <MiningField name="Amp(-9)" invalidValueTreatment="asIs"/>
+      <MiningField name="Amp(-10)" invalidValueTreatment="asIs"/>
+      <MiningField name="Amp" invalidValueTreatment="asIs" usageType="target"/>
+    </MiningSchema>
+    <ParameterList>
+      <Parameter name="p0" label="Intercept"/>
+      <Parameter name="p1" label="Amp(-1)"/>
+      <Parameter name="p2" label="Amp(-2)"/>
+      <Parameter name="p3" label="Amp(-3)"/>
+      <Parameter name="p4" label="Amp(-4)"/>
+      <Parameter name="p5" label="Amp(-5)"/>
+      <Parameter name="p6" label="Amp(-6)"/>
+      <Parameter name="p7" label="Amp(-7)"/>
+      <Parameter name="p8" label="Amp(-8)"/>
+      <Parameter name="p9" label="Amp(-9)"/>
+      <Parameter name="p10" label="Amp(-10)"/>
+    </ParameterList>
+    <FactorList/>
+    <CovariateList>
+      <Predictor name="Amp(-1)"/>
+      <Predictor name="Amp(-2)"/>
+      <Predictor name="Amp(-3)"/>
+      <Predictor name="Amp(-4)"/>
+      <Predictor name="Amp(-5)"/>
+      <Predictor name="Amp(-6)"/>
+      <Predictor name="Amp(-7)"/>
+      <Predictor name="Amp(-8)"/>
+      <Predictor name="Amp(-9)"/>
+      <Predictor name="Amp(-10)"/>
+    </CovariateList>
+    <PPMatrix>
+      <PPCell value="1" predictorName="Amp(-1)" parameterName="p1"/>
+      <PPCell value="1" predictorName="Amp(-2)" parameterName="p2"/>
+      <PPCell value="1" predictorName="Amp(-3)" parameterName="p3"/>
+      <PPCell value="1" predictorName="Amp(-4)" parameterName="p4"/>
+      <PPCell value="1" predictorName="Amp(-5)" parameterName="p5"/>
+      <PPCell value="1" predictorName="Amp(-6)" parameterName="p6"/>
+      <PPCell value="1" predictorName="Amp(-7)" parameterName="p7"/>
+      <PPCell value="1" predictorName="Amp(-8)" parameterName="p8"/>
+      <PPCell value="1" predictorName="Amp(-9)" parameterName="p9"/>
+      <PPCell value="1" predictorName="Amp(-10)" parameterName="p10"/>
+    </PPMatrix>
+    <ParamMatrix>
+      <PCell parameterName="p0" beta="0.0027849726312675583" df="1"/>
+      <PCell parameterName="p1" beta="0.30424522486857974" df="1"/>
+      <PCell parameterName="p2" beta="-0.018175462394583196" df="1"/>
+      <PCell parameterName="p3" beta="0.057369546497697904" df="1"/>
+      <PCell parameterName="p4" beta="0.0291354833122217" df="1"/>
+      <PCell parameterName="p5" beta="2.5350131073222787E-4" df="1"/>
+      <PCell parameterName="p6" beta="0.04236998289095607" df="1"/>
+      <PCell parameterName="p7" beta="0.09398598728399411" df="1"/>
+      <PCell parameterName="p8" beta="0.03092481963525979" df="1"/>
+      <PCell parameterName="p9" beta="4.431683344981174E-5" df="1"/>
+      <PCell parameterName="p10" beta="0.14883164110317587" df="1"/>
+    </ParamMatrix>
+  </GeneralRegressionModel>
+</PMML>

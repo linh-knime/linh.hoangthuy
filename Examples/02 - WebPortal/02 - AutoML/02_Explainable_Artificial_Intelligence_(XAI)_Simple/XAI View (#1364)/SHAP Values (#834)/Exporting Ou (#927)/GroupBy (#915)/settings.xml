@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="grouByColumns_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="grouByColumns">
+            <config key="InclList">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row ID_Violin"/>
+            </config>
+            <config key="ExclList">
+                <entry key="array-size" type="xint" value="29"/>
+                <entry key="0" type="xstring" value="pdp_Count_Hash"/>
+                <entry key="1" type="xstring" value="pdp_Count_Slangs"/>
+                <entry key="2" type="xstring" value="pdp_Back_Ch"/>
+                <entry key="3" type="xstring" value="pdp_Extrovert"/>
+                <entry key="4" type="xstring" value="pdp_Sensing"/>
+                <entry key="5" type="xstring" value="pdp_Curse Words Percent"/>
+                <entry key="6" type="xstring" value="pdp_Model"/>
+                <entry key="7" type="xstring" value="pdp_Model Predictions"/>
+                <entry key="8" type="xstring" value="exp_Target"/>
+                <entry key="9" type="xstring" value="exp_Actual prediction"/>
+                <entry key="10" type="xstring" value="exp_Deviation from mean prediction"/>
+                <entry key="11" type="xstring" value="exp_Count_Hash"/>
+                <entry key="12" type="xstring" value="exp_Count_Slangs"/>
+                <entry key="13" type="xstring" value="exp_Back_Ch"/>
+                <entry key="14" type="xstring" value="exp_Extrovert"/>
+                <entry key="15" type="xstring" value="exp_Sensing"/>
+                <entry key="16" type="xstring" value="exp_Curse Words Percent"/>
+                <entry key="17" type="xstring" value="exp_Model"/>
+                <entry key="18" type="xstring" value="exp_Model Predictions"/>
+                <entry key="19" type="xstring" value="exp_Counter"/>
+                <entry key="20" type="xstring" value="vio_Explained Feature Value"/>
+                <entry key="21" type="xstring" value="vio_Explained Feature Name"/>
+                <entry key="22" type="xstring" value="vio_Counter"/>
+                <entry key="23" type="xstring" value="prepdp_Count_Hash"/>
+                <entry key="24" type="xstring" value="prepdp_Count_Slangs"/>
+                <entry key="25" type="xstring" value="prepdp_Back_Ch"/>
+                <entry key="26" type="xstring" value="prepdp_Extrovert"/>
+                <entry key="27" type="xstring" value="prepdp_Sensing"/>
+                <entry key="28" type="xstring" value="prepdp_Curse Words Percent"/>
+            </config>
+            <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
+        </config>
+        <config key="maxNoneNumericalVals_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="maxNoneNumericalVals" type="xint" value="10000"/>
+        <config key="enableHilite_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="enableHilite" type="xboolean" value="true"/>
+        <config key="sortInMemory_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="sortInMemory" type="xboolean" value="false"/>
+        <config key="aggregationColumn">
+            <config key="columnNames">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="columnTypes">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="aggregationMethod">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <config key="inclMissingVals">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+        </config>
+        <config key="aggregationOperatorSettings"/>
+        <config key="patternAggregators">
+            <config key="f_0">
+                <entry key="inputPattern" type="xstring" value="pdp_*"/>
+                <entry key="isRegularExpression" type="xboolean" value="false"/>
+                <entry key="inclMissingVals" type="xboolean" value="true"/>
+                <entry key="aggregationMethod" type="xstring" value="First"/>
+            </config>
+            <config key="f_1">
+                <entry key="inputPattern" type="xstring" value="exp_*"/>
+                <entry key="isRegularExpression" type="xboolean" value="false"/>
+                <entry key="inclMissingVals" type="xboolean" value="true"/>
+                <entry key="aggregationMethod" type="xstring" value="First"/>
+            </config>
+        </config>
+        <config key="dataTypeAggregators"/>
+        <config key="columnNamePolicy_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="columnNamePolicy" type="xstring" value="Keep original name(s)"/>
+        <config key="retainOrder_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="retainOrder" type="xboolean" value="false"/>
+        <config key="inMemory_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="inMemory" type="xboolean" value="false"/>
+        <config key="valueDelimiter_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="valueDelimiter" type="xstring" value=", "/>
+        <config key="nodeVersion_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="nodeVersion" type="xint" value="1"/>
+        <entry key="typeMatch" type="xbyte" value="0"/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="group by%%00013%%00010pdp and exp"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="227"/>
+        <entry key="y-coordinate" type="xint" value="239"/>
+        <entry key="width" type="xint" value="106"/>
+        <entry key="height" type="xint" value="30"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.groupby.GroupByNodeFactory"/>
+    <entry key="node-name" type="xstring" value="GroupBy"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.4.0.v202106241539"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.4.0.v202106261936"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="GroupBy"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

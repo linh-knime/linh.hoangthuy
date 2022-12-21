@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">thomas.rosenau</element><element xmlns="" form="date" name="Creation Date">18/2/2020/18:0:35 +01:00</element><element xmlns="" form="multiline" name="Comments">Generate Workflow Metadata Overview Report
+
+This workflow creates a report about a workflow by extracting all metadata information about that workflow and combining it with an image of the workflow.&#xd;
+&#xd;
+The example uses the Analyze Workflow Summary component.&#xd;
+&#xd;
+
+
+URL: Analyze Workflow Summary component https://kni.me/c/uUPKxtYTuD6ez0xO
+TAGS: Reporting,Metadata Mapping,Workflow Summary</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2022-08-22 16:34:26 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2022-08-18 14:37:30 +0200</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

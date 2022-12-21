@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="generateView" type="xboolean" value="false"/>
+<entry key="maxRows" type="xint" value="2500"/>
+<entry key="jsCode" type="xstring" value="var body = document.getElementsByTagName('body')[0];%%00010%%00010var html = '';%%00010if (!knimeDataTable) {%%00010  html += '&lt;div class=&quot;failure&quot;&gt;No data available.&lt;/div&gt;';%%00010}%%00010body.innerHTML = html;%%00010%%00010%%00010var xAxisData = knimeDataTable.getColumn('trained_models');%%00010var data1 = knimeDataTable.getColumn('trained_metrics');%%00010%%00010var option = {%%00010  title: {%%00010    text: ''%%00010  },%%00010  legend: {%%00010   data: ['$${Smetric_auto}$$'],%%00010  },%%00010  toolbox: {%%00010    feature: {%%00010      magicType: {%%00010        type: ['bar']%%00010      },%%00010      dataView: {},%%00010      saveAsImage: {%%00010        pixelRatio: 2%%00010      }%%00010    }%%00010  },%%00010  tooltip: {},%%00010    grid: {%%00010        containLabel: true%%00010    },%%00010  yAxis: [%%00010    {%%00010        type : 'category',%%00010        data: xAxisData%%00010    }%%00010    ],%%00010  xAxis: {},%%00010  series: [{%%00010    name: '$${Smetric_auto}$$',%%00010    type: 'bar',%%00010    stack: true,%%00010    data: data1,%%00010    animationDelay: function (idx) {%%00010      return idx * 10;%%00010    },%%00010      itemStyle: {%%00010       color: '#FFD73C'%%00010   }%%00010  }],%%00010  animationEasing: 'elasticOut',%%00010  animationDelayUpdate: function (idx) {%%00010    return idx * 10;%%00010  }%%00010};%%00010%%00010%%00010var div = document.createElement('div');%%00010div.id = 'main';%%00010div.style = 'width:100%; height:100%; min-height: 600px;';%%00010document.body.appendChild(div);%%00010%%00010//  not working due to cross origin problems%%00010require.config({%%00010  paths: {%%00010    'echarts': 'https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts-en.min',%%00010  }%%00010});%%00010require(['echarts'], function (echarts) {%%00010  var myChart = echarts.init(document.getElementById('main'));%%00010  myChart.setOption(option);%%00010});%%00010%%00010%%00010%%00010"/>
+<entry key="jsSVGCode" type="xstring" value=""/>
+<entry key="cssCode" type="xstring" value="body {%%00010    font-family: sans-serif;%%00010}%%00010h1 {%%00010    font-size: 1.5em;%%00010    font-weight: bold;%%00010}%%00010.success {%%00010    color: #006633;%%00010    font-weight: bold;%%00010}%%00010%%00010.failure {%%00010    color: #990000;%%00010    font-weight: bold;%%00010}%%00010"/>
+<config key="dependencies">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="waitTime" type="xint" value="0"/>
+<config key="outputVariables">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="customCSS" type="xstring" isnull="true" value=""/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value=""/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="2007"/>
+<entry key="y-coordinate" type="xint" value="699"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="15"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.js.base.node.viz.generic3.GenericJSViewNodeFactory"/>
+<entry key="node-name" type="xstring" value="Generic JavaScript View"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME JavaScript Base Views"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.views"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.2.1.v202008251343"/>
+<entry key="node-feature-name" type="xstring" value="KNIME JavaScript Views"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.views.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.2.1.v202008251343"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Generic JavaScript View"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
+<entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="40b14a49-d6fa-4903-a806-75063528a4e1"/>
+</config>
+</config>

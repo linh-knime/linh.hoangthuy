@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">wkhan</element><element xmlns="" form="date" name="Creation Date">13/11/2020/23:37:17 +01:00</element><element xmlns="" form="multiline" name="Comments">RESTful Workflow- Weather
+
+Follow along how to build this workflow on the KNIME Blog. 
+
+Explores how we can build RESTful workflow with the KNIME Analytics Platform and the KNIME Server.</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2021-08-30 13:05:46 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2021-08-26 14:26:33 +0200</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

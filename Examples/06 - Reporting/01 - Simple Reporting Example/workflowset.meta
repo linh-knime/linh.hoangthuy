@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">&lt;unknown></element><element xmlns="" form="date" name="Creation Date">1/0/1970/1:0:0 +01:00</element><element xmlns="" form="multiline" name="Comments">Simple Reporting Example
+
+This is a simple example of a KNIME workflow as source for a report.
+
+The report shows the distribution of income over the work class.
+
+Requirements:
+ - KNIME Report Designer</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2016-12-01 13:38:47 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2021-08-20 15:20:31 +0200</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

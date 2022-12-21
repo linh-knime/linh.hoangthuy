@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">paolotamag</element><element xmlns="" form="date" name="Creation Date">24/5/2020/12:2:13 +02:00</element><element xmlns="" form="multiline" name="Comments">eXplainable Artificial Intelligence (XAI) - Simple
+
+This application is a simple example of AutoML with KNIME Software for binary and multiclass classification. The output models are then explained via the interactive XAI View, which works for any model the AutoML component produces. Machine Learning Interpretability (MLI) techniques used: SHAP explanations/reason codes, partial dependence, individual conditional expectation (ICE) curves and a surrogate decision tree. &#xd;
+&#xd;
+The workflow also works locally on KNIME Analytics Platform. Make sure to use "Apply and Close" in bottom-right corner of each view.&#xd;
+&#xd;
+
+
+URL: KNIME Integrated Deployment - KNIME.com https://www.knime.com/integrated-deployment
+URL: AutoML Component - KNIME Hub https://kni.me/c/33fQGaQzuZByy6hE
+URL: XAI View Component - KNIME Hub https://kni.me/c/no0cArkQ94BnNpeb
+URL: Interpretable Machine Learning - Christoph Molnar - 2020-09-28 https://christophm.github.io/interpretable-ml-book/
+URL: Explainable artificial intelligence - WIkipedia https://en.wikipedia.org/wiki/Explainable_artificial_intelligence
+TAGS: autoML,automated machine learning,guided analytics,integrated deployment,XAI,MLI,SHAP,surrogate,partial dependence,ICEs,machine learning interpretability</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2021-08-30 13:05:46 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2021-08-24 11:13:22 +0200</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

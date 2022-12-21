@@ -1,0 +1,324 @@
+2021-01-22 12:31:33,973 : DEBUG : ModalContext :  : SQLiteDBConnectorNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:33,979 : DEBUG : ModalContext :  : TableCreator2NodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:33,982 : DEBUG : ModalContext :  : StringToJSONNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:33,984 : DEBUG : ModalContext :  : JSONPathNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:33,987 : DEBUG : ModalContext :  : UngroupNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:33,990 : DEBUG : ModalContext :  : JEPNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:33,991 : DEBUG : ModalContext :  : JEPNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:33,993 : DEBUG : ModalContext :  : JEPNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:33,995 : DEBUG : ModalContext :  : TableCreator2NodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:33,997 : DEBUG : ModalContext :  : JEPNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:33,999 : DEBUG : ModalContext :  : JEPNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:34,001 : DEBUG : ModalContext :  : Joiner2NodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:34,001 : DEBUG : ModalContext :  : HiLiteHandler : Generate Data : 7 : Adding hilite translator to handler f9d94013-5adb-46f7-8e9e-9269772982ee
+2021-01-22 12:31:34,001 : DEBUG : ModalContext :  : HiLiteHandler : Generate Data : 7 : Adding hilite translator to handler c99fa2a5-c9d9-4340-aa3e-a8b9f08a661b
+2021-01-22 12:31:34,003 : DEBUG : ModalContext :  : DBWriteNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:34,005 : DEBUG : ModalContext :  : FileReaderNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:34,007 : DEBUG : ModalContext :  : JEPNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:34,009 : DEBUG : ModalContext :  : JEPNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:34,011 : DEBUG : ModalContext :  : Joiner2NodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:34,011 : DEBUG : ModalContext :  : HiLiteHandler : Generate Data : 7 : Adding hilite translator to handler 4de9e097-d9b0-4279-9cdd-e8c0eb79b885
+2021-01-22 12:31:34,011 : DEBUG : ModalContext :  : HiLiteHandler : Generate Data : 7 : Adding hilite translator to handler f17d763a-d01b-479c-a72d-40f16e2c749e
+2021-01-22 12:31:34,013 : DEBUG : ModalContext :  : RenameNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:34,017 : DEBUG : ModalContext :  : JEPNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:34,020 : DEBUG : ModalContext :  : FormulasNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:34,024 : DEBUG : ModalContext :  : DBWriteNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:34,026 : DEBUG : ModalContext :  : TableCreator2NodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:34,028 : DEBUG : ModalContext :  : DBWriteNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:34,031 : DEBUG : ModalContext :  : FormulasNodeFactory : Generate Data : 7 : Factory is already initialized. Nothing to do.
+2021-01-22 12:31:34,055 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Loading executable extensions of extension point: org.knime.database.DBTypeMappingService
+2021-01-22 12:31:34,056 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable extension supplier has been created
+2021-01-22 12:31:34,056 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable is instance of H2TypeMappingServiceSupplier
+2021-01-22 12:31:34,059 : DEBUG : ModalContext :  : DBTypeMappingRegistry : SQLite Connector : 7:1 : Register DBTypeMappingService for database type DBType(id=h2, name=H2, description=null) in extension org.knime.database.extensions.
+2021-01-22 12:31:34,059 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable extension supplier has been created
+2021-01-22 12:31:34,059 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable is instance of MSAccessTypeMappingServiceSupplier
+2021-01-22 12:31:34,063 : DEBUG : ModalContext :  : DBTypeMappingRegistry : SQLite Connector : 7:1 : Register DBTypeMappingService for database type DBType(id=msaccess, name=Microsoft Access, description=null) in extension org.knime.database.extensions.
+2021-01-22 12:31:34,064 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable extension supplier has been created
+2021-01-22 12:31:34,064 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable is instance of MSSQLServerTypeMappingServiceSupplier
+2021-01-22 12:31:34,067 : DEBUG : ModalContext :  : DBTypeMappingRegistry : SQLite Connector : 7:1 : Register DBTypeMappingService for database type DBType(id=mssqlserver, name=Microsoft SQL Server, description=null) in extension org.knime.database.extensions.
+2021-01-22 12:31:34,068 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable extension supplier has been created
+2021-01-22 12:31:34,068 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable is instance of MySQLTypeMappingServiceSupplier
+2021-01-22 12:31:34,071 : DEBUG : ModalContext :  : DBTypeMappingRegistry : SQLite Connector : 7:1 : Register DBTypeMappingService for database type DBType(id=mysql, name=MySQL, description=null) in extension org.knime.database.extensions.
+2021-01-22 12:31:34,072 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable extension supplier has been created
+2021-01-22 12:31:34,072 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable is instance of PostgresTypeMappingServiceSupplier
+2021-01-22 12:31:34,074 : DEBUG : ModalContext :  : DBTypeMappingRegistry : SQLite Connector : 7:1 : Register DBTypeMappingService for database type DBType(id=postgres, name=PostgreSQL, description=null) in extension org.knime.database.extensions.
+2021-01-22 12:31:34,074 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable extension supplier has been created
+2021-01-22 12:31:34,074 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable is instance of SQLiteTypeMappingServiceSupplier
+2021-01-22 12:31:34,077 : DEBUG : ModalContext :  : DBTypeMappingRegistry : SQLite Connector : 7:1 : Register DBTypeMappingService for database type DBType(id=sqlite, name=SQLite, description=null) in extension org.knime.database.extensions.
+2021-01-22 12:31:34,078 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable extension supplier has been created
+2021-01-22 12:31:34,079 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable is instance of Db2TypeMappingServiceSupplier
+2021-01-22 12:31:34,081 : DEBUG : ModalContext :  : DBTypeMappingRegistry : SQLite Connector : 7:1 : Register DBTypeMappingService for database type DBType(id=db2, name=IBM Db2, description=null) in extension org.knime.database.extensions.db2.
+2021-01-22 12:31:34,083 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable extension supplier has been created
+2021-01-22 12:31:34,083 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable is instance of OracleTypeMappingServiceSupplier
+2021-01-22 12:31:34,086 : DEBUG : ModalContext :  : DBTypeMappingRegistry : SQLite Connector : 7:1 : Register DBTypeMappingService for database type DBType(id=oracle, name=Oracle, description=null) in extension org.knime.database.extensions.oracle.
+2021-01-22 12:31:34,087 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable extension supplier has been created
+2021-01-22 12:31:34,087 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable is instance of VerticaTypeMappingServiceSupplier
+2021-01-22 12:31:34,089 : DEBUG : ModalContext :  : DBTypeMappingRegistry : SQLite Connector : 7:1 : Register DBTypeMappingService for database type DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform) in extension org.knime.database.extensions.vertica.
+2021-01-22 12:31:34,091 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable extension supplier has been created
+2021-01-22 12:31:34,091 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable is instance of AthenaTypeMappingServiceSupplier
+2021-01-22 12:31:34,093 : DEBUG : ModalContext :  : DBTypeMappingRegistry : SQLite Connector : 7:1 : Register DBTypeMappingService for database type DBType(id=athena, name=Amazon Athena, description=null) in extension org.knime.cloud.aws.athena.
+2021-01-22 12:31:34,093 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable extension supplier has been created
+2021-01-22 12:31:34,094 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable is instance of HiveTypeMappingServiceSupplier
+2021-01-22 12:31:34,096 : DEBUG : ModalContext :  : DBTypeMappingRegistry : SQLite Connector : 7:1 : Register DBTypeMappingService for database type DBType(id=hive, name=Hive, description=Hive) in extension org.knime.bigdata.database.
+2021-01-22 12:31:34,097 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable extension supplier has been created
+2021-01-22 12:31:34,097 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable is instance of ImpalaTypeMappingServiceSupplier
+2021-01-22 12:31:34,100 : DEBUG : ModalContext :  : DBTypeMappingRegistry : SQLite Connector : 7:1 : Register DBTypeMappingService for database type DBType(id=impala, name=Impala, description=Impala) in extension org.knime.bigdata.database.
+2021-01-22 12:31:34,101 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable extension supplier has been created
+2021-01-22 12:31:34,101 : DEBUG : ModalContext :  : ExtensionPoints : SQLite Connector : 7:1 : Executable is instance of HiveTypeMappingServiceSupplier
+2021-01-22 12:31:34,101 : DEBUG : ModalContext :  : DBTypeMappingRegistry : SQLite Connector : 7:1 : Register DBTypeMappingService for database type DBType(id=databricks, name=Databricks, description=null) in extension org.knime.bigdata.databricks.
+2021-01-22 12:31:34,116 : DEBUG : ModalContext :  : Node : SQLite Connector : 7:1 : Configure succeeded. (SQLite Connector)
+2021-01-22 12:31:34,117 : DEBUG : ModalContext :  : Node : Table Creator : 7:2 : Configure succeeded. (Table Creator)
+2021-01-22 12:31:34,117 : DEBUG : ModalContext :  : Node : Table Creator : 7:9 : Configure succeeded. (Table Creator)
+2021-01-22 12:31:34,122 : DEBUG : ModalContext :  : FileReaderSettings : File Reader : 7:14 : Can't access 'knime://LOCAL/WebPortal%20Use%20Case/data/names.csv'. (File not found: /Users/alexander/Documents/KNIME Workspaces/knime-workspace-42/WebPortal Use Case/data/names.csv.)
+java.io.IOException: Can't access 'knime://LOCAL/WebPortal%20Use%20Case/data/names.csv'. (File not found: /Users/alexander/Documents/KNIME Workspaces/knime-workspace-42/WebPortal Use Case/data/names.csv.)
+	at org.knime.base.node.util.BufferedFileReader.createNewReader(BufferedFileReader.java:604)
+	at org.knime.base.node.io.filereader.FileReaderSettings.createNewInputReader(FileReaderSettings.java:713)
+	at org.knime.base.node.io.filereader.FileReaderSettings.addStatusOfSettings(FileReaderSettings.java:1285)
+	at org.knime.base.node.io.filereader.FileReaderNodeSettings.addStatusOfSettings(FileReaderNodeSettings.java:886)
+	at org.knime.base.node.io.filereader.FileReaderNodeSettings.getStatusOfSettings(FileReaderNodeSettings.java:863)
+	at org.knime.base.node.io.filereader.FileReaderNodeModel.configure(FileReaderNodeModel.java:269)
+	at org.knime.core.node.NodeModel.configure(NodeModel.java:1116)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1065)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1918)
+	at org.knime.core.node.Node.configure(Node.java:1854)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:529)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:304)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:189)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6337)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8517)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8349)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8464)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8349)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8303)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8224)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8197)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8042)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:184)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.io.IOException: File not found: /Users/alexander/Documents/KNIME Workspaces/knime-workspace-42/WebPortal Use Case/data/names.csv.
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:443)
+	at org.knime.core.util.WrappedURLInputStream.<init>(WrappedURLInputStream.java:78)
+	at org.knime.core.util.FileUtil.openStreamWithTimeout(FileUtil.java:1437)
+	at org.knime.base.node.util.BufferedFileReader.createNewReader(BufferedFileReader.java:531)
+	... 23 more
+Caused by: org.eclipse.core.runtime.CoreException: File not found: /Users/alexander/Documents/KNIME Workspaces/knime-workspace-42/WebPortal Use Case/data/names.csv.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:409)
+	at org.knime.workbench.explorer.localworkspace.LocalWorkspaceFileStore.openInputStream(LocalWorkspaceFileStore.java:214)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:441)
+	... 26 more
+Caused by: java.io.FileNotFoundException: /Users/alexander/Documents/KNIME Workspaces/knime-workspace-42/WebPortal Use Case/data/names.csv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:404)
+	... 28 more
+2021-01-22 12:31:34,123 : WARN  : ModalContext :  : Node : File Reader : 7:14 : Can't access 'knime://LOCAL/WebPortal%20Use%20Case/data/names.csv'. (File not found: /Users/alexander/Documents/KNIME Workspaces/knime-workspace-42/WebPortal Use Case/data/names.csv.)
+2021-01-22 12:31:34,123 : DEBUG : ModalContext :  : Node : Table Creator : 7:22 : Configure succeeded. (Table Creator)
+2021-01-22 12:31:34,124 : DEBUG : ModalContext :  : Node : String to JSON : 7:3 : Configure succeeded. (String to JSON)
+2021-01-22 12:31:34,124 : DEBUG : ModalContext :  : Node : Math Formula : 7:10 : Configure succeeded. (Math Formula)
+2021-01-22 12:31:34,125 : DEBUG : ModalContext :  : Node : JSON Path : 7:4 : Configure succeeded. (JSON Path)
+2021-01-22 12:31:34,125 : DEBUG : ModalContext :  : Node : Ungroup : 7:5 : Configure succeeded. (Ungroup)
+2021-01-22 12:31:34,126 : DEBUG : ModalContext :  : Node : Math Formula : 7:6 : Configure succeeded. (Math Formula)
+2021-01-22 12:31:34,126 : DEBUG : ModalContext :  : Node : Math Formula : 7:7 : Configure succeeded. (Math Formula)
+2021-01-22 12:31:34,126 : DEBUG : ModalContext :  : Node : Math Formula : 7:16 : Configure succeeded. (Math Formula)
+2021-01-22 12:31:34,127 : DEBUG : ModalContext :  : Node : Math Formula : 7:8 : Configure succeeded. (Math Formula)
+2021-01-22 12:31:34,128 : DEBUG : ModalContext :  : RenameConfiguration : Column Rename : 7:18 : No rename settings for column "name", leaving it untouched.
+2021-01-22 12:31:34,128 : DEBUG : ModalContext :  : RenameConfiguration : Column Rename : 7:18 : No rename settings for column "joinkey", leaving it untouched.
+2021-01-22 12:31:34,128 : DEBUG : ModalContext :  : Node : Column Rename : 7:18 : Configure succeeded. (Column Rename)
+2021-01-22 12:31:34,128 : DEBUG : ModalContext :  : Node : Math Formula : 7:11 : Configure succeeded. (Math Formula)
+2021-01-22 12:31:35,204 : DEBUG : ModalContext :  : Node : Column Expressions : 7:24 : Configure succeeded. (Column Expressions)
+2021-01-22 12:31:35,205 : DEBUG : ModalContext :  : Node : Joiner : 7:12 : Configure succeeded. (Joiner)
+2021-01-25 13:01:04,152 : DEBUG : main :  : ProjectWorkflowMap : Generate Data : 7 : Removing "file:/Users/alexander/Documents/KNIME%20Workspaces/knime-workspace-42/Demos/Auditing/Generate%20Data/" from project map (5 remaining)
+2021-01-25 13:01:04,156 : DEBUG : main :  : WorkflowManager : Generate Data : 7 : Removing project "Generate Data 7"
+2021-01-25 13:01:04,157 : DEBUG : main :  : DBWriteNodeModel : DB Writer : 7:13 : Removing all (0) views from model.
+2021-01-25 13:01:04,157 : DEBUG : main :  : Node : DB Writer : 7:13 : clean output ports.
+2021-01-25 13:01:04,157 : DEBUG : main :  : DBWriteNodeModel : DB Writer : 7:21 : Removing all (0) views from model.
+2021-01-25 13:01:04,157 : DEBUG : main :  : Node : DB Writer : 7:21 : clean output ports.
+2021-01-25 13:01:04,157 : DEBUG : main :  : Joiner2NodeModel : Joiner : 7:12 : Removing all (0) views from model.
+2021-01-25 13:01:04,157 : DEBUG : main :  : Node : Joiner : 7:12 : clean output ports.
+2021-01-25 13:01:04,157 : DEBUG : main :  : FormulasNodeModel : Column Expressions : 7:20 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : Column Expressions : 7:20 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : FormulasNodeModel : Column Expressions : 7:24 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : Column Expressions : 7:24 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Joiner2NodeModel : Joiner : 7:17 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : Joiner : 7:17 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : JEPNodeModel : Math Formula : 7:11 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : Math Formula : 7:11 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : RenameNodeModel : Column Rename : 7:18 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : Column Rename : 7:18 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : JEPNodeModel : Math Formula : 7:8 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : Math Formula : 7:8 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : JEPNodeModel : Math Formula : 7:16 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : Math Formula : 7:16 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : JEPNodeModel : Math Formula : 7:7 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : Math Formula : 7:7 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : JEPNodeModel : Math Formula : 7:6 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : Math Formula : 7:6 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : UngroupNodeModel : Ungroup : 7:5 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : Ungroup : 7:5 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : JEPNodeModel : Math Formula : 7:19 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : Math Formula : 7:19 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : JSONPathNodeModel : JSON Path : 7:4 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : JSON Path : 7:4 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : JEPNodeModel : Math Formula : 7:15 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : Math Formula : 7:15 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : JEPNodeModel : Math Formula : 7:10 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : Math Formula : 7:10 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : StringToJSONNodeModel : String to JSON : 7:3 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : String to JSON : 7:3 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : DBWriteNodeModel : DB Writer : 7:23 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : DB Writer : 7:23 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : TableCreator2NodeModel : Table Creator : 7:22 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : Table Creator : 7:22 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : FileReaderNodeModel : File Reader : 7:14 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : File Reader : 7:14 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : TableCreator2NodeModel : Table Creator : 7:9 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : Table Creator : 7:9 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : TableCreator2NodeModel : Table Creator : 7:2 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : Table Creator : 7:2 : clean output ports.
+2021-01-25 13:01:04,158 : DEBUG : main :  : SQLiteDBConnectorNodeModel : SQLite Connector : 7:1 : Removing all (0) views from model.
+2021-01-25 13:01:04,158 : DEBUG : main :  : Node : SQLite Connector : 7:1 : clean output ports.
+2021-01-25 13:01:04,159 : DEBUG : main :  : WorkflowManager : Generate Data : 7 : Project "Generate Data 7" removed (7 remaining)
+2021-05-07 12:38:52,253 : DEBUG : ModalContext :  : SQLiteDBConnectorNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,271 : DEBUG : ModalContext :  : TableCreator2NodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,277 : DEBUG : ModalContext :  : StringToJSONNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,286 : DEBUG : ModalContext :  : JSONPathNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,290 : DEBUG : ModalContext :  : UngroupNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,296 : DEBUG : ModalContext :  : JEPNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,299 : DEBUG : ModalContext :  : JEPNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,301 : DEBUG : ModalContext :  : JEPNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,303 : DEBUG : ModalContext :  : TableCreator2NodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,305 : DEBUG : ModalContext :  : JEPNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,306 : DEBUG : ModalContext :  : JEPNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,310 : DEBUG : ModalContext :  : Joiner2NodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,310 : DEBUG : ModalContext :  : HiLiteHandler : Generate Data : 3 : Adding hilite translator to handler 8824dd6e-674a-44c5-bcc3-59b512a6706e
+2021-05-07 12:38:52,310 : DEBUG : ModalContext :  : HiLiteHandler : Generate Data : 3 : Adding hilite translator to handler 4f5ff540-8eb2-4e20-a346-2a56c00f9a4d
+2021-05-07 12:38:52,315 : DEBUG : ModalContext :  : DBWriteNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,339 : DEBUG : ModalContext :  : FileReaderNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,342 : DEBUG : ModalContext :  : JEPNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,344 : DEBUG : ModalContext :  : JEPNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,346 : DEBUG : ModalContext :  : Joiner2NodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,346 : DEBUG : ModalContext :  : HiLiteHandler : Generate Data : 3 : Adding hilite translator to handler 6f9f0d62-2aa0-4602-b480-b25fd163b142
+2021-05-07 12:38:52,346 : DEBUG : ModalContext :  : HiLiteHandler : Generate Data : 3 : Adding hilite translator to handler fb7c0f92-ec28-45df-b63c-c348e649b285
+2021-05-07 12:38:52,348 : DEBUG : ModalContext :  : RenameNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,350 : DEBUG : ModalContext :  : JEPNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,356 : DEBUG : ModalContext :  : FormulasNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,366 : DEBUG : ModalContext :  : DBWriteNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,368 : DEBUG : ModalContext :  : TableCreator2NodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,370 : DEBUG : ModalContext :  : DBWriteNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,372 : DEBUG : ModalContext :  : FormulasNodeFactory : Generate Data : 3 : Factory is already initialized. Nothing to do.
+2021-05-07 12:38:52,390 : DEBUG : ModalContext :  : Node : SQLite Connector : 3:1 : Configure succeeded. (SQLite Connector)
+2021-05-07 12:38:52,391 : DEBUG : ModalContext :  : Node : Table Creator : 3:2 : Configure succeeded. (Table Creator)
+2021-05-07 12:38:52,391 : DEBUG : ModalContext :  : Node : Table Creator : 3:9 : Configure succeeded. (Table Creator)
+2021-05-07 12:38:52,397 : DEBUG : ModalContext :  : FileReaderSettings : File Reader : 3:14 : Can't access 'knime://LOCAL/WebPortal%20Use%20Case/data/names.csv'. (File not found: /Users/alexander/Documents/KNIME Workspaces/knime-workspace-42/WebPortal Use Case/data/names.csv.)
+java.io.IOException: Can't access 'knime://LOCAL/WebPortal%20Use%20Case/data/names.csv'. (File not found: /Users/alexander/Documents/KNIME Workspaces/knime-workspace-42/WebPortal Use Case/data/names.csv.)
+	at org.knime.base.node.util.BufferedFileReader.createNewReader(BufferedFileReader.java:604)
+	at org.knime.base.node.io.filereader.FileReaderSettings.createNewInputReader(FileReaderSettings.java:713)
+	at org.knime.base.node.io.filereader.FileReaderSettings.addStatusOfSettings(FileReaderSettings.java:1285)
+	at org.knime.base.node.io.filereader.FileReaderNodeSettings.addStatusOfSettings(FileReaderNodeSettings.java:886)
+	at org.knime.base.node.io.filereader.FileReaderNodeSettings.getStatusOfSettings(FileReaderNodeSettings.java:863)
+	at org.knime.base.node.io.filereader.FileReaderNodeModel.configure(FileReaderNodeModel.java:269)
+	at org.knime.core.node.NodeModel.configure(NodeModel.java:1116)
+	at org.knime.core.node.NodeModel.configureModel(NodeModel.java:1065)
+	at org.knime.core.node.Node.invokeNodeModelConfigure(Node.java:1918)
+	at org.knime.core.node.Node.configure(Node.java:1854)
+	at org.knime.core.node.workflow.NativeNodeContainer.performConfigure(NativeNodeContainer.java:529)
+	at org.knime.core.node.workflow.SingleNodeContainer.callNodeConfigure(SingleNodeContainer.java:304)
+	at org.knime.core.node.workflow.SingleNodeContainer.configure(SingleNodeContainer.java:189)
+	at org.knime.core.node.workflow.WorkflowManager.configureSingleNodeContainer(WorkflowManager.java:6353)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8533)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8365)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8480)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8365)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8319)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8240)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8213)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8058)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:184)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.io.IOException: File not found: /Users/alexander/Documents/KNIME Workspaces/knime-workspace-42/WebPortal Use Case/data/names.csv.
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:443)
+	at org.knime.core.util.WrappedURLInputStream.<init>(WrappedURLInputStream.java:78)
+	at org.knime.core.util.FileUtil.openStreamWithTimeout(FileUtil.java:1437)
+	at org.knime.base.node.util.BufferedFileReader.createNewReader(BufferedFileReader.java:531)
+	... 23 more
+Caused by: org.eclipse.core.runtime.CoreException: File not found: /Users/alexander/Documents/KNIME Workspaces/knime-workspace-42/WebPortal Use Case/data/names.csv.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:409)
+	at org.knime.workbench.explorer.localworkspace.LocalWorkspaceFileStore.openInputStream(LocalWorkspaceFileStore.java:214)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:441)
+	... 26 more
+Caused by: java.io.FileNotFoundException: /Users/alexander/Documents/KNIME Workspaces/knime-workspace-42/WebPortal Use Case/data/names.csv (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:404)
+	... 28 more
+2021-05-07 12:38:52,401 : WARN  : ModalContext :  : Node : File Reader : 3:14 : Can't access 'knime://LOCAL/WebPortal%20Use%20Case/data/names.csv'. (File not found: /Users/alexander/Documents/KNIME Workspaces/knime-workspace-42/WebPortal Use Case/data/names.csv.)
+2021-05-07 12:38:52,403 : DEBUG : ModalContext :  : Node : Table Creator : 3:22 : Configure succeeded. (Table Creator)
+2021-05-07 12:38:52,413 : DEBUG : ModalContext :  : Node : String to JSON : 3:3 : Configure succeeded. (String to JSON)
+2021-05-07 12:38:52,416 : DEBUG : ModalContext :  : Node : Math Formula : 3:10 : Configure succeeded. (Math Formula)
+2021-05-07 12:38:52,446 : DEBUG : ModalContext :  : Node : JSON Path : 3:4 : Configure succeeded. (JSON Path)
+2021-05-07 12:38:52,450 : DEBUG : ModalContext :  : Node : Ungroup : 3:5 : Configure succeeded. (Ungroup)
+2021-05-07 12:38:52,451 : DEBUG : ModalContext :  : Node : Math Formula : 3:6 : Configure succeeded. (Math Formula)
+2021-05-07 12:38:52,451 : DEBUG : ModalContext :  : Node : Math Formula : 3:7 : Configure succeeded. (Math Formula)
+2021-05-07 12:38:52,452 : DEBUG : ModalContext :  : Node : Math Formula : 3:16 : Configure succeeded. (Math Formula)
+2021-05-07 12:38:52,453 : DEBUG : ModalContext :  : Node : Math Formula : 3:8 : Configure succeeded. (Math Formula)
+2021-05-07 12:38:52,453 : DEBUG : ModalContext :  : RenameConfiguration : Column Rename : 3:18 : No rename settings for column "name", leaving it untouched.
+2021-05-07 12:38:52,453 : DEBUG : ModalContext :  : RenameConfiguration : Column Rename : 3:18 : No rename settings for column "joinkey", leaving it untouched.
+2021-05-07 12:38:52,453 : DEBUG : ModalContext :  : Node : Column Rename : 3:18 : Configure succeeded. (Column Rename)
+2021-05-07 12:38:52,454 : DEBUG : ModalContext :  : Node : Math Formula : 3:11 : Configure succeeded. (Math Formula)
+2021-05-07 12:38:53,960 : DEBUG : ModalContext :  : Node : Column Expressions : 3:24 : Configure succeeded. (Column Expressions)
+2021-05-07 12:38:53,961 : DEBUG : ModalContext :  : Node : Joiner : 3:12 : Configure succeeded. (Joiner)
+2021-05-07 12:43:31,290 : DEBUG : main :  : ProjectWorkflowMap : Generate Data : 3 : Removing "file:/Users/alexander/Documents/KNIME%20Workspaces/knime-workspace-42/Demos/Auditing/Generate%20Data/" from project map (1 remaining)
+2021-05-07 12:43:31,291 : DEBUG : main :  : WorkflowManager : Generate Data : 3 : Removing project "Generate Data 3"
+2021-05-07 12:43:31,293 : DEBUG : main :  : DBWriteNodeModel : DB Writer : 3:13 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : DB Writer : 3:13 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : DBWriteNodeModel : DB Writer : 3:21 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : DB Writer : 3:21 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Joiner2NodeModel : Joiner : 3:12 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : Joiner : 3:12 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : FormulasNodeModel : Column Expressions : 3:20 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : Column Expressions : 3:20 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : FormulasNodeModel : Column Expressions : 3:24 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : Column Expressions : 3:24 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Joiner2NodeModel : Joiner : 3:17 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : Joiner : 3:17 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : JEPNodeModel : Math Formula : 3:11 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : Math Formula : 3:11 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : RenameNodeModel : Column Rename : 3:18 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : Column Rename : 3:18 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : JEPNodeModel : Math Formula : 3:8 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : Math Formula : 3:8 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : JEPNodeModel : Math Formula : 3:16 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : Math Formula : 3:16 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : JEPNodeModel : Math Formula : 3:7 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : Math Formula : 3:7 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : JEPNodeModel : Math Formula : 3:6 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : Math Formula : 3:6 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : UngroupNodeModel : Ungroup : 3:5 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : Ungroup : 3:5 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : JEPNodeModel : Math Formula : 3:19 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : Math Formula : 3:19 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : JSONPathNodeModel : JSON Path : 3:4 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : JSON Path : 3:4 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : JEPNodeModel : Math Formula : 3:15 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : Math Formula : 3:15 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : JEPNodeModel : Math Formula : 3:10 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : Math Formula : 3:10 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : StringToJSONNodeModel : String to JSON : 3:3 : Removing all (0) views from model.
+2021-05-07 12:43:31,293 : DEBUG : main :  : Node : String to JSON : 3:3 : clean output ports.
+2021-05-07 12:43:31,293 : DEBUG : main :  : DBWriteNodeModel : DB Writer : 3:23 : Removing all (0) views from model.
+2021-05-07 12:43:31,294 : DEBUG : main :  : Node : DB Writer : 3:23 : clean output ports.
+2021-05-07 12:43:31,294 : DEBUG : main :  : TableCreator2NodeModel : Table Creator : 3:22 : Removing all (0) views from model.
+2021-05-07 12:43:31,294 : DEBUG : main :  : Node : Table Creator : 3:22 : clean output ports.
+2021-05-07 12:43:31,294 : DEBUG : main :  : FileReaderNodeModel : File Reader : 3:14 : Removing all (0) views from model.
+2021-05-07 12:43:31,294 : DEBUG : main :  : Node : File Reader : 3:14 : clean output ports.
+2021-05-07 12:43:31,294 : DEBUG : main :  : TableCreator2NodeModel : Table Creator : 3:9 : Removing all (0) views from model.
+2021-05-07 12:43:31,294 : DEBUG : main :  : Node : Table Creator : 3:9 : clean output ports.
+2021-05-07 12:43:31,294 : DEBUG : main :  : TableCreator2NodeModel : Table Creator : 3:2 : Removing all (0) views from model.
+2021-05-07 12:43:31,294 : DEBUG : main :  : Node : Table Creator : 3:2 : clean output ports.
+2021-05-07 12:43:31,294 : DEBUG : main :  : SQLiteDBConnectorNodeModel : SQLite Connector : 3:1 : Removing all (0) views from model.
+2021-05-07 12:43:31,294 : DEBUG : main :  : Node : SQLite Connector : 3:1 : clean output ports.
+2021-05-07 12:43:31,294 : DEBUG : main :  : WorkflowManager : Generate Data : 3 : Project "Generate Data 3" removed (3 remaining)

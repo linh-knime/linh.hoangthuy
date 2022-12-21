@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="sourceCode" type="xstring" value="import requests%%00010import time%%00010import pandas as pd%%00010%%00010from selenium import webdriver%%00010from selenium.webdriver.firefox.options import Options%%00010from selenium.webdriver.common.by import By%%00010from selenium.webdriver.support.ui import WebDriverWait%%00010from selenium.webdriver.support import expected_conditions as EC%%00010from selenium.webdriver.support.ui import Select%%00010%%00010# Setup%%00010user_agent = &quot;Mozilla/5.0 (X11; Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36 RuxitSynthetic/1.0 v5214140143 t55095&quot;%%00010path = r'/Users/linhthuy/Desktop/Selenium_Chrome_Driver/geckodriver'%%00010opts = Options()%%00010opts.add_argument(user_agent)%%00010%%00010try:%%00010%%00009driver = webdriver.Firefox(executable_path=path, options=opts)%%00010%%00009driver.get(&quot;https://www.check24.de/kredit/privatkredit/&quot;);%%00010%%00009%%00010%%00009# Accept cookies to unblock page%%00010%%00009accept_cookies_btn = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.CSS_SELECTOR, &quot;a[class='c24-cookie-consent-button'][onclick^='Check24.cookieBanner']&quot;)))%%00010%%00009accept_cookies_btn.click()%%00010%%00009time.sleep(1)%%00010%%00009%%00010%%00009# Enter Credit Amount%%00010%%00009insert = WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.ID, &quot;kp&quot;)))%%00010%%00009insert.click()%%00010%%00009insert.send_keys(flow_variables['integer-input'])%%00010%%00010%%00009# Enter Purpose%%00010%%00009purpose = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.CSS_SELECTOR, &quot;div[class='selectedItem']&quot;)))%%00010%%00009purpose.click()%%00010%%00010%%00009time.sleep(1)%%00010%%00010%%00009item = driver.find_element_by_css_selector(&quot;div.dropdownItem:nth-child({})&quot;.format(flow_variables['value-selection'][0])) %%00010%%00009item.click()%%00010%%00010%%00009# Search%%00010%%00009search_btn = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.CSS_SELECTOR, &quot;button[class='c24-button loaderInButton']&quot;)))%%00010%%00009search_btn.click()%%00010%%00009time.sleep(1)%%00010%%00010%%00009# Enter length%%00010%%00009months = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.CSS_SELECTOR, &quot;#duration&quot;)))%%00010%%00009months.click()%%00010%%00010%%00009opt = driver.find_element_by_css_selector(&quot;.calculatorDuration &gt; div:nth-child(2) &gt; ul:nth-child(2) &gt; li:nth-child({})&quot;.format(flow_variables['currentIteration']+1)) %%00010%%00009opt.click()%%00010%%00010%%00009# Scroll down to bottom%%00010%%00009total_height = int(driver.execute_script(&quot;return document.body.scrollHeight&quot;))%%00010%%00009for i in range(1, total_height, 5):%%00010%%00009%%00009driver.execute_script(&quot;window.scrollTo(0, {});&quot;.format(i))%%00010%%00010%%00010%%00009# Scroll down to bottom%%00010%%00009total_height = int(driver.execute_script(&quot;return document.body.scrollHeight&quot;))%%00010%%00009for i in range(1, total_height, 5):%%00010%%00009%%00009driver.execute_script(&quot;window.scrollTo(0, {});&quot;.format(i))%%00010%%00009%%00009%%00010%%00009# Find all credit institute names and return them%%00010%%00009names=driver.find_elements_by_css_selector(&quot;div[class^=legalLine]&quot;)%%00010%%00009output_table_1= pd.DataFrame(list(map(lambda div: div.get_attribute('innerHTML'), names)))%%00010%%00009%%00010%%00009# Find all credit offers and return them%%00010%%00009res = driver.find_elements_by_css_selector(&quot;article&quot;)%%00010%%00009output_table_2 = pd.DataFrame(list(map(lambda div: div.get_attribute('innerHTML'), res)))%%00010%%00010finally:%%00010%%00009#pass%%00010%%00009driver.quit()"/>
+        <entry key="rowLimit" type="xint" value="1000"/>
+        <entry key="convertMissingToPython" type="xboolean" value="false"/>
+        <entry key="convertMissingFromPython" type="xboolean" value="false"/>
+        <entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+        <entry key="sentinelValue" type="xint" value="0"/>
+        <entry key="chunkSize" type="xint" value="500000"/>
+        <entry key="pythonVersionOption" type="xstring" value="python3"/>
+        <entry key="python2Command" type="xstring" value=""/>
+        <entry key="python3Command" type="xstring" value=""/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Retrieve Elements"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="320"/>
+        <entry key="y-coordinate" type="xint" value="543"/>
+        <entry key="width" type="xint" value="104"/>
+        <entry key="height" type="xint" value="13"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.python2.nodes.script2.Python2ScriptNodeFactory2"/>
+    <entry key="node-name" type="xstring" value="Python Script"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.0.v202111232310"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.2.v202203041212"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="Input object (pickled)"/>
+        <config key="Input table"/>
+        <config key="Output table">
+            <config key="port_0">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+            <config key="port_1">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="Output image"/>
+        <config key="Output object (pickled)"/>
+    </config>
+    <entry key="name" type="xstring" value="Python Script"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 23, Cols: 1"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 23, Cols: 1"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

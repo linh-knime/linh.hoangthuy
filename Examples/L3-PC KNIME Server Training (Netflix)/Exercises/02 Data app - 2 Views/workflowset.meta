@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">Emilio Silvestri</element><element xmlns="" form="date" name="Creation Date">14/3/2020/11:2:55 +02:00</element><element xmlns="" form="multiline" name="Comments">Create an interactive dashboard in 3 steps: Netflix dataset
+
+This workflow creates an interactive visualization dashboard of the "Netflix Movies and TV Shows" dataset. The charts are grouped in components and can be displayed either locally or from the KNIME WebPortal&#xd;
+
+
+BLOG: How to create an interactive dashboard in three steps with KNIME https://www.knime.com/blog/how-to-create-an-interactive-dashboard-in-three-steps-with-knime
+TAGS: sunburst chart,line plot,bar chart,histogram,visualization,interactive dashboard,stacked area chart,interactive filter</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2022-10-25 17:24:39 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2022-01-20 16:39:30 +0100</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

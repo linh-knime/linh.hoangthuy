@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">Lukas.Siedentop</element><element xmlns="" form="date" name="Creation Date">19/9/2021/10:11:52 +02:00</element><element xmlns="" form="multiline" name="Comments">[KNIME Server Onboarding] Make use of Workflows
+
+Bob modified the workflow of the previous email to create a report, and it is found under Example Workflows/Server Onboarding/02 Email Database Report. It’s still quite basic and needs refinement, but we’ll take care of that later. Today’s exercise is to setup the workflow such that each week you receive a mail which contains the report as a pdf. &#xd;
+
+
+URL: Documentation on Jobs https://docs.knime.com/latest/server_user_guide/index.html#_workflow_jobs
+VIDEO: Remote Execution https://www.youtube.com/watch?v=UXEFVT15YXo
+TAGS: KNIME Server Onboarding,Make use of Workflows</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2022-06-08 17:31:44 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2021-11-03 16:26:43 +0100</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

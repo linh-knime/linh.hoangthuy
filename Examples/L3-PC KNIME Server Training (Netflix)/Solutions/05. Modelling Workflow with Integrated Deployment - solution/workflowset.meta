@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">&lt;unknown></element><element xmlns="" form="date" name="Creation Date">3/2/2020/14:18:4 +01:00</element><element xmlns="" form="multiline" name="Comments">Modelling Workflow with Integrated Deployment
+
+This workflow shows a simple example of churn prediction with interactive threshold optimization. This workflow is used for showcasing Integrated Deployment introduce in KNIME 4.2. You can see how the trained model is automatically captured (via Capture Workflow nodes) and deployed (via a Workflow Writer node).
+
+
+URL: Slides to KNIME Server Course: Productionizing and Collaboration (L3-PC) https://www.knime.com/form/material-download-registration
+TAGS: Integrated Deployment,deployment,capture,write workflow,combine,workflow,education</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2022-10-25 17:24:39 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2022-01-20 15:36:08 +0100</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

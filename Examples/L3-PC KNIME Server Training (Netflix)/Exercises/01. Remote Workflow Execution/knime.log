@@ -1,0 +1,1213 @@
+2021-09-15 17:24:07,028 : DEBUG : ModalContext :  : Joiner2NodeFactory : 01_data_mining : 3 : Factory is already initialized. Nothing to do.
+2021-09-15 17:24:07,028 : DEBUG : ModalContext :  : HiLiteHandler : 01_data_mining : 3 : Adding hilite translator to handler 032b2e18-1888-4886-a1ec-ee7663d8984e
+2021-09-15 17:24:07,028 : DEBUG : ModalContext :  : HiLiteHandler : 01_data_mining : 3 : Adding hilite translator to handler cefefe76-625a-4623-933a-2cb7eb40317d
+2021-09-15 17:24:07,033 : DEBUG : ModalContext :  : ClusterNodeFactory2 : 01_data_mining : 3 : Factory is already initialized. Nothing to do.
+2021-09-15 17:24:07,034 : DEBUG : ModalContext :  : HiLiteHandler : 01_data_mining : 3 : Adding hilite translator to handler d79d144c-e5ee-4a67-9de8-9f1e162faa29
+2021-09-15 17:24:07,036 : DEBUG : ModalContext :  : NormalizerPMMLDeNodeFactory : 01_data_mining : 3 : Factory is already initialized. Nothing to do.
+2021-09-15 17:24:07,037 : DEBUG : ModalContext :  : NormalizerPMMLDeNodeFactory : 01_data_mining : 3 : Factory is already initialized. Nothing to do.
+2021-09-15 17:24:07,039 : DEBUG : ModalContext :  : ReadTableNodeFactory : 01_data_mining : 3 : Factory is already initialized. Nothing to do.
+2021-09-15 17:24:07,041 : DEBUG : ModalContext :  : Joiner2NodeFactory : 01_data_mining : 3 : Factory is already initialized. Nothing to do.
+2021-09-15 17:24:07,041 : DEBUG : ModalContext :  : HiLiteHandler : 01_data_mining : 3 : Adding hilite translator to handler 8c92fec8-4182-45f8-950d-5ec96ff1b1df
+2021-09-15 17:24:07,041 : DEBUG : ModalContext :  : HiLiteHandler : 01_data_mining : 3 : Adding hilite translator to handler 7c0bfad2-9656-4f55-8e69-a58f17baf2bb
+2021-09-15 17:24:07,043 : DEBUG : ModalContext :  : NormalizerPMMLNodeFactory2 : 01_data_mining : 3 : Factory is already initialized. Nothing to do.
+2021-09-15 17:24:07,046 : DEBUG : ModalContext :  : ReportingDataSetNodeFactory : 01_data_mining : 3 : Factory is already initialized. Nothing to do.
+2021-09-15 17:24:07,047 : DEBUG : ModalContext :  : FileReaderNodeFactory : 01_data_mining : 3 : Factory is already initialized. Nothing to do.
+2021-09-15 17:24:07,048 : DEBUG : ModalContext :  : NumberToString2NodeFactory : 01_data_mining : 3 : Factory is already initialized. Nothing to do.
+2021-09-15 17:24:07,053 : DEBUG : ModalContext :  : ExcelTableReaderNodeFactory : 01_data_mining : 3 : Factory is already initialized. Nothing to do.
+2021-09-15 17:24:07,170 : DEBUG : ModalContext :  : Node : Table Reader (deprecated) : 3:197 : Configure succeeded. (Table Reader (deprecated))
+2021-09-15 17:24:07,545 : DEBUG : ModalContext :  : Node : File Reader (deprecated) : 3:204 : Configure succeeded. (File Reader (deprecated))
+2021-09-15 17:24:07,562 : DEBUG : ModalContext :  : Node : Excel Reader : 3:207 : Configure succeeded. (Excel Reader)
+2021-09-15 17:24:07,563 : DEBUG : ModalContext :  : Node : Joiner (deprecated) : 3:95 : Configure succeeded. (Joiner (deprecated))
+2021-09-15 17:24:07,564 : DEBUG : ModalContext :  : Node : Joiner (deprecated) : 3:198 : Configure succeeded. (Joiner (deprecated))
+2021-09-15 17:24:07,569 : DEBUG : ModalContext :  : Node : Number To String : 3:205 : Configure succeeded. (Number To String)
+2021-09-15 17:24:07,570 : WARN  : ModalContext :  : Node : Normalizer (PMML) : 3:200 : All numeric columns are used for normalization. Mode: Min-Max Normalization
+2021-09-15 17:24:07,573 : DEBUG : ModalContext :  : Node : Normalizer (PMML) : 3:200 : Configure succeeded. (Normalizer (PMML))
+2021-09-15 17:24:07,575 : DEBUG : ModalContext :  : Node : k-Means : 3:138 : Configure succeeded. (k-Means)
+2021-09-15 17:24:07,575 : DEBUG : ModalContext :  : Node : Denormalizer (PMML) : 3:140 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:24:07,576 : DEBUG : ModalContext :  : Node : Denormalizer (PMML) : 3:141 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:24:07,576 : DEBUG : ModalContext :  : Node : Data to Report : 3:202 : Configure succeeded. (Data to Report)
+2021-09-15 17:24:29,626 : WARN  : main :  : Node : File Reader : 3:208 : Please specify a file
+2021-09-15 17:24:44,274 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:207 : Thread parsing an Excel spreadsheet started.
+2021-09-15 17:24:44,915 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:207 : Thread parsing an Excel spreadsheet finished successfully.
+2021-09-15 17:24:45,148 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:207 : Thread parsing an Excel spreadsheet started.
+2021-09-15 17:24:45,211 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:207 : Thread parsing an Excel spreadsheet interrupted.
+2021-09-15 17:24:47,290 : DEBUG : SwingWorker-pool-12-thread-9 :  : DefaultReaderStatusMessageReporter : File Reader : 3:208 : Exception encountered while reporting status message.
+org.knime.core.node.InvalidSettingsException: Please specify a file
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:291)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.reader.DefaultReaderStatusMessageReporter.report(DefaultReaderStatusMessageReporter.java:85)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-09-15 17:24:49,877 : DEBUG : SwingWorker-pool-12-thread-1 :  : DefaultReaderStatusMessageReporter : File Reader : 3:208 : Exception encountered while reporting status message.
+org.knime.core.node.InvalidSettingsException: Please specify a file
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:291)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.reader.DefaultReaderStatusMessageReporter.report(DefaultReaderStatusMessageReporter.java:85)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-09-15 17:24:51,284 : DEBUG : SwingWorker-pool-12-thread-4 :  : DefaultReaderStatusMessageReporter : File Reader : 3:208 : Exception encountered while reporting status message.
+org.knime.core.node.InvalidSettingsException: Please specify a file
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:291)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.reader.DefaultReaderStatusMessageReporter.report(DefaultReaderStatusMessageReporter.java:85)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-09-15 17:25:13,293 : DEBUG : SwingWorker-pool-12-thread-10 :  : DefaultReaderStatusMessageReporter : File Reader : 3:208 : Exception encountered while reporting status message.
+org.knime.core.node.InvalidSettingsException: Please specify a file
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:291)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.reader.DefaultReaderStatusMessageReporter.report(DefaultReaderStatusMessageReporter.java:85)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-09-15 17:25:18,065 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:207 : Thread parsing an Excel spreadsheet started.
+2021-09-15 17:25:18,527 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:207 : Thread parsing an Excel spreadsheet finished successfully.
+2021-09-15 17:25:18,758 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:207 : Thread parsing an Excel spreadsheet started.
+2021-09-15 17:25:18,798 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:207 : Thread parsing an Excel spreadsheet interrupted.
+2021-09-15 17:25:32,087 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:207 : Thread parsing an Excel spreadsheet started.
+2021-09-15 17:25:32,386 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:207 : Thread parsing an Excel spreadsheet finished successfully.
+2021-09-15 17:25:32,595 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:207 : Thread parsing an Excel spreadsheet started.
+2021-09-15 17:25:35,937 : DEBUG : KNIME-Excel-Parser-0 :  : ExcelParserRunnable : Excel Reader : 3:207 : Thread parsing an Excel spreadsheet interrupted.
+2021-09-15 17:25:42,487 : DEBUG : SwingWorker-pool-12-thread-5 :  : DefaultReaderStatusMessageReporter : File Reader : 3:208 : Exception encountered while reporting status message.
+org.knime.core.node.InvalidSettingsException: Please specify a file
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:291)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.reader.DefaultReaderStatusMessageReporter.report(DefaultReaderStatusMessageReporter.java:85)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-09-15 17:25:44,477 : DEBUG : SwingWorker-pool-12-thread-9 :  : DefaultReaderStatusMessageReporter : File Reader : 3:208 : Exception encountered while reporting status message.
+org.knime.core.node.InvalidSettingsException: Please specify a file
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:291)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.reader.DefaultReaderStatusMessageReporter.report(DefaultReaderStatusMessageReporter.java:85)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-09-15 17:25:47,503 : DEBUG : main :  : Node : File Reader : 3:208 : Configure succeeded. (File Reader)
+2021-09-15 17:25:47,505 : DEBUG : main :  : NodeContainer : File Reader : 3:208 : File Reader 3:208 has new state: CONFIGURED
+2021-09-15 17:25:47,505 : DEBUG : main :  : NodeContainer : File Reader : 3:208 : 01_data_mining 3 has new state: CONFIGURED
+2021-09-15 17:25:51,497 : DEBUG : main :  : Node : Data to Report : 3:202 : reset
+2021-09-15 17:25:51,498 : DEBUG : main :  : Node : Data to Report : 3:202 : clean output ports.
+2021-09-15 17:25:51,498 : DEBUG : main :  : Node : Denormalizer (PMML) : 3:140 : reset
+2021-09-15 17:25:51,498 : DEBUG : main :  : Node : Denormalizer (PMML) : 3:140 : clean output ports.
+2021-09-15 17:25:51,498 : DEBUG : main :  : Node : Denormalizer (PMML) : 3:141 : reset
+2021-09-15 17:25:51,498 : DEBUG : main :  : Node : Denormalizer (PMML) : 3:141 : clean output ports.
+2021-09-15 17:25:51,498 : DEBUG : main :  : Node : k-Means : 3:138 : reset
+2021-09-15 17:25:51,498 : DEBUG : main :  : Node : k-Means : 3:138 : clean output ports.
+2021-09-15 17:25:51,498 : DEBUG : main :  : Node : Normalizer (PMML) : 3:200 : reset
+2021-09-15 17:25:51,498 : DEBUG : main :  : Node : Normalizer (PMML) : 3:200 : clean output ports.
+2021-09-15 17:25:51,498 : DEBUG : main :  : Node : Number To String : 3:205 : reset
+2021-09-15 17:25:51,498 : DEBUG : main :  : Node : Number To String : 3:205 : clean output ports.
+2021-09-15 17:25:51,498 : DEBUG : main :  : Node : Joiner (deprecated) : 3:198 : reset
+2021-09-15 17:25:51,498 : DEBUG : main :  : Node : Joiner (deprecated) : 3:198 : clean output ports.
+2021-09-15 17:25:51,498 : DEBUG : main :  : Node : Joiner (deprecated) : 3:95 : reset
+2021-09-15 17:25:51,499 : DEBUG : main :  : Node : Joiner (deprecated) : 3:95 : clean output ports.
+2021-09-15 17:25:51,499 : DEBUG : main :  : FileReaderNodeModel : File Reader (deprecated) : 3:204 : Removing all (0) views from model.
+2021-09-15 17:25:51,499 : DEBUG : main :  : Node : File Reader (deprecated) : 3:204 : clean output ports.
+2021-09-15 17:25:51,500 : WARN  : main :  : Node : Joiner (deprecated) : 3:95 : Type mismatch found of Joining Column Pair "Zip Code" and "Zip Code". Use "Number to String node" to convert the type of "Zip Code" to string.
+  : 2021-09-15 17:25:55,806 : main : DEBUG : KNIME-Workflow-Notifier :  :  : Node : WorkflowEditor :  : Table Reader : 3:209 :  : Workflow event triggered: WorkflowEvent [type=NODE_ADDED;node=3:209;old=null;new=Table Reader 3:209 (IDLE);timestamp=15.09.2021, 17:25:55]Please specify a file
+2021-09-15 17:26:07,110 : DEBUG : SwingWorker-pool-12-thread-8 :  : DefaultReaderStatusMessageReporter : Table Reader : 3:209 : Exception encountered while reporting status message.
+org.knime.core.node.InvalidSettingsException: Please specify a file
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:291)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.reader.DefaultReaderStatusMessageReporter.report(DefaultReaderStatusMessageReporter.java:85)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-09-15 17:26:08,746 : DEBUG : SwingWorker-pool-12-thread-3 :  : DefaultReaderStatusMessageReporter : Table Reader : 3:209 : Exception encountered while reporting status message.
+org.knime.core.node.InvalidSettingsException: Please specify a file
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:291)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.reader.DefaultReaderStatusMessageReporter.report(DefaultReaderStatusMessageReporter.java:85)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-09-15 17:26:10,060 : DEBUG : AWT-EventQueue-0 :  : ExecutionContext : Table Reader : 3:209 : No file store handler set on "Table Reader" (possibly running in 3rd party executor)
+2021-09-15 17:26:10,063 : DEBUG : SwingWorker-pool-12-thread-9 :  : ExecutionContext : Table Reader : 3:209 : Using Table Backend "BufferedTableBackend".
+2021-09-15 17:26:10,206 : DEBUG : SwingWorker-pool-12-thread-9 :  : Buffer : Table Reader : 3:209 : Table has been written with a previous version of KNIME ("container_8", using compatibility mode.
+2021-09-15 17:26:10,214 : DEBUG : SwingWorker-pool-12-thread-9 :  : BufferSettings : Table Reader : 3:209 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2021-09-15 17:26:10,215 : DEBUG : SwingWorker-pool-12-thread-9 :  : Buffer : Table Reader : 3:209 : Closing input stream on "C:\tmp\knime_01_data_mining79599\knime_container_20210915_6086309615981516544.tmp", 0 remaining
+2021-09-15 17:26:10,481 : DEBUG : main :  : Node : Table Reader : 3:209 : Configure succeeded. (Table Reader)
+2021-09-15 17:26:10,481 : DEBUG : main :  : NodeContainer : Table Reader : 3:209 : Table Reader 3:209 has new state: CONFIGURED
+2021-09-15 17:26:13,010 : DEBUG : AWT-EventQueue-0 :  : ExecutionContext : Table Reader : 3:209 : No file store handler set on "Table Reader" (possibly running in 3rd party executor)
+2021-09-15 17:26:13,011 : DEBUG : SwingWorker-pool-12-thread-4 :  : ExecutionContext : Table Reader : 3:209 : Using Table Backend "BufferedTableBackend".
+2021-09-15 17:26:13,116 : DEBUG : SwingWorker-pool-12-thread-4 :  : Buffer : Table Reader : 3:209 : Table has been written with a previous version of KNIME ("container_8", using compatibility mode.
+2021-09-15 17:26:13,117 : DEBUG : SwingWorker-pool-12-thread-4 :  : BufferSettings : Table Reader : 3:209 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2021-09-15 17:26:13,118 : DEBUG : SwingWorker-pool-12-thread-4 :  : Buffer : Table Reader : 3:209 : Closing input stream on "C:\tmp\knime_01_data_mining79599\knime_container_20210915_10285863746064995155.tmp", 0 remaining
+2021-09-15 17:26:16,698 : DEBUG : main :  : ReadTableNodeModel : Table Reader (deprecated) : 3:197 : Removing all (0) views from model.
+2021-09-15 17:26:16,698 : DEBUG : main :  : Node : Table Reader (deprecated) : 3:197 : clean output ports.
+2021-09-15 17:26:38,193 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Joiner (deprecated) : 3:95 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01_data_mining79598\01_data_mining\Joiner (#95)"
+2021-09-15 17:26:38,200 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : k-Means : 3:138 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01_data_mining79598\01_data_mining\k_Means (#138)"
+2021-09-15 17:26:38,204 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Denormalizer (PMML) : 3:140 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01_data_mining79598\01_data_mining\Denormalizer _PMML_ (#140)"
+2021-09-15 17:26:38,206 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Denormalizer (PMML) : 3:141 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01_data_mining79598\01_data_mining\Denormalizer _PMML_ (#141)"
+2021-09-15 17:26:38,208 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Joiner (deprecated) : 3:198 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01_data_mining79598\01_data_mining\Joiner (#198)"
+2021-09-15 17:26:38,211 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Normalizer (PMML) : 3:200 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01_data_mining79598\01_data_mining\Normalizer _PMML_ (#200)"
+2021-09-15 17:26:38,214 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Data to Report : 3:202 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01_data_mining79598\01_data_mining\Data to Report (#202)"
+2021-09-15 17:26:38,217 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Number To String : 3:205 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01_data_mining79598\01_data_mining\Number To String (#205)"
+2021-09-15 17:26:38,219 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : File Reader : 3:208 : Created node directory "C:\tmp\knime_temp_space_MP_79594\01_data_mining79598\01_data_mining\File Reader (#208)"
+2021-09-15 17:26:38,224 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Table Reader : 3:209 : Created node directory "C:\tmp\knime_temp_space_MP_79594\01_data_mining79598\01_data_mining\Table Reader (#209)"
+2021-09-15 17:32:00,969 : DEBUG : main :  : ProjectWorkflowMap : 01. Data Mining : 3 : Removing "file:/C:/Users/knime/KNIME%20workspaces/knime-workspace/01.%20Data%20Mining/" from project map (5 remaining)
+2021-09-15 17:32:00,970 : DEBUG : main :  : WorkflowManager : 01. Data Mining : 3 : Removing project "01. Data Mining 3"
+2021-09-15 17:32:00,971 : DEBUG : main :  : ReportingDataSetNodeModel : Data to Report : 3:202 : Removing all (0) views from model.
+2021-09-15 17:32:00,971 : DEBUG : main :  : Node : Data to Report : 3:202 : clean output ports.
+2021-09-15 17:32:00,971 : DEBUG : main :  : NormalizerPMMLDeNodeModel : Denormalizer (PMML) : 3:141 : Removing all (0) views from model.
+2021-09-15 17:32:00,971 : DEBUG : main :  : Node : Denormalizer (PMML) : 3:141 : clean output ports.
+2021-09-15 17:32:00,971 : DEBUG : main :  : NormalizerPMMLDeNodeModel : Denormalizer (PMML) : 3:140 : Removing all (0) views from model.
+2021-09-15 17:32:00,971 : DEBUG : main :  : Node : Denormalizer (PMML) : 3:140 : clean output ports.
+2021-09-15 17:32:00,971 : DEBUG : main :  : ClusterNodeModel : k-Means : 3:138 : Removing all (0) views from model.
+2021-09-15 17:32:00,971 : DEBUG : main :  : Node : k-Means : 3:138 : clean output ports.
+2021-09-15 17:32:00,971 : DEBUG : main :  : NormalizerPMMLNodeModelNoOptIn : Normalizer (PMML) : 3:200 : Removing all (0) views from model.
+2021-09-15 17:32:00,971 : DEBUG : main :  : Node : Normalizer (PMML) : 3:200 : clean output ports.
+2021-09-15 17:32:00,971 : DEBUG : main :  : NumberToString2NodeModel : Number To String : 3:205 : Removing all (0) views from model.
+2021-09-15 17:32:00,971 : DEBUG : main :  : Node : Number To String : 3:205 : clean output ports.
+2021-09-15 17:32:00,972 : DEBUG : main :  : Joiner2NodeModel : Joiner (deprecated) : 3:198 : Removing all (0) views from model.
+2021-09-15 17:32:00,972 : DEBUG : main :  : Node : Joiner (deprecated) : 3:198 : clean output ports.
+2021-09-15 17:32:00,972 : DEBUG : main :  : Joiner2NodeModel : Joiner (deprecated) : 3:95 : Removing all (0) views from model.
+2021-09-15 17:32:00,972 : DEBUG : main :  : Node : Joiner (deprecated) : 3:95 : clean output ports.
+2021-09-15 17:32:00,972 : DEBUG : main :  : TableReaderNodeModel : Table Reader : 3:209 : Removing all (0) views from model.
+2021-09-15 17:32:00,972 : DEBUG : main :  : Node : Table Reader : 3:209 : clean output ports.
+2021-09-15 17:32:00,972 : DEBUG : main :  : TableReaderNodeModel : File Reader : 3:208 : Removing all (0) views from model.
+2021-09-15 17:32:00,972 : DEBUG : main :  : Node : File Reader : 3:208 : clean output ports.
+2021-09-15 17:32:00,972 : DEBUG : main :  : ExcelTableReaderNodeModel : Excel Reader : 3:207 : Removing all (0) views from model.
+2021-09-15 17:32:00,972 : DEBUG : main :  : Node : Excel Reader : 3:207 : clean output ports.
+2021-09-15 17:32:00,973 : DEBUG : main :  : WorkflowManager : 01. Data Mining : 3 : Project "01. Data Mining 3" removed (6 remaining)
+2021-09-15 17:32:12,439 : DEBUG : ModalContext :  : Joiner2NodeFactory : 01. Remote Workflow Execution : 7 : Factory is already initialized. Nothing to do.
+2021-09-15 17:32:12,439 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 7 : Adding hilite translator to handler 561f621e-a709-4dc1-90d7-04a1e45cf871
+2021-09-15 17:32:12,439 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 7 : Adding hilite translator to handler dc5da171-2105-4a02-96a0-4f146a4ab653
+2021-09-15 17:32:12,440 : DEBUG : ModalContext :  : ClusterNodeFactory2 : 01. Remote Workflow Execution : 7 : Factory is already initialized. Nothing to do.
+2021-09-15 17:32:12,440 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 7 : Adding hilite translator to handler df1a3a17-7273-4995-9028-609b37046e6d
+2021-09-15 17:32:12,442 : DEBUG : ModalContext :  : NormalizerPMMLDeNodeFactory : 01. Remote Workflow Execution : 7 : Factory is already initialized. Nothing to do.
+2021-09-15 17:32:12,443 : DEBUG : ModalContext :  : NormalizerPMMLDeNodeFactory : 01. Remote Workflow Execution : 7 : Factory is already initialized. Nothing to do.
+2021-09-15 17:32:12,445 : DEBUG : ModalContext :  : Joiner2NodeFactory : 01. Remote Workflow Execution : 7 : Factory is already initialized. Nothing to do.
+2021-09-15 17:32:12,445 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 7 : Adding hilite translator to handler 01844f82-fb99-4197-91ef-fa7fe96dd378
+2021-09-15 17:32:12,445 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 7 : Adding hilite translator to handler ddd042c0-93fc-4317-92c6-1ffc44b31bc4
+2021-09-15 17:32:12,446 : DEBUG : ModalContext :  : NormalizerPMMLNodeFactory2 : 01. Remote Workflow Execution : 7 : Factory is already initialized. Nothing to do.
+2021-09-15 17:32:12,449 : DEBUG : ModalContext :  : ReportingDataSetNodeFactory : 01. Remote Workflow Execution : 7 : Factory is already initialized. Nothing to do.
+2021-09-15 17:32:12,450 : DEBUG : ModalContext :  : NumberToString2NodeFactory : 01. Remote Workflow Execution : 7 : Factory is already initialized. Nothing to do.
+2021-09-15 17:32:12,453 : DEBUG : ModalContext :  : ExcelTableReaderNodeFactory : 01. Remote Workflow Execution : 7 : Factory is already initialized. Nothing to do.
+2021-09-15 17:32:12,456 : DEBUG : ModalContext :  : FileReaderNodeFactory : 01. Remote Workflow Execution : 7 : Factory is already initialized. Nothing to do.
+2021-09-15 17:32:12,458 : DEBUG : ModalContext :  : KnimeTableReaderNodeFactory : 01. Remote Workflow Execution : 7 : Factory is already initialized. Nothing to do.
+2021-09-15 17:32:12,464 : DEBUG : ModalContext :  : Node : Excel Reader : 7:207 : Configure succeeded. (Excel Reader)
+2021-09-15 17:32:12,465 : DEBUG : ModalContext :  : Node : File Reader : 7:208 : Configure succeeded. (File Reader)
+2021-09-15 17:32:12,466 : DEBUG : ModalContext :  : Node : Table Reader : 7:209 : Configure succeeded. (Table Reader)
+2021-09-15 17:32:12,467 : WARN  : ModalContext :  : Node : Joiner (deprecated) : 7:95 : Type mismatch found of Joining Column Pair "Zip Code" and "Zip Code". Use "Number to String node" to convert the type of "Zip Code" to string.
+2021-09-15 17:39:40,401 : WARN  : main :  : Node : Joiner : 7:210 : No join columns passed.
+2021-09-15 17:39:41,720 : DEBUG : main :  : VariableTypeRegistry : Joiner : 7:210 : The following variable types could all correspond to the config 'leftTableJoinPredicate': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:39:41,720 : DEBUG : main :  : VariableTypeRegistry : Joiner : 7:210 : The following variable types could all correspond to the config 'rightTableJoinPredicate': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:39:41,720 : DEBUG : main :  : VariableTypeRegistry : Joiner : 7:210 : The following variable types could all correspond to the config 'included_names': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:39:41,720 : DEBUG : main :  : VariableTypeRegistry : Joiner : 7:210 : The following variable types could all correspond to the config 'excluded_names': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:39:41,720 : DEBUG : main :  : VariableTypeRegistry : Joiner : 7:210 : The following variable types could all correspond to the config 'included_names': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:39:41,720 : DEBUG : main :  : VariableTypeRegistry : Joiner : 7:210 : The following variable types could all correspond to the config 'excluded_names': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:39:41,723 : DEBUG : AWT-EventQueue-0 :  : VariableTypeRegistry : Joiner : 7:210 : The following variable types could all correspond to the config 'leftTableJoinPredicate': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:39:41,723 : DEBUG : AWT-EventQueue-0 :  : VariableTypeRegistry : Joiner : 7:210 : The following variable types could all correspond to the config 'rightTableJoinPredicate': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:39:41,755 : DEBUG : AWT-EventQueue-0 :  : VariableTypeRegistry : Joiner : 7:210 : The following variable types could all correspond to the config 'rightTableJoinPredicate': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:39:41,756 : DEBUG : AWT-EventQueue-0 :  : VariableTypeRegistry : Joiner : 7:210 : The following variable types could all correspond to the config 'leftTableJoinPredicate': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:40:02,603 : DEBUG : main :  : Node : Joiner : 7:210 : Configure succeeded. (Joiner)
+2021-09-15 17:40:02,603 : DEBUG : main :  : NodeContainer : Joiner : 7:210 : Joiner 7:210 has new state: CONFIGURED
+2021-09-15 17:40:06,924 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : WorkflowManager : File Reader : 7:208 : File Reader 7:208 doBeforePreExecution
+2021-09-15 17:40:06,924 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : NodeContainer : File Reader : 7:208 : File Reader 7:208 has new state: PREEXECUTE
+2021-09-15 17:40:06,924 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : WorkflowManager : Excel Reader : 7:207 : Excel Reader 7:207 doBeforePreExecution
+2021-09-15 17:40:06,924 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : NodeContainer : Excel Reader : 7:207 : Excel Reader 7:207 has new state: PREEXECUTE
+2021-09-15 17:40:06,924 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : WorkflowDataRepository : File Reader : 7:208 : Adding handler abf5c22a-6938-4f0a-88b6-2d3a58c7f2ed (File Reader 7:208: <no directory>) - 1 in total
+2021-09-15 17:40:06,924 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : WorkflowManager : File Reader : 7:208 : File Reader 7:208 doBeforeExecution
+2021-09-15 17:40:06,925 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : WorkflowDataRepository : Excel Reader : 7:207 : Adding handler d129df21-f178-463d-ba95-920ac7b94deb (Excel Reader 7:207: <no directory>) - 2 in total
+2021-09-15 17:40:06,925 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : NodeContainer : File Reader : 7:208 : File Reader 7:208 has new state: EXECUTING
+2021-09-15 17:40:06,925 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : WorkflowManager : Excel Reader : 7:207 : Excel Reader 7:207 doBeforeExecution
+2021-09-15 17:40:06,925 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : LocalNodeExecutionJob : File Reader : 7:208 : File Reader 7:208 Start execute
+7:208 : File Reader 7:208 Start execute
+2021-09-15 17:40:06,925 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : NodeContainer : Excel Reader : 7:207 : Excel Reader 7:207 has new state: EXECUTING
+2021-09-15 17:40:06,926 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : LocalNodeExecutionJob : Excel Reader : 7:207 : Excel Reader 7:207 Start execute
+2021-09-15 17:40:06,928 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : URIFileSystemProvider : Excel Reader : 7:207 : Failed to check if path '/../../../data/CallsData.xlsx' exists: Leaving the mount point is not allowed for workflow relative URLs: C:\Users\knime\KNIME workspaces\knime-workspace\01. Remote Workflow Execution\..\..\..\data\CallsData.xlsx is not in C:\Users\knime\KNIME workspaces\knime-workspace
+java.io.IOException: Leaving the mount point is not allowed for workflow relative URLs: C:\Users\knime\KNIME workspaces\knime-workspace\01. Remote Workflow Execution\..\..\..\data\CallsData.xlsx is not in C:\Users\knime\KNIME workspaces\knime-workspace
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler.resolveWorkflowRelativeUrl(ExplorerURLStreamHandler.java:304)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler.resolveWorkflowRelativeUrl(ExplorerURLStreamHandler.java:249)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler.resolveKNIMEURL(ExplorerURLStreamHandler.java:207)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler.openConnection(ExplorerURLStreamHandler.java:151)
+	at org.eclipse.osgi.internal.url.URLStreamHandlerProxy.openConnection(URLStreamHandlerProxy.java:123)
+	at java.base/java.net.URL.openConnection(Unknown Source)
+	at org.knime.filehandling.core.fs.url.URIPath.openURLConnection(URIPath.java:149)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.lambda$1(URIFileSystemProvider.java:259)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.doWithNodeContext(URIFileSystemProvider.java:124)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.exists(URIFileSystemProvider.java:252)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.exists(URIFileSystemProvider.java:1)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.existsCached(BaseFileSystemProvider.java:655)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.readAttributes(BaseFileSystemProvider.java:714)
+	at java.base/java.nio.file.Files.readAttributes(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.exists(FSFiles.java:300)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:295)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeModel.execute(ExcelTableReaderNodeModel.java:106)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:556)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1259)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:365)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:219)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2021-09-15 17:40:06,929 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : URIFileSystemProvider : File Reader : 7:208 : Failed to check if path '/../../../data/ContractData.csv' exists: Leaving the mount point is not allowed for workflow relative URLs: C:\Users\knime\KNIME workspaces\knime-workspace\01. Remote Workflow Execution\..\..\..\data\ContractData.csv is not in C:\Users\knime\KNIME workspaces\knime-workspace
+java.io.IOException: Leaving the mount point is not allowed for workflow relative URLs: C:\Users\knime\KNIME workspaces\knime-workspace\01. Remote Workflow Execution\..\..\..\data\ContractData.csv is not in C:\Users\knime\KNIME workspaces\knime-workspace
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler.resolveWorkflowRelativeUrl(ExplorerURLStreamHandler.java:304)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler.resolveWorkflowRelativeUrl(ExplorerURLStreamHandler.java:249)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler.resolveKNIMEURL(ExplorerURLStreamHandler.java:207)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler.openConnection(ExplorerURLStreamHandler.java:151)
+	at org.eclipse.osgi.internal.url.URLStreamHandlerProxy.openConnection(URLStreamHandlerProxy.java:123)
+	at java.base/java.net.URL.openConnection(Unknown Source)
+	at org.knime.filehandling.core.fs.url.URIPath.openURLConnection(URIPath.java:149)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.lambda$1(URIFileSystemProvider.java:259)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.doWithNodeContext(URIFileSystemProvider.java:124)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.exists(URIFileSystemProvider.java:252)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.exists(URIFileSystemProvider.java:1)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.existsCached(BaseFileSystemProvider.java:655)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.readAttributes(BaseFileSystemProvider.java:714)
+	at java.base/java.nio.file.Files.readAttributes(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.exists(FSFiles.java:300)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:295)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:556)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1259)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:365)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:219)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2021-09-15 17:40:06,929 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : Node : Excel Reader : 7:207 : reset
+2021-09-15 17:40:06,929 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : Node : File Reader : 7:208 : reset
+2021-09-15 17:40:06,929 : ERROR : KNIME-Worker-35-Excel Reader 7:207 :  : Node : Excel Reader : 7:207 : Execute failed: The specified file ../../../data/CallsData.xlsx does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file ../../../data/CallsData.xlsx does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:295)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.ext.poi3.node.io.filehandling.excel.reader.ExcelTableReaderNodeModel.execute(ExcelTableReaderNodeModel.java:106)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:556)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1259)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:365)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:219)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2021-09-15 17:40:06,930 : ERROR : KNIME-Worker-36-File Reader 7:208 :  : Node : File Reader : 7:208 : Execute failed: The specified file ../../../data/ContractData.csv does not exist.
+org.knime.core.node.InvalidSettingsException: The specified file ../../../data/ContractData.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:295)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.node.table.reader.paths.PathSettings$1.getItems(PathSettings.java:105)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.getPaths(TableReaderNodeModel.java:195)
+	at org.knime.filehandling.core.node.table.reader.TableReaderNodeModel.execute(TableReaderNodeModel.java:158)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:556)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1259)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:559)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:95)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:201)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:365)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:219)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+2021-09-15 17:40:06,931 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : WorkflowManager : Excel Reader : 7:207 : Excel Reader 7:207 doBeforePostExecution
+2021-09-15 17:40:06,931 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : NodeContainer : Excel Reader : 7:207 : Excel Reader 7:207 has new state: POSTEXECUTE
+2021-09-15 17:40:06,931 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : WorkflowManager : Excel Reader : 7:207 : Excel Reader 7:207 doAfterExecute - failure
+2021-09-15 17:40:06,931 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : NodeContainer : Excel Reader : 7:207 : Joiner 7:210 has new state: CONFIGURED
+2021-09-15 17:40:06,931 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : Node : Excel Reader : 7:207 : reset
+2021-09-15 17:40:06,931 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : Node : Excel Reader : 7:207 : clean output ports.
+2021-09-15 17:40:06,931 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : WorkflowDataRepository : Excel Reader : 7:207 : Removing handler d129df21-f178-463d-ba95-920ac7b94deb (Excel Reader 7:207: <no directory>) - 1 remaining
+2021-09-15 17:40:06,931 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : NodeContainer : Excel Reader : 7:207 : Excel Reader 7:207 has new state: IDLE
+2021-09-15 17:40:06,932 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : Node : Excel Reader : 7:207 : Configure succeeded. (Excel Reader)
+2021-09-15 17:40:06,932 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : NodeContainer : Excel Reader : 7:207 : Excel Reader 7:207 has new state: CONFIGURED
+2021-09-15 17:40:06,932 : WARN  : KNIME-Worker-35-Excel Reader 7:207 :  : Node : Joiner (deprecated) : 7:95 : Type mismatch found of Joining Column Pair "Zip Code" and "Zip Code". Use "Number to String node" to convert the type of "Zip Code" to string.
+2021-09-15 17:40:06,933 : DEBUG : KNIME-Worker-35-Excel Reader 7:207 :  : Node : Joiner : 7:210 : Configure succeeded. (Joiner)
+2021-09-15 17:40:06,937 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : WorkflowManager : File Reader : 7:208 : File Reader 7:208 doBeforePostExecution
+2021-09-15 17:40:06,937 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : NodeContainer : File Reader : 7:208 : File Reader 7:208 has new state: POSTEXECUTE
+2021-09-15 17:40:06,937 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : WorkflowManager : File Reader : 7:208 : File Reader 7:208 doAfterExecute - failure
+2021-09-15 17:40:06,937 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : Node : File Reader : 7:208 : reset
+2021-09-15 17:40:06,937 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : Node : File Reader : 7:208 : clean output ports.
+2021-09-15 17:40:06,938 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : WorkflowDataRepository : File Reader : 7:208 : Removing handler abf5c22a-6938-4f0a-88b6-2d3a58c7f2ed (File Reader 7:208: <no directory>) - 0 remaining
+2021-09-15 17:40:06,938 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : NodeContainer : File Reader : 7:208 : File Reader 7:208 has new state: IDLE
+2021-09-15 17:40:06,938 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : Node : File Reader : 7:208 : Configure succeeded. (File Reader)
+2021-09-15 17:40:06,938 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : NodeContainer : File Reader : 7:208 : File Reader 7:208 has new state: CONFIGURED
+2021-09-15 17:40:06,939 : WARN  : KNIME-Worker-36-File Reader 7:208 :  : Node : Joiner (deprecated) : 7:95 : Type mismatch found of Joining Column Pair "Zip Code" and "Zip Code". Use "Number to String node" to convert the type of "Zip Code" to string.
+2021-09-15 17:40:06,939 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : Node : Joiner : 7:210 : Configure succeeded. (Joiner)
+2021-09-15 17:40:06,940 : DEBUG : KNIME-Worker-36-File Reader 7:208 :  : NodeContainer : File Reader : 7:208 : 01. Remote Workflow Execution 7 has new state: IDLE
+2021-09-15 17:40:16,407 : DEBUG : main :  : Node : Joiner : 7:211 : reset
+2021-09-15 17:40:16,407 : DEBUG : main :  : Node : Joiner : 7:211 : clean output ports.
+2021-09-15 17:40:22,712 : WARN  : main :  : Node : Joiner : 7:211 : The join column names [Phone, Zip Code] do not exist in the target table, which only specifies the column names [City, Latitude, Longitude]
+2021-09-15 17:40:23,524 : DEBUG : main :  : VariableTypeRegistry : Joiner : 7:211 : The following variable types could all correspond to the config 'excluded_names': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:40:23,524 : DEBUG : main :  : VariableTypeRegistry : Joiner : 7:211 : The following variable types could all correspond to the config 'excluded_names': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:40:32,429 : DEBUG : main :  : Node : Joiner : 7:211 : Configure succeeded. (Joiner)
+2021-09-15 17:40:32,429 : DEBUG : main :  : NodeContainer : Joiner : 7:211 : Joiner 7:211 has new state: CONFIGURED
+2021-09-15 17:40:36,003 : DEBUG : main :  : Node : Number To String : 7:205 : Configure succeeded. (Number To String)
+2021-09-15 17:40:36,003 : WARN  : main :  : Node : Normalizer (PMML) : 7:200 : All numeric columns are used for normalization. Mode: Min-Max Normalization
+2021-09-15 17:40:36,003 : DEBUG : main :  : Node : Normalizer (PMML) : 7:200 : Configure succeeded. (Normalizer (PMML))
+2021-09-15 17:40:36,004 : DEBUG : main :  : Node : k-Means : 7:138 : Configure succeeded. (k-Means)
+2021-09-15 17:40:36,004 : DEBUG : main :  : Node : Denormalizer (PMML) : 7:140 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:40:36,004 : DEBUG : main :  : Node : Denormalizer (PMML) : 7:141 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:40:36,004 : DEBUG : main :  : Node : Data to Report : 7:202 : Configure succeeded. (Data to Report)
+2021-09-15 17:40:38,993 : DEBUG : main :  : Joiner2NodeModel : Joiner (deprecated) : 7:198 : Removing all (0) views from model.
+2021-09-15 17:40:38,993 : DEBUG : main :  : Node : Joiner (deprecated) : 7:198 : clean output ports.
+2021-09-15 17:40:38,994 : DEBUG : main :  : Joiner2NodeModel : Joiner (deprecated) : 7:95 : Removing all (0) views from model.
+2021-09-15 17:40:38,994 : DEBUG : main :  : Node : Joiner (deprecated) : 7:95 : clean output ports.
+2021-09-15 17:40:53,838 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : k-Means : 7:138 : Replaced node directory "C:\Users\knime\KNIME workspaces\knime-workspace\01. Remote Workflow Execution\k_Means (#138)"
+2021-09-15 17:40:53,842 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Denormalizer (PMML) : 7:140 : Replaced node directory "C:\Users\knime\KNIME workspaces\knime-workspace\01. Remote Workflow Execution\Denormalizer _PMML_ (#140)"
+2021-09-15 17:40:53,846 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Denormalizer (PMML) : 7:141 : Replaced node directory "C:\Users\knime\KNIME workspaces\knime-workspace\01. Remote Workflow Execution\Denormalizer _PMML_ (#141)"
+2021-09-15 17:40:53,849 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Normalizer (PMML) : 7:200 : Replaced node directory "C:\Users\knime\KNIME workspaces\knime-workspace\01. Remote Workflow Execution\Normalizer _PMML_ (#200)"
+2021-09-15 17:40:53,851 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Data to Report : 7:202 : Replaced node directory "C:\Users\knime\KNIME workspaces\knime-workspace\01. Remote Workflow Execution\Data to Report (#202)"
+2021-09-15 17:40:53,857 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Number To String : 7:205 : Replaced node directory "C:\Users\knime\KNIME workspaces\knime-workspace\01. Remote Workflow Execution\Number To String (#205)"
+2021-09-15 17:40:53,859 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Excel Reader : 7:207 : Replaced node directory "C:\Users\knime\KNIME workspaces\knime-workspace\01. Remote Workflow Execution\Excel Reader (#207)"
+2021-09-15 17:40:53,862 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : File Reader : 7:208 : Replaced node directory "C:\Users\knime\KNIME workspaces\knime-workspace\01. Remote Workflow Execution\File Reader (#208)"
+2021-09-15 17:40:53,865 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Joiner : 7:210 : Created node directory "C:\Users\knime\KNIME workspaces\knime-workspace\01. Remote Workflow Execution\Joiner (#210)"
+2021-09-15 17:40:53,867 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Joiner : 7:211 : Created node directory "C:\Users\knime\KNIME workspaces\knime-workspace\01. Remote Workflow Execution\Joiner (#211)"
+2021-09-15 17:46:17,460 : DEBUG : ModalContext :  : ClusterNodeFactory2 : 01. Remote Workflow Execution : 0 : Factory is already initialized. Nothing to do.
+2021-09-15 17:46:17,460 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 0 : Adding hilite translator to handler 68f4ed71-737b-43b1-bb85-4cc4bdccab9b
+2021-09-15 17:46:17,461 : DEBUG : ModalContext :  : NormalizerPMMLDeNodeFactory : 01. Remote Workflow Execution : 0 : Factory is already initialized. Nothing to do.
+2021-09-15 17:46:17,463 : DEBUG : ModalContext :  : NormalizerPMMLDeNodeFactory : 01. Remote Workflow Execution : 0 : Factory is already initialized. Nothing to do.
+2021-09-15 17:46:17,464 : DEBUG : ModalContext :  : NormalizerPMMLNodeFactory2 : 01. Remote Workflow Execution : 0 : Factory is already initialized. Nothing to do.
+2021-09-15 17:46:17,465 : DEBUG : ModalContext :  : ReportingDataSetNodeFactory : 01. Remote Workflow Execution : 0 : Factory is already initialized. Nothing to do.
+2021-09-15 17:46:17,467 : DEBUG : ModalContext :  : NumberToString2NodeFactory : 01. Remote Workflow Execution : 0 : Factory is already initialized. Nothing to do.
+2021-09-15 17:46:17,469 : DEBUG : ModalContext :  : ExcelTableReaderNodeFactory : 01. Remote Workflow Execution : 0 : Factory is already initialized. Nothing to do.
+2021-09-15 17:46:17,471 : DEBUG : ModalContext :  : FileReaderNodeFactory : 01. Remote Workflow Execution : 0 : Factory is already initialized. Nothing to do.
+2021-09-15 17:46:17,474 : DEBUG : ModalContext :  : KnimeTableReaderNodeFactory : 01. Remote Workflow Execution : 0 : Factory is already initialized. Nothing to do.
+2021-09-15 17:46:17,478 : DEBUG : ModalContext :  : Joiner3NodeFactory : 01. Remote Workflow Execution : 0 : Factory is already initialized. Nothing to do.
+2021-09-15 17:46:17,478 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 0 : Adding hilite translator to handler 20485c2a-2005-4960-b97a-bac990d3dc88
+2021-09-15 17:46:17,478 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 0 : Adding hilite translator to handler 56548652-d279-479f-882e-e15455fa44f8
+2021-09-15 17:46:17,478 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 0 : Adding hilite translator to handler 8b6d731d-8334-452b-93a3-4a09ac02ee01
+2021-09-15 17:46:17,478 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 0 : Adding hilite translator to handler 20485c2a-2005-4960-b97a-bac990d3dc88
+2021-09-15 17:46:17,478 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 0 : Adding hilite translator to handler 56548652-d279-479f-882e-e15455fa44f8
+2021-09-15 17:46:17,478 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 0 : Adding hilite translator to handler e296886a-e40a-4ad7-8f6f-ba1c45b7aa68
+2021-09-15 17:46:17,480 : DEBUG : ModalContext :  : Joiner3NodeFactory : 01. Remote Workflow Execution : 0 : Factory is already initialized. Nothing to do.
+2021-09-15 17:46:17,480 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 0 : Adding hilite translator to handler 025d4443-bbf2-45ed-9233-5afab17ee223
+2021-09-15 17:46:17,480 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 0 : Adding hilite translator to handler 4f2d194c-9cd9-4dae-99f6-b8e717ba70fa
+2021-09-15 17:46:17,480 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 0 : Adding hilite translator to handler 11fe9ade-25ca-4e9d-934a-059c2482b283
+2021-09-15 17:46:17,480 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 0 : Adding hilite translator to handler 025d4443-bbf2-45ed-9233-5afab17ee223
+2021-09-15 17:46:17,480 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 0 : Adding hilite translator to handler 4f2d194c-9cd9-4dae-99f6-b8e717ba70fa
+2021-09-15 17:46:17,480 : DEBUG : ModalContext :  : HiLiteHandler : 01. Remote Workflow Execution : 0 : Adding hilite translator to handler af06b6aa-491b-4349-9d55-02eb26dec987
+2021-09-15 17:46:17,482 : DEBUG : ModalContext :  : Node : Excel Reader : 0:207 : Configure succeeded. (Excel Reader)
+2021-09-15 17:46:17,484 : DEBUG : ModalContext :  : Node : File Reader : 0:208 : Configure succeeded. (File Reader)
+2021-09-15 17:46:17,484 : DEBUG : ModalContext :  : Node : Table Reader : 0:209 : Configure succeeded. (Table Reader)
+2021-09-15 17:46:17,486 : DEBUG : ModalContext :  : Node : Joiner : 0:210 : Configure succeeded. (Joiner)
+2021-09-15 17:46:17,487 : DEBUG : ModalContext :  : Node : Joiner : 0:211 : Configure succeeded. (Joiner)
+2021-09-15 17:46:17,488 : DEBUG : ModalContext :  : Node : Number To String : 0:205 : Configure succeeded. (Number To String)
+2021-09-15 17:46:17,488 : WARN  : ModalContext :  : Node : Normalizer (PMML) : 0:200 : All numeric columns are used for normalization. Mode: Min-Max Normalization
+2021-09-15 17:46:17,489 : DEBUG : ModalContext :  : Node : Normalizer (PMML) : 0:200 : Configure succeeded. (Normalizer (PMML))
+2021-09-15 17:46:17,490 : DEBUG : ModalContext :  : Node : k-Means : 0:138 : Configure succeeded. (k-Means)
+2021-09-15 17:46:17,490 : DEBUG : ModalContext :  : Node : Denormalizer (PMML) : 0:140 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:46:17,490 : DEBUG : ModalContext :  : Node : Denormalizer (PMML) : 0:141 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:46:17,491 : DEBUG : ModalContext :  : Node : Data to Report : 0:202 : Configure succeeded. (Data to Report)
+2021-09-15 17:46:21,115 : DEBUG : SwingWorker-pool-12-thread-9 :  : URIFileSystemProvider : Excel Reader : 0:207 : Failed to check if path '/../../../data/CallsData.xlsx' exists: Could not download '/TrainingMaterials/Server Training/data/CallsData.xlsx': file does not exist.
+java.io.IOException: Could not download '/TrainingMaterials/Server Training/data/CallsData.xlsx': file does not exist.
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:443)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.lambda$1(URIFileSystemProvider.java:259)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.doWithNodeContext(URIFileSystemProvider.java:124)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.exists(URIFileSystemProvider.java:252)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.exists(URIFileSystemProvider.java:1)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.existsCached(BaseFileSystemProvider.java:655)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.readAttributes(BaseFileSystemProvider.java:714)
+	at java.base/java.nio.file.Files.readAttributes(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.exists(FSFiles.java:300)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:295)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.reader.DefaultReaderStatusMessageReporter.report(DefaultReaderStatusMessageReporter.java:85)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.runtime.CoreException: Could not download '/TrainingMaterials/Server Training/data/CallsData.xlsx': file does not exist.
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.throwCoreException(RestServerExplorerFileStore.java:472)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.throwCoreException(RestServerExplorerFileStore.java:461)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openDownloadStream(RestServerExplorerFileStore.java:404)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openDownloadStream(RestServerExplorerFileStore.java:392)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openInputStream(RestServerExplorerFileStore.java:908)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:441)
+	... 20 more
+2021-09-15 17:46:21,117 : DEBUG : SwingWorker-pool-12-thread-9 :  : DefaultReaderStatusMessageReporter : Excel Reader : 0:207 : Exception encountered while reporting status message.
+org.knime.core.node.InvalidSettingsException: The specified file ../../../data/CallsData.xlsx does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:295)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.reader.DefaultReaderStatusMessageReporter.report(DefaultReaderStatusMessageReporter.java:85)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-09-15 17:46:21,118 : DEBUG : SwingWorker-pool-12-thread-10 :  : URIFileSystemProvider : Excel Reader : 0:207 : Failed to check if path '/../../../data/CallsData.xlsx' exists: Could not download '/TrainingMaterials/Server Training/data/CallsData.xlsx': file does not exist.
+java.io.IOException: Could not download '/TrainingMaterials/Server Training/data/CallsData.xlsx': file does not exist.
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:443)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.lambda$1(URIFileSystemProvider.java:259)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.doWithNodeContext(URIFileSystemProvider.java:124)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.exists(URIFileSystemProvider.java:252)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.exists(URIFileSystemProvider.java:1)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.existsCached(BaseFileSystemProvider.java:655)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.readAttributes(BaseFileSystemProvider.java:714)
+	at java.base/java.nio.file.Files.readAttributes(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.exists(FSFiles.java:300)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:295)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.AbstractPathTableReaderNodeDialog$ReadPathAccessorAdapter.getRootItem(AbstractPathTableReaderNodeDialog.java:148)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.AbstractPathTableReaderNodeDialog$ReadPathAccessorAdapter.getRootItem(AbstractPathTableReaderNodeDialog.java:1)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.SourceGroupSwingWorker.doInBackgroundWithContext(SourceGroupSwingWorker.java:99)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.SourceGroupSwingWorker.doInBackgroundWithContext(SourceGroupSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.runtime.CoreException: Could not download '/TrainingMaterials/Server Training/data/CallsData.xlsx': file does not exist.
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.throwCoreException(RestServerExplorerFileStore.java:472)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.throwCoreException(RestServerExplorerFileStore.java:461)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openDownloadStream(RestServerExplorerFileStore.java:404)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openDownloadStream(RestServerExplorerFileStore.java:392)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openInputStream(RestServerExplorerFileStore.java:908)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:441)
+	... 20 more
+2021-09-15 17:46:25,270 : DEBUG : main :  : Node : Data to Report : 0:202 : reset
+2021-09-15 17:46:25,270 : DEBUG : main :  : Node : Data to Report : 0:202 : clean output ports.
+2021-09-15 17:46:25,270 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on Data to Report 0:202
+2021-09-15 17:46:25,271 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on 01. Remote Workflow Execution 0
+2021-09-15 17:46:25,271 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Data to Report 0:202 has new state: IDLE
+2021-09-15 17:46:25,271 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : reset
+2021-09-15 17:46:25,271 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : clean output ports.
+2021-09-15 17:46:25,271 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on Denormalizer (PMML) 0:140
+2021-09-15 17:46:25,271 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Denormalizer (PMML) 0:140 has new state: IDLE
+2021-09-15 17:46:25,271 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : reset
+2021-09-15 17:46:25,271 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : clean output ports.
+2021-09-15 17:46:25,271 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on Denormalizer (PMML) 0:141
+2021-09-15 17:46:25,271 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Denormalizer (PMML) 0:141 has new state: IDLE
+2021-09-15 17:46:25,271 : DEBUG : main :  : Node : k-Means : 0:138 : reset
+2021-09-15 17:46:25,271 : DEBUG : main :  : Node : k-Means : 0:138 : clean output ports.
+2021-09-15 17:46:25,271 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on k-Means 0:138
+2021-09-15 17:46:25,271 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : k-Means 0:138 has new state: IDLE
+2021-09-15 17:46:25,271 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : reset
+2021-09-15 17:46:25,271 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : clean output ports.
+2021-09-15 17:46:25,271 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on Normalizer (PMML) 0:200
+2021-09-15 17:46:25,271 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Normalizer (PMML) 0:200 has new state: IDLE
+2021-09-15 17:46:25,271 : DEBUG : main :  : Node : Number To String : 0:205 : reset
+2021-09-15 17:46:25,271 : DEBUG : main :  : Node : Number To String : 0:205 : clean output ports.
+2021-09-15 17:46:25,271 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on Number To String 0:205
+2021-09-15 17:46:25,271 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Number To String 0:205 has new state: IDLE
+2021-09-15 17:46:25,271 : DEBUG : main :  : Node : Joiner : 0:211 : reset
+2021-09-15 17:46:25,271 : DEBUG : main :  : Node : Joiner : 0:211 : clean output ports.
+2021-09-15 17:46:25,271 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on Joiner 0:211
+2021-09-15 17:46:25,272 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Joiner 0:211 has new state: IDLE
+2021-09-15 17:46:25,272 : DEBUG : main :  : Node : Joiner : 0:210 : reset
+2021-09-15 17:46:25,272 : DEBUG : main :  : Node : Joiner : 0:210 : clean output ports.
+2021-09-15 17:46:25,272 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on Joiner 0:210
+2021-09-15 17:46:25,272 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Joiner 0:210 has new state: IDLE
+2021-09-15 17:46:25,272 : DEBUG : main :  : Node : Excel Reader : 0:207 : reset
+2021-09-15 17:46:25,272 : DEBUG : main :  : Node : Excel Reader : 0:207 : clean output ports.
+2021-09-15 17:46:25,272 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on Excel Reader 0:207
+2021-09-15 17:46:25,272 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Excel Reader 0:207 has new state: IDLE
+2021-09-15 17:46:25,273 : DEBUG : main :  : Node : Excel Reader : 0:207 : Configure succeeded. (Excel Reader)
+2021-09-15 17:46:25,273 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Excel Reader 0:207 has new state: CONFIGURED
+2021-09-15 17:46:25,273 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : 01. Remote Workflow Execution 0 has new state: IDLE
+2021-09-15 17:46:25,323 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Excel Reader 0:207 has new state: CONFIGURED_MARKEDFOREXEC
+2021-09-15 17:46:25,323 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : Excel Reader 0:207 has new state: CONFIGURED_QUEUED
+2021-09-15 17:46:25,323 : DEBUG : main :  : NodeContainer : Excel Reader : 0:207 : 01. Remote Workflow Execution 0 has new state: EXECUTING
+2021-09-15 17:46:25,324 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : WorkflowManager : Excel Reader : 0:207 : Excel Reader 0:207 doBeforePreExecution
+2021-09-15 17:46:25,324 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Excel Reader 0:207 has new state: PREEXECUTE
+2021-09-15 17:46:25,324 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : WorkflowDataRepository : Excel Reader : 0:207 : Adding handler 65fc7ba6-f692-4a79-9840-b0018f93fb41 (Excel Reader 0:207: <no directory>) - 1 in total
+2021-09-15 17:46:25,324 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : WorkflowManager : Excel Reader : 0:207 : Excel Reader 0:207 doBeforeExecution
+2021-09-15 17:46:25,324 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Excel Reader 0:207 has new state: EXECUTING
+2021-09-15 17:46:25,324 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : LocalNodeExecutionJob : Excel Reader : 0:207 : Excel Reader 0:207 Start execute
+2021-09-15 17:46:25,904 : DEBUG : KNIME-Excel-Parser-1 :  : ExcelParserRunnable : Excel Reader : 0:207 : Thread parsing an Excel spreadsheet started.
+2021-09-15 17:46:26,177 : DEBUG : KNIME-Excel-Parser-1 :  : ExcelParserRunnable : Excel Reader : 0:207 : Thread parsing an Excel spreadsheet finished successfully.
+2021-09-15 17:46:26,180 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : ExecutionContext : Excel Reader : 0:207 : Using Table Backend "BufferedTableBackend".
+2021-09-15 17:46:26,527 : DEBUG : KNIME-Excel-Parser-1 :  : ExcelParserRunnable : Excel Reader : 0:207 : Thread parsing an Excel spreadsheet started.
+2021-09-15 17:46:26,531 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : BufferSettings : Excel Reader : 0:207 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2021-09-15 17:46:26,836 : DEBUG : KNIME-Excel-Parser-1 :  : ExcelParserRunnable : Excel Reader : 0:207 : Thread parsing an Excel spreadsheet finished successfully.
+2021-09-15 17:46:26,839 : INFO  : KNIME-Worker-54-Excel Reader 0:207 :  : LocalNodeExecutionJob : Excel Reader : 0:207 : Excel Reader 0:207 End execute (1 sec)
+2021-09-15 17:46:26,839 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : WorkflowManager : Excel Reader : 0:207 : Excel Reader 0:207 doBeforePostExecution
+2021-09-15 17:46:26,839 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Excel Reader 0:207 has new state: POSTEXECUTE
+2021-09-15 17:46:26,839 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : WorkflowManager : Excel Reader : 0:207 : Excel Reader 0:207 doAfterExecute - success
+2021-09-15 17:46:26,839 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Excel Reader 0:207 has new state: EXECUTED
+2021-09-15 17:46:26,840 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : Node : Joiner : 0:210 : Configure succeeded. (Joiner)
+2021-09-15 17:46:26,840 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Joiner 0:210 has new state: CONFIGURED
+2021-09-15 17:46:26,841 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : Node : Joiner : 0:211 : Configure succeeded. (Joiner)
+2021-09-15 17:46:26,841 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Joiner 0:211 has new state: CONFIGURED
+2021-09-15 17:46:26,841 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : Node : Number To String : 0:205 : Configure succeeded. (Number To String)
+2021-09-15 17:46:26,841 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Number To String 0:205 has new state: CONFIGURED
+2021-09-15 17:46:26,842 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : Node : Normalizer (PMML) : 0:200 : Configure succeeded. (Normalizer (PMML))
+2021-09-15 17:46:26,842 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Normalizer (PMML) 0:200 has new state: CONFIGURED
+2021-09-15 17:46:26,842 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : Node : k-Means : 0:138 : Configure succeeded. (k-Means)
+2021-09-15 17:46:26,842 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : k-Means 0:138 has new state: CONFIGURED
+2021-09-15 17:46:26,842 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : Node : Denormalizer (PMML) : 0:140 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:46:26,842 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Denormalizer (PMML) 0:140 has new state: CONFIGURED
+2021-09-15 17:46:26,842 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : Node : Denormalizer (PMML) : 0:141 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:46:26,842 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Denormalizer (PMML) 0:141 has new state: CONFIGURED
+2021-09-15 17:46:26,842 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : Node : Data to Report : 0:202 : Configure succeeded. (Data to Report)
+2021-09-15 17:46:26,842 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Data to Report 0:202 has new state: CONFIGURED
+2021-09-15 17:46:26,843 : DEBUG : KNIME-Worker-54-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : 01. Remote Workflow Execution 0 has new state: CONFIGURED
+2021-09-15 17:46:26,886 : DEBUG : KNIME-BackgroundTableWriter-1 :  : Buffer : Excel Reader : 0:207 : Buffer file (C:\tmp\knime_01_ Remote Work79614\knime_container_20210915_1566502576364455502.bin.snappy) is 0,239MB in size
+2021-09-15 17:46:28,071 : DEBUG : SwingWorker-pool-12-thread-4 :  : URIFileSystemProvider : File Reader : 0:208 : Failed to check if path '/../../../data/ContractData.csv' exists: Could not download '/TrainingMaterials/Server Training/data/ContractData.csv': file does not exist.
+java.io.IOException: Could not download '/TrainingMaterials/Server Training/data/ContractData.csv': file does not exist.
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:443)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.lambda$1(URIFileSystemProvider.java:259)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.doWithNodeContext(URIFileSystemProvider.java:124)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.exists(URIFileSystemProvider.java:252)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.exists(URIFileSystemProvider.java:1)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.existsCached(BaseFileSystemProvider.java:655)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.readAttributes(BaseFileSystemProvider.java:714)
+	at java.base/java.nio.file.Files.readAttributes(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.exists(FSFiles.java:300)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:295)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.reader.DefaultReaderStatusMessageReporter.report(DefaultReaderStatusMessageReporter.java:85)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.runtime.CoreException: Could not download '/TrainingMaterials/Server Training/data/ContractData.csv': file does not exist.
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.throwCoreException(RestServerExplorerFileStore.java:472)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.throwCoreException(RestServerExplorerFileStore.java:461)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openDownloadStream(RestServerExplorerFileStore.java:404)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openDownloadStream(RestServerExplorerFileStore.java:392)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openInputStream(RestServerExplorerFileStore.java:908)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:441)
+	... 20 more
+2021-09-15 17:46:28,071 : DEBUG : SwingWorker-pool-12-thread-4 :  : DefaultReaderStatusMessageReporter : File Reader : 0:208 : Exception encountered while reporting status message.
+org.knime.core.node.InvalidSettingsException: The specified file ../../../data/ContractData.csv does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:295)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.reader.DefaultReaderStatusMessageReporter.report(DefaultReaderStatusMessageReporter.java:85)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-09-15 17:46:28,072 : DEBUG : SwingWorker-pool-12-thread-6 :  : URIFileSystemProvider : File Reader : 0:208 : Failed to check if path '/../../../data/ContractData.csv' exists: Could not download '/TrainingMaterials/Server Training/data/ContractData.csv': file does not exist.
+java.io.IOException: Could not download '/TrainingMaterials/Server Training/data/ContractData.csv': file does not exist.
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:443)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.lambda$1(URIFileSystemProvider.java:259)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.doWithNodeContext(URIFileSystemProvider.java:124)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.exists(URIFileSystemProvider.java:252)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.exists(URIFileSystemProvider.java:1)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.existsCached(BaseFileSystemProvider.java:655)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.readAttributes(BaseFileSystemProvider.java:714)
+	at java.base/java.nio.file.Files.readAttributes(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.exists(FSFiles.java:300)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:295)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.AbstractPathTableReaderNodeDialog$ReadPathAccessorAdapter.getRootItem(AbstractPathTableReaderNodeDialog.java:148)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.AbstractPathTableReaderNodeDialog$ReadPathAccessorAdapter.getRootItem(AbstractPathTableReaderNodeDialog.java:1)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.SourceGroupSwingWorker.doInBackgroundWithContext(SourceGroupSwingWorker.java:99)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.SourceGroupSwingWorker.doInBackgroundWithContext(SourceGroupSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.runtime.CoreException: Could not download '/TrainingMaterials/Server Training/data/ContractData.csv': file does not exist.
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.throwCoreException(RestServerExplorerFileStore.java:472)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.throwCoreException(RestServerExplorerFileStore.java:461)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openDownloadStream(RestServerExplorerFileStore.java:404)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openDownloadStream(RestServerExplorerFileStore.java:392)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openInputStream(RestServerExplorerFileStore.java:908)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:441)
+	... 20 more
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : Data to Report : 0:202 : reset
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : Data to Report : 0:202 : clean output ports.
+2021-09-15 17:46:31,480 : DEBUG : main :  : NodeContainer : File Reader : 0:208 : Data to Report 0:202 has new state: IDLE
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : reset
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : clean output ports.
+2021-09-15 17:46:31,480 : DEBUG : main :  : NodeContainer : File Reader : 0:208 : Denormalizer (PMML) 0:140 has new state: IDLE
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : reset
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : clean output ports.
+2021-09-15 17:46:31,480 : DEBUG : main :  : NodeContainer : File Reader : 0:208 : Denormalizer (PMML) 0:141 has new state: IDLE
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : k-Means : 0:138 : reset
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : k-Means : 0:138 : clean output ports.
+2021-09-15 17:46:31,480 : DEBUG : main :  : NodeContainer : File Reader : 0:208 : k-Means 0:138 has new state: IDLE
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : reset
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : clean output ports.
+2021-09-15 17:46:31,480 : DEBUG : main :  : NodeContainer : File Reader : 0:208 : Normalizer (PMML) 0:200 has new state: IDLE
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : Number To String : 0:205 : reset
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : Number To String : 0:205 : clean output ports.
+2021-09-15 17:46:31,480 : DEBUG : main :  : NodeContainer : File Reader : 0:208 : Number To String 0:205 has new state: IDLE
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : Joiner : 0:211 : reset
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : Joiner : 0:211 : clean output ports.
+2021-09-15 17:46:31,480 : DEBUG : main :  : NodeContainer : File Reader : 0:208 : Joiner 0:211 has new state: IDLE
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : Joiner : 0:210 : reset
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : Joiner : 0:210 : clean output ports.
+2021-09-15 17:46:31,480 : DEBUG : main :  : NodeContainer : File Reader : 0:208 : Joiner 0:210 has new state: IDLE
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : File Reader : 0:208 : reset
+2021-09-15 17:46:31,480 : DEBUG : main :  : Node : File Reader : 0:208 : clean output ports.
+2021-09-15 17:46:31,480 : DEBUG : main :  : NodeContainer : File Reader : 0:208 : Setting dirty flag on File Reader 0:208
+2021-09-15 17:46:31,480 : DEBUG : main :  : NodeContainer : File Reader : 0:208 : File Reader 0:208 has new state: IDLE
+2021-09-15 17:46:31,481 : DEBUG : main :  : Node : File Reader : 0:208 : Configure succeeded. (File Reader)
+2021-09-15 17:46:31,481 : DEBUG : main :  : NodeContainer : File Reader : 0:208 : File Reader 0:208 has new state: CONFIGURED
+2021-09-15 17:46:31,481 : DEBUG : main :  : NodeContainer : File Reader : 0:208 : 01. Remote Workflow Execution 0 has new state: IDLE
+2021-09-15 17:46:31,537 : DEBUG : main :  : NodeContainer : File Reader : 0:208 : File Reader 0:208 has new state: CONFIGURED_MARKEDFOREXEC
+2021-09-15 17:46:31,538 : DEBUG : main :  : NodeContainer : File Reader : 0:208 : File Reader 0:208 has new state: CONFIGURED_QUEUED
+2021-09-15 17:46:31,538 : DEBUG : main :  : NodeContainer : File Reader : 0:208 : 01. Remote Workflow Execution 0 has new state: EXECUTING
+2021-09-15 17:46:31,538 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : WorkflowManager : File Reader : 0:208 : File Reader 0:208 doBeforePreExecution
+2021-09-15 17:46:31,538 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : File Reader 0:208 has new state: PREEXECUTE
+2021-09-15 17:46:31,538 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : WorkflowDataRepository : File Reader : 0:208 : Adding handler 7a57330b-5084-4d35-a6ed-17dc54d72a90 (File Reader 0:208: <no directory>) - 2 in total
+2021-09-15 17:46:31,538 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : WorkflowManager : File Reader : 0:208 : File Reader 0:208 doBeforeExecution
+2021-09-15 17:46:31,538 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : File Reader 0:208 has new state: EXECUTING
+2021-09-15 17:46:31,538 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : LocalNodeExecutionJob : File Reader : 0:208 : File Reader 0:208 Start execute
+2021-09-15 17:46:32,057 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : ExecutionContext : File Reader : 0:208 : Using Table Backend "BufferedTableBackend".
+2021-09-15 17:46:32,301 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : BufferSettings : File Reader : 0:208 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2021-09-15 17:46:32,323 : INFO  : KNIME-Worker-55-File Reader 0:208 :  : LocalNodeExecutionJob : File Reader : 0:208 : File Reader 0:208 End execute (0 secs)
+2021-09-15 17:46:32,323 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : WorkflowManager : File Reader : 0:208 : File Reader 0:208 doBeforePostExecution
+2021-09-15 17:46:32,324 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : File Reader 0:208 has new state: POSTEXECUTE
+2021-09-15 17:46:32,324 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : WorkflowManager : File Reader : 0:208 : File Reader 0:208 doAfterExecute - success
+2021-09-15 17:46:32,324 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : File Reader 0:208 has new state: EXECUTED
+2021-09-15 17:46:32,325 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : Node : Joiner : 0:210 : Configure succeeded. (Joiner)
+2021-09-15 17:46:32,325 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : Joiner 0:210 has new state: CONFIGURED
+2021-09-15 17:46:32,326 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : Node : Joiner : 0:211 : Configure succeeded. (Joiner)
+2021-09-15 17:46:32,326 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : Joiner 0:211 has new state: CONFIGURED
+2021-09-15 17:46:32,326 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : Node : Number To String : 0:205 : Configure succeeded. (Number To String)
+2021-09-15 17:46:32,326 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : Number To String 0:205 has new state: CONFIGURED
+2021-09-15 17:46:32,327 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : Node : Normalizer (PMML) : 0:200 : Configure succeeded. (Normalizer (PMML))
+2021-09-15 17:46:32,327 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : Normalizer (PMML) 0:200 has new state: CONFIGURED
+2021-09-15 17:46:32,328 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : Node : k-Means : 0:138 : Configure succeeded. (k-Means)
+2021-09-15 17:46:32,328 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : k-Means 0:138 has new state: CONFIGURED
+2021-09-15 17:46:32,328 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : Node : Denormalizer (PMML) : 0:140 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:46:32,328 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : Denormalizer (PMML) 0:140 has new state: CONFIGURED
+2021-09-15 17:46:32,328 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : Node : Denormalizer (PMML) : 0:141 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:46:32,328 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : Denormalizer (PMML) 0:141 has new state: CONFIGURED
+2021-09-15 17:46:32,329 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : Node : Data to Report : 0:202 : Configure succeeded. (Data to Report)
+2021-09-15 17:46:32,329 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : Data to Report 0:202 has new state: CONFIGURED
+2021-09-15 17:46:32,329 : DEBUG : KNIME-Worker-55-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : 01. Remote Workflow Execution 0 has new state: CONFIGURED
+2021-09-15 17:46:32,346 : DEBUG : KNIME-BackgroundTableWriter-1 :  : Buffer : File Reader : 0:208 : Buffer file (C:\tmp\knime_01_ Remote Work79614\knime_container_20210915_12018174164272514655.bin.snappy) is 0,089MB in size
+2021-09-15 17:46:34,182 : DEBUG : SwingWorker-pool-12-thread-10 :  : URIFileSystemProvider : Table Reader : 0:209 : Failed to check if path '/../../../data/Cities_Long_Lat.table' exists: Could not download '/TrainingMaterials/Server Training/data/Cities_Long_Lat.table': file does not exist.
+java.io.IOException: Could not download '/TrainingMaterials/Server Training/data/Cities_Long_Lat.table': file does not exist.
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:443)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.lambda$1(URIFileSystemProvider.java:259)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.doWithNodeContext(URIFileSystemProvider.java:124)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.exists(URIFileSystemProvider.java:252)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.exists(URIFileSystemProvider.java:1)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.existsCached(BaseFileSystemProvider.java:655)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.readAttributes(BaseFileSystemProvider.java:714)
+	at java.base/java.nio.file.Files.readAttributes(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.exists(FSFiles.java:300)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:295)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.reader.DefaultReaderStatusMessageReporter.report(DefaultReaderStatusMessageReporter.java:85)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.runtime.CoreException: Could not download '/TrainingMaterials/Server Training/data/Cities_Long_Lat.table': file does not exist.
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.throwCoreException(RestServerExplorerFileStore.java:472)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.throwCoreException(RestServerExplorerFileStore.java:461)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openDownloadStream(RestServerExplorerFileStore.java:404)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openDownloadStream(RestServerExplorerFileStore.java:392)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openInputStream(RestServerExplorerFileStore.java:908)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:441)
+	... 20 more
+2021-09-15 17:46:34,183 : DEBUG : SwingWorker-pool-12-thread-10 :  : DefaultReaderStatusMessageReporter : Table Reader : 0:209 : Exception encountered while reporting status message.
+org.knime.core.node.InvalidSettingsException: The specified file ../../../data/Cities_Long_Lat.table does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:295)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.reader.DefaultReaderStatusMessageReporter.report(DefaultReaderStatusMessageReporter.java:85)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-09-15 17:46:34,183 : DEBUG : SwingWorker-pool-12-thread-8 :  : URIFileSystemProvider : Table Reader : 0:209 : Failed to check if path '/../../../data/Cities_Long_Lat.table' exists: Could not download '/TrainingMaterials/Server Training/data/Cities_Long_Lat.table': file does not exist.
+java.io.IOException: Could not download '/TrainingMaterials/Server Training/data/Cities_Long_Lat.table': file does not exist.
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:443)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.lambda$1(URIFileSystemProvider.java:259)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.doWithNodeContext(URIFileSystemProvider.java:124)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.exists(URIFileSystemProvider.java:252)
+	at org.knime.filehandling.core.fs.url.URIFileSystemProvider.exists(URIFileSystemProvider.java:1)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.existsCached(BaseFileSystemProvider.java:655)
+	at org.knime.filehandling.core.connections.base.BaseFileSystemProvider.readAttributes(BaseFileSystemProvider.java:714)
+	at java.base/java.nio.file.Files.readAttributes(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.exists(FSFiles.java:300)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:295)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.AbstractPathTableReaderNodeDialog$ReadPathAccessorAdapter.getRootItem(AbstractPathTableReaderNodeDialog.java:148)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.AbstractPathTableReaderNodeDialog$ReadPathAccessorAdapter.getRootItem(AbstractPathTableReaderNodeDialog.java:1)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.SourceGroupSwingWorker.doInBackgroundWithContext(SourceGroupSwingWorker.java:99)
+	at org.knime.filehandling.core.node.table.reader.preview.dialog.SourceGroupSwingWorker.doInBackgroundWithContext(SourceGroupSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.runtime.CoreException: Could not download '/TrainingMaterials/Server Training/data/Cities_Long_Lat.table': file does not exist.
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.throwCoreException(RestServerExplorerFileStore.java:472)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.throwCoreException(RestServerExplorerFileStore.java:461)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openDownloadStream(RestServerExplorerFileStore.java:404)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openDownloadStream(RestServerExplorerFileStore.java:392)
+	at com.knime.explorer.server.rest.RestServerExplorerFileStore.openInputStream(RestServerExplorerFileStore.java:908)
+	at org.knime.workbench.explorer.ExplorerURLStreamHandler$ExplorerURLConnection.getInputStream(ExplorerURLStreamHandler.java:441)
+	... 20 more
+2021-09-15 17:46:36,872 : DEBUG : SwingWorker-pool-12-thread-4 :  : DefaultReaderStatusMessageReporter : Table Reader : 0:209 : Exception encountered while reporting status message.
+org.knime.core.node.InvalidSettingsException: The specified file .../../data/Cities_Long_Lat.table does not exist.
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:269)
+	at org.knime.core.node.util.CheckUtils.checkSetting(CheckUtils.java:219)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getRootPath(FileChooserPathAccessor.java:295)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.FileChooserPathAccessor.getFSPaths(FileChooserPathAccessor.java:202)
+	at org.knime.filehandling.core.defaultnodesettings.filechooser.reader.DefaultReaderStatusMessageReporter.report(DefaultReaderStatusMessageReporter.java:85)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:107)
+	at org.knime.filehandling.core.defaultnodesettings.status.StatusSwingWorker.doInBackgroundWithContext(StatusSwingWorker.java:1)
+	at org.knime.core.util.SwingWorkerWithContext.doInBackground(SwingWorkerWithContext.java:106)
+	at java.desktop/javax.swing.SwingWorker$1.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.desktop/javax.swing.SwingWorker.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-09-15 17:46:37,740 : DEBUG : AWT-EventQueue-0 :  : ExecutionContext : Table Reader : 0:209 : No file store handler set on "Table Reader" (possibly running in 3rd party executor)
+2021-09-15 17:46:37,740 : DEBUG : SwingWorker-pool-12-thread-1 :  : ExecutionContext : Table Reader : 0:209 : Using Table Backend "BufferedTableBackend".
+2021-09-15 17:46:37,878 : DEBUG : SwingWorker-pool-12-thread-1 :  : Buffer : Table Reader : 0:209 : Table has been written with a previous version of KNIME ("container_8", using compatibility mode.
+2021-09-15 17:46:37,879 : DEBUG : SwingWorker-pool-12-thread-1 :  : BufferSettings : Table Reader : 0:209 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2021-09-15 17:46:37,879 : DEBUG : SwingWorker-pool-12-thread-1 :  : Buffer : Table Reader : 0:209 : Closing input stream on "C:\tmp\knime_01_ Remote Work79614\knime_container_20210915_10738641647461454221.tmp", 0 remaining
+2021-09-15 17:46:37,915 : DEBUG : AWT-EventQueue-0 :  : BufferCache : Table Reader : 0:209 : KNIME Buffer cache statistics:
+2021-09-15 17:46:37,915 : DEBUG : AWT-EventQueue-0 :  : BufferCache : Table Reader : 0:209 : 	3 tables currently held in cache
+2021-09-15 17:46:37,915 : DEBUG : AWT-EventQueue-0 :  : BufferCache : Table Reader : 0:209 : 	5 distinct tables cached
+2021-09-15 17:46:37,915 : DEBUG : AWT-EventQueue-0 :  : BufferCache : Table Reader : 0:209 : 	2 tables invalidated successfully
+2021-09-15 17:46:37,915 : DEBUG : AWT-EventQueue-0 :  : BufferCache : Table Reader : 0:209 : 	0 tables dropped by garbage collector
+2021-09-15 17:46:37,915 : DEBUG : AWT-EventQueue-0 :  : BufferCache : Table Reader : 0:209 : 	3 cache hits (hard-referenced)
+2021-09-15 17:46:37,915 : DEBUG : AWT-EventQueue-0 :  : BufferCache : Table Reader : 0:209 : 	0 cache hits (softly referenced)
+2021-09-15 17:46:37,915 : DEBUG : AWT-EventQueue-0 :  : BufferCache : Table Reader : 0:209 : 	0 cache hits (weakly referenced)
+2021-09-15 17:46:37,915 : DEBUG : AWT-EventQueue-0 :  : BufferCache : Table Reader : 0:209 : 	0 cache misses
+2021-09-15 17:46:38,110 : DEBUG : main :  : Node : Data to Report : 0:202 : reset
+2021-09-15 17:46:38,111 : DEBUG : main :  : Node : Data to Report : 0:202 : clean output ports.
+2021-09-15 17:46:38,111 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Data to Report 0:202 has new state: IDLE
+2021-09-15 17:46:38,111 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : reset
+2021-09-15 17:46:38,111 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : clean output ports.
+2021-09-15 17:46:38,111 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Denormalizer (PMML) 0:140 has new state: IDLE
+2021-09-15 17:46:38,111 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : reset
+2021-09-15 17:46:38,111 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : clean output ports.
+2021-09-15 17:46:38,111 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Denormalizer (PMML) 0:141 has new state: IDLE
+2021-09-15 17:46:38,111 : DEBUG : main :  : Node : k-Means : 0:138 : reset
+2021-09-15 17:46:38,111 : DEBUG : main :  : Node : k-Means : 0:138 : clean output ports.
+2021-09-15 17:46:38,111 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : k-Means 0:138 has new state: IDLE
+2021-09-15 17:46:38,111 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : reset
+2021-09-15 17:46:38,111 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : clean output ports.
+2021-09-15 17:46:38,111 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Normalizer (PMML) 0:200 has new state: IDLE
+2021-09-15 17:46:38,111 : DEBUG : main :  : Node : Number To String : 0:205 : reset
+2021-09-15 17:46:38,111 : DEBUG : main :  : Node : Number To String : 0:205 : clean output ports.
+2021-09-15 17:46:38,111 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Number To String 0:205 has new state: IDLE
+2021-09-15 17:46:38,111 : DEBUG : main :  : Node : Joiner : 0:211 : reset
+2021-09-15 17:46:38,111 : DEBUG : main :  : Node : Joiner : 0:211 : clean output ports.
+2021-09-15 17:46:38,111 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Joiner 0:211 has new state: IDLE
+2021-09-15 17:46:38,111 : DEBUG : main :  : Node : Table Reader : 0:209 : reset
+2021-09-15 17:46:38,111 : DEBUG : main :  : Node : Table Reader : 0:209 : clean output ports.
+2021-09-15 17:46:38,111 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Setting dirty flag on Table Reader 0:209
+2021-09-15 17:46:38,111 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Table Reader 0:209 has new state: IDLE
+2021-09-15 17:46:38,112 : DEBUG : main :  : Node : Table Reader : 0:209 : Configure succeeded. (Table Reader)
+2021-09-15 17:46:38,112 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Table Reader 0:209 has new state: CONFIGURED
+2021-09-15 17:46:38,113 : DEBUG : main :  : Node : Joiner : 0:211 : Configure succeeded. (Joiner)
+2021-09-15 17:46:38,113 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Joiner 0:211 has new state: CONFIGURED
+2021-09-15 17:46:38,113 : DEBUG : main :  : Node : Number To String : 0:205 : Configure succeeded. (Number To String)
+2021-09-15 17:46:38,113 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Number To String 0:205 has new state: CONFIGURED
+2021-09-15 17:46:38,113 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : Configure succeeded. (Normalizer (PMML))
+2021-09-15 17:46:38,113 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Normalizer (PMML) 0:200 has new state: CONFIGURED
+2021-09-15 17:46:38,113 : DEBUG : main :  : Node : k-Means : 0:138 : Configure succeeded. (k-Means)
+2021-09-15 17:46:38,113 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : k-Means 0:138 has new state: CONFIGURED
+2021-09-15 17:46:38,114 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:46:38,114 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Denormalizer (PMML) 0:140 has new state: CONFIGURED
+2021-09-15 17:46:38,114 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:46:38,114 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Denormalizer (PMML) 0:141 has new state: CONFIGURED
+2021-09-15 17:46:38,114 : DEBUG : main :  : Node : Data to Report : 0:202 : Configure succeeded. (Data to Report)
+2021-09-15 17:46:38,114 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Data to Report 0:202 has new state: CONFIGURED
+2021-09-15 17:46:38,158 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Table Reader 0:209 has new state: CONFIGURED_MARKEDFOREXEC
+2021-09-15 17:46:38,158 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : Table Reader 0:209 has new state: CONFIGURED_QUEUED
+2021-09-15 17:46:38,159 : DEBUG : main :  : NodeContainer : Table Reader : 0:209 : 01. Remote Workflow Execution 0 has new state: EXECUTING
+2021-09-15 17:46:38,159 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : WorkflowManager : Table Reader : 0:209 : Table Reader 0:209 doBeforePreExecution
+2021-09-15 17:46:38,159 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : NodeContainer : Table Reader : 0:209 : Table Reader 0:209 has new state: PREEXECUTE
+2021-09-15 17:46:38,159 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : WorkflowDataRepository : Table Reader : 0:209 : Adding handler eaccbe64-6747-4c67-a821-2002e9e479a4 (Table Reader 0:209: <no directory>) - 3 in total
+2021-09-15 17:46:38,159 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : WorkflowManager : Table Reader : 0:209 : Table Reader 0:209 doBeforeExecution
+2021-09-15 17:46:38,159 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : NodeContainer : Table Reader : 0:209 : Table Reader 0:209 has new state: EXECUTING
+2021-09-15 17:46:38,159 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : LocalNodeExecutionJob : Table Reader : 0:209 : Table Reader 0:209 Start execute
+2021-09-15 17:46:38,363 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : ExecutionContext : Table Reader : 0:209 : Using Table Backend "BufferedTableBackend".
+2021-09-15 17:46:38,500 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : Buffer : Table Reader : 0:209 : Table has been written with a previous version of KNIME ("container_8", using compatibility mode.
+2021-09-15 17:46:38,501 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : BufferSettings : Table Reader : 0:209 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2021-09-15 17:46:38,501 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : Buffer : Table Reader : 0:209 : Closing input stream on "C:\tmp\knime_01_ Remote Work79614\knime_container_20210915_6444277521952248887.tmp", 0 remaining
+2021-09-15 17:46:38,502 : INFO  : KNIME-Worker-56-Table Reader 0:209 :  : LocalNodeExecutionJob : Table Reader : 0:209 : Table Reader 0:209 End execute (0 secs)
+2021-09-15 17:46:38,502 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : WorkflowManager : Table Reader : 0:209 : Table Reader 0:209 doBeforePostExecution
+2021-09-15 17:46:38,502 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : NodeContainer : Table Reader : 0:209 : Table Reader 0:209 has new state: POSTEXECUTE
+2021-09-15 17:46:38,502 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : WorkflowManager : Table Reader : 0:209 : Table Reader 0:209 doAfterExecute - success
+2021-09-15 17:46:38,502 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : NodeContainer : Table Reader : 0:209 : Table Reader 0:209 has new state: EXECUTED
+2021-09-15 17:46:38,503 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : Node : Joiner : 0:211 : Configure succeeded. (Joiner)
+2021-09-15 17:46:38,503 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : Node : Number To String : 0:205 : Configure succeeded. (Number To String)
+2021-09-15 17:46:38,504 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : Node : Normalizer (PMML) : 0:200 : Configure succeeded. (Normalizer (PMML))
+2021-09-15 17:46:38,505 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : Node : k-Means : 0:138 : Configure succeeded. (k-Means)
+2021-09-15 17:46:38,505 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : Node : Denormalizer (PMML) : 0:140 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:46:38,505 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : Node : Denormalizer (PMML) : 0:141 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:46:38,505 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : Node : Data to Report : 0:202 : Configure succeeded. (Data to Report)
+2021-09-15 17:46:38,505 : DEBUG : KNIME-Worker-56-Table Reader 0:209 :  : NodeContainer : Table Reader : 0:209 : 01. Remote Workflow Execution 0 has new state: CONFIGURED
+2021-09-15 17:46:50,123 : DEBUG : main :  : Node : Data to Report : 0:202 : reset
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : Data to Report : 0:202 : clean output ports.
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : reset
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : clean output ports.
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : reset
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : clean output ports.
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : k-Means : 0:138 : reset
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : k-Means : 0:138 : clean output ports.
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : reset
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : clean output ports.
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : Number To String : 0:205 : reset
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : Number To String : 0:205 : clean output ports.
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : Joiner : 0:211 : reset
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : Joiner : 0:211 : clean output ports.
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : Joiner : 0:210 : reset
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : Joiner : 0:210 : clean output ports.
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : Excel Reader : 0:207 : reset
+2021-09-15 17:46:50,124 : DEBUG : main :  : Node : Excel Reader : 0:207 : clean output ports.
+2021-09-15 17:46:50,125 : DEBUG : main :  : Node : Excel Reader : 0:207 : Configure succeeded. (Excel Reader)
+2021-09-15 17:46:50,125 : DEBUG : main :  : Node : File Reader : 0:208 : reset
+2021-09-15 17:46:50,126 : DEBUG : main :  : Node : File Reader : 0:208 : clean output ports.
+2021-09-15 17:46:50,126 : DEBUG : main :  : Node : File Reader : 0:208 : Configure succeeded. (File Reader)
+2021-09-15 17:46:50,126 : DEBUG : main :  : Node : Table Reader : 0:209 : reset
+2021-09-15 17:46:50,126 : DEBUG : main :  : Node : Table Reader : 0:209 : clean output ports.
+2021-09-15 17:46:50,127 : DEBUG : main :  : Node : Table Reader : 0:209 : Configure succeeded. (Table Reader)
+2021-09-15 17:46:53,642 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : k-Means : 0:138 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\k_Means (#138)"
+2021-09-15 17:46:53,645 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Denormalizer (PMML) : 0:140 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Denormalizer _PMML_ (#140)"
+2021-09-15 17:46:53,650 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Denormalizer (PMML) : 0:141 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Denormalizer _PMML_ (#141)"
+2021-09-15 17:46:53,653 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Normalizer (PMML) : 0:200 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Normalizer _PMML_ (#200)"
+2021-09-15 17:46:53,655 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Data to Report : 0:202 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Data to Report (#202)"
+2021-09-15 17:46:53,658 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Number To String : 0:205 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Number To String (#205)"
+2021-09-15 17:46:53,661 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Excel Reader : 0:207 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Excel Reader (#207)"
+2021-09-15 17:46:53,665 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : File Reader : 0:208 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\File Reader (#208)"
+2021-09-15 17:46:53,667 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Table Reader : 0:209 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Table Reader (#209)"
+2021-09-15 17:46:53,669 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Joiner : 0:210 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Joiner (#210)"
+2021-09-15 17:46:53,671 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Joiner : 0:211 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Joiner (#211)"
+2021-09-15 17:49:06,445 : DEBUG : main :  : VariableTypeRegistry : Joiner : 0:210 : The following variable types could all correspond to the config 'excluded_names': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:49:06,445 : DEBUG : main :  : VariableTypeRegistry : Joiner : 0:210 : The following variable types could all correspond to the config 'excluded_names': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:49:10,276 : WARN  : main :  : WrappedNodeDialog : Joiner : 0:210 : failed to apply settings: There are invalid  joining columns (highlighted with a red border).
+org.knime.core.node.InvalidSettingsException: There are invalid  joining columns (highlighted with a red border).
+	at org.knime.base.node.preproc.joiner3.Joiner3NodeDialog.columnPairsToJoinClauses(Joiner3NodeDialog.java:494)
+	at org.knime.base.node.preproc.joiner3.Joiner3NodeDialog.saveSettingsTo(Joiner3NodeDialog.java:475)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:532)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:766)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2021-09-15 17:49:16,208 : DEBUG : KNIME-Worker-63-File Reader 0:208 :  : WorkflowManager : File Reader : 0:208 : File Reader 0:208 doBeforePreExecution
+2021-09-15 17:49:16,208 : DEBUG : KNIME-Worker-63-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : File Reader 0:208 has new state: PREEXECUTE
+2021-09-15 17:49:16,209 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : WorkflowManager : Excel Reader : 0:207 : Excel Reader 0:207 doBeforePreExecution
+2021-09-15 17:49:16,209 : DEBUG : KNIME-Worker-63-File Reader 0:208 :  : WorkflowDataRepository : File Reader : 0:208 : Adding handler 0da0102d-c3cb-4746-ba25-77f1f0d1149d (File Reader 0:208: <no directory>) - 1 in total
+2021-09-15 17:49:16,209 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Excel Reader 0:207 has new state: PREEXECUTE
+2021-09-15 17:49:16,209 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : WorkflowDataRepository : Excel Reader : 0:207 : Adding handler e1e8fae5-d66d-46c7-b0ac-b1d9d6c06dce (Excel Reader 0:207: <no directory>) - 2 in total
+2021-09-15 17:49:16,209 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : WorkflowManager : Excel Reader : 0:207 : Excel Reader 0:207 doBeforeExecution
+2021-09-15 17:49:16,209 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Excel Reader 0:207 has new state: EXECUTING
+2021-09-15 17:49:16,209 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : LocalNodeExecutionJob : Excel Reader : 0:207 : Excel Reader 0:207 Start execute
+2021-09-15 17:49:16,209 : DEBUG : KNIME-Worker-65-Table Reader 0:209 :  : WorkflowManager : Table Reader : 0:209 : Table Reader 0:209 doBeforePreExecution
+2021-09-15 17:49:16,209 : DEBUG : KNIME-Worker-65-Table Reader 0:209 :  : NodeContainer : Table Reader : 0:209 : Table Reader 0:209 has new state: PREEXECUTE
+2021-09-15 17:49:16,209 : DEBUG : KNIME-Worker-65-Table Reader 0:209 :  : WorkflowDataRepository : Table Reader : 0:209 : Adding handler 38e0f8df-5ab9-4a97-bdd7-5d4334f11b1a (Table Reader 0:209: <no directory>) - 3 in total
+2021-09-15 17:49:16,209 : DEBUG : KNIME-Worker-63-File Reader 0:208 :  : WorkflowManager : File Reader : 0:208 : File Reader 0:208 doBeforeExecution
+2021-09-15 17:49:16,209 : DEBUG : KNIME-Worker-63-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : File Reader 0:208 has new state: EXECUTING
+2021-09-15 17:49:16,209 : DEBUG : KNIME-Worker-63-File Reader 0:208 :  : LocalNodeExecutionJob : File Reader : 0:208 : File Reader 0:208 Start execute
+2021-09-15 17:49:16,209 : DEBUG : KNIME-Worker-65-Table Reader 0:209 :  : WorkflowManager : Table Reader : 0:209 : Table Reader 0:209 doBeforeExecution
+2021-09-15 17:49:16,209 : DEBUG : KNIME-Worker-65-Table Reader 0:209 :  : NodeContainer : Table Reader : 0:209 : Table Reader 0:209 has new state: EXECUTING
+2021-09-15 17:49:16,209 : DEBUG : KNIME-Worker-65-Table Reader 0:209 :  : LocalNodeExecutionJob : Table Reader : 0:209 : Table Reader 0:209 Start execute
+2021-09-15 17:49:16,412 : DEBUG : KNIME-Worker-65-Table Reader 0:209 :  : ExecutionContext : Table Reader : 0:209 : Using Table Backend "BufferedTableBackend".
+2021-09-15 17:49:16,543 : DEBUG : KNIME-Worker-65-Table Reader 0:209 :  : Buffer : Table Reader : 0:209 : Table has been written with a previous version of KNIME ("container_8", using compatibility mode.
+2021-09-15 17:49:16,544 : DEBUG : KNIME-Worker-65-Table Reader 0:209 :  : BufferSettings : Table Reader : 0:209 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2021-09-15 17:49:16,544 : DEBUG : KNIME-Worker-65-Table Reader 0:209 :  : Buffer : Table Reader : 0:209 : Closing input stream on "C:\tmp\knime_01_ Remote Work79614\knime_container_20210915_207064800493049531.tmp", 0 remaining
+2021-09-15 17:49:16,546 : INFO  : KNIME-Worker-65-Table Reader 0:209 :  : LocalNodeExecutionJob : Table Reader : 0:209 : Table Reader 0:209 End execute (0 secs)
+2021-09-15 17:49:16,546 : DEBUG : KNIME-Worker-65-Table Reader 0:209 :  : WorkflowManager : Table Reader : 0:209 : Table Reader 0:209 doBeforePostExecution
+2021-09-15 17:49:16,546 : DEBUG : KNIME-Worker-65-Table Reader 0:209 :  : NodeContainer : Table Reader : 0:209 : Table Reader 0:209 has new state: POSTEXECUTE
+2021-09-15 17:49:16,547 : DEBUG : KNIME-Worker-65-Table Reader 0:209 :  : WorkflowManager : Table Reader : 0:209 : Table Reader 0:209 doAfterExecute - success
+2021-09-15 17:49:16,547 : DEBUG : KNIME-Worker-65-Table Reader 0:209 :  : NodeContainer : Table Reader : 0:209 : Table Reader 0:209 has new state: EXECUTED
+2021-09-15 17:49:16,725 : DEBUG : KNIME-Worker-63-File Reader 0:208 :  : ExecutionContext : File Reader : 0:208 : Using Table Backend "BufferedTableBackend".
+2021-09-15 17:49:16,792 : DEBUG : KNIME-Excel-Parser-2 :  : ExcelParserRunnable : Excel Reader : 0:207 : Thread parsing an Excel spreadsheet started.
+2021-09-15 17:49:16,975 : DEBUG : KNIME-Worker-63-File Reader 0:208 :  : BufferSettings : File Reader : 0:208 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2021-09-15 17:49:17,008 : INFO  : KNIME-Worker-63-File Reader 0:208 :  : LocalNodeExecutionJob : File Reader : 0:208 : File Reader 0:208 End execute (0 secs)
+2021-09-15 17:49:17,008 : DEBUG : KNIME-Worker-63-File Reader 0:208 :  : WorkflowManager : File Reader : 0:208 : File Reader 0:208 doBeforePostExecution
+2021-09-15 17:49:17,008 : DEBUG : KNIME-Worker-63-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : File Reader 0:208 has new state: POSTEXECUTE
+2021-09-15 17:49:17,008 : DEBUG : KNIME-Worker-63-File Reader 0:208 :  : WorkflowManager : File Reader : 0:208 : File Reader 0:208 doAfterExecute - success
+2021-09-15 17:49:17,008 : DEBUG : KNIME-Worker-63-File Reader 0:208 :  : NodeContainer : File Reader : 0:208 : File Reader 0:208 has new state: EXECUTED
+2021-09-15 17:49:17,037 : DEBUG : KNIME-BackgroundTableWriter-1 :  : Buffer : File Reader : 0:208 : Buffer file (C:\tmp\knime_01_ Remote Work79614\knime_container_20210915_6928062131931634296.bin.snappy) is 0,089MB in size
+2021-09-15 17:49:17,137 : DEBUG : KNIME-Excel-Parser-2 :  : ExcelParserRunnable : Excel Reader : 0:207 : Thread parsing an Excel spreadsheet finished successfully.
+2021-09-15 17:49:17,139 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : ExecutionContext : Excel Reader : 0:207 : Using Table Backend "BufferedTableBackend".
+2021-09-15 17:49:17,524 : DEBUG : KNIME-Excel-Parser-2 :  : ExcelParserRunnable : Excel Reader : 0:207 : Thread parsing an Excel spreadsheet started.
+2021-09-15 17:49:17,527 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : BufferSettings : Excel Reader : 0:207 : Using table format org.knime.core.data.container.DefaultTableStoreFormat
+2021-09-15 17:49:17,760 : DEBUG : KNIME-Excel-Parser-2 :  : ExcelParserRunnable : Excel Reader : 0:207 : Thread parsing an Excel spreadsheet finished successfully.
+2021-09-15 17:49:17,760 : INFO  : KNIME-Worker-64-Excel Reader 0:207 :  : LocalNodeExecutionJob : Excel Reader : 0:207 : Excel Reader 0:207 End execute (1 sec)
+2021-09-15 17:49:17,760 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : WorkflowManager : Excel Reader : 0:207 : Excel Reader 0:207 doBeforePostExecution
+2021-09-15 17:49:17,761 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Excel Reader 0:207 has new state: POSTEXECUTE
+2021-09-15 17:49:17,761 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : WorkflowManager : Excel Reader : 0:207 : Excel Reader 0:207 doAfterExecute - success
+2021-09-15 17:49:17,761 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Excel Reader 0:207 has new state: EXECUTED
+2021-09-15 17:49:17,761 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : Node : Joiner : 0:210 : Configure succeeded. (Joiner)
+2021-09-15 17:49:17,761 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on Joiner 0:210
+2021-09-15 17:49:17,761 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Joiner 0:210 has new state: CONFIGURED
+2021-09-15 17:49:17,762 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : Node : Joiner : 0:211 : Configure succeeded. (Joiner)
+2021-09-15 17:49:17,762 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on Joiner 0:211
+2021-09-15 17:49:17,762 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Joiner 0:211 has new state: CONFIGURED
+2021-09-15 17:49:17,762 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : Node : Number To String : 0:205 : Configure succeeded. (Number To String)
+2021-09-15 17:49:17,762 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on Number To String 0:205
+2021-09-15 17:49:17,762 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Number To String 0:205 has new state: CONFIGURED
+2021-09-15 17:49:17,762 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : Node : Normalizer (PMML) : 0:200 : Configure succeeded. (Normalizer (PMML))
+2021-09-15 17:49:17,762 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on Normalizer (PMML) 0:200
+2021-09-15 17:49:17,762 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Normalizer (PMML) 0:200 has new state: CONFIGURED
+2021-09-15 17:49:17,763 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : Node : k-Means : 0:138 : Configure succeeded. (k-Means)
+2021-09-15 17:49:17,763 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on k-Means 0:138
+2021-09-15 17:49:17,763 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : k-Means 0:138 has new state: CONFIGURED
+2021-09-15 17:49:17,763 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : Node : Denormalizer (PMML) : 0:140 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:49:17,763 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on Denormalizer (PMML) 0:140
+2021-09-15 17:49:17,763 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Denormalizer (PMML) 0:140 has new state: CONFIGURED
+2021-09-15 17:49:17,763 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : Node : Denormalizer (PMML) : 0:141 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:49:17,763 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on Denormalizer (PMML) 0:141
+2021-09-15 17:49:17,763 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Denormalizer (PMML) 0:141 has new state: CONFIGURED
+2021-09-15 17:49:17,763 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : Node : Data to Report : 0:202 : Configure succeeded. (Data to Report)
+2021-09-15 17:49:17,763 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Setting dirty flag on Data to Report 0:202
+2021-09-15 17:49:17,763 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : Data to Report 0:202 has new state: CONFIGURED
+2021-09-15 17:49:17,763 : DEBUG : KNIME-Worker-64-Excel Reader 0:207 :  : NodeContainer : Excel Reader : 0:207 : 01. Remote Workflow Execution 0 has new state: CONFIGURED
+2021-09-15 17:49:17,780 : DEBUG : KNIME-BackgroundTableWriter-1 :  : Buffer : Excel Reader : 0:207 : Buffer file (C:\tmp\knime_01_ Remote Work79614\knime_container_20210915_13755811866340269022.bin.snappy) is 0,239MB in size
+2021-09-15 17:49:18,473 : DEBUG : main :  : VariableTypeRegistry : Joiner : 0:210 : The following variable types could all correspond to the config 'excluded_names': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:49:18,473 : DEBUG : main :  : VariableTypeRegistry : Joiner : 0:210 : The following variable types could all correspond to the config 'excluded_names': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:49:21,181 : DEBUG : main :  : Node : Data to Report : 0:202 : reset
+2021-09-15 17:49:21,181 : DEBUG : main :  : Node : Data to Report : 0:202 : clean output ports.
+2021-09-15 17:49:21,181 : DEBUG : main :  : NodeContainer : Joiner : 0:210 : Data to Report 0:202 has new state: IDLE
+2021-09-15 17:49:21,181 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : reset
+2021-09-15 17:49:21,181 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : clean output ports.
+2021-09-15 17:49:21,181 : DEBUG : main :  : NodeContainer : Joiner : 0:210 : Denormalizer (PMML) 0:140 has new state: IDLE
+2021-09-15 17:49:21,181 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : reset
+2021-09-15 17:49:21,181 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : clean output ports.
+2021-09-15 17:49:21,181 : DEBUG : main :  : NodeContainer : Joiner : 0:210 : Denormalizer (PMML) 0:141 has new state: IDLE
+2021-09-15 17:49:21,181 : DEBUG : main :  : Node : k-Means : 0:138 : reset
+2021-09-15 17:49:21,181 : DEBUG : main :  : Node : k-Means : 0:138 : clean output ports.
+2021-09-15 17:49:21,181 : DEBUG : main :  : NodeContainer : Joiner : 0:210 : k-Means 0:138 has new state: IDLE
+2021-09-15 17:49:21,182 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : reset
+2021-09-15 17:49:21,182 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : clean output ports.
+2021-09-15 17:49:21,182 : DEBUG : main :  : NodeContainer : Joiner : 0:210 : Normalizer (PMML) 0:200 has new state: IDLE
+2021-09-15 17:49:21,182 : DEBUG : main :  : Node : Number To String : 0:205 : reset
+2021-09-15 17:49:21,182 : DEBUG : main :  : Node : Number To String : 0:205 : clean output ports.
+2021-09-15 17:49:21,182 : DEBUG : main :  : NodeContainer : Joiner : 0:210 : Number To String 0:205 has new state: IDLE
+2021-09-15 17:49:21,182 : DEBUG : main :  : Node : Joiner : 0:211 : reset
+2021-09-15 17:49:21,182 : DEBUG : main :  : Node : Joiner : 0:211 : clean output ports.
+2021-09-15 17:49:21,182 : DEBUG : main :  : NodeContainer : Joiner : 0:210 : Joiner 0:211 has new state: IDLE
+2021-09-15 17:49:21,182 : DEBUG : main :  : Node : Joiner : 0:210 : reset
+2021-09-15 17:49:21,182 : DEBUG : main :  : Node : Joiner : 0:210 : clean output ports.
+2021-09-15 17:49:21,182 : DEBUG : main :  : NodeContainer : Joiner : 0:210 : Joiner 0:210 has new state: IDLE
+2021-09-15 17:49:21,182 : DEBUG : main :  : Node : Joiner : 0:210 : Configure succeeded. (Joiner)
+2021-09-15 17:49:21,182 : DEBUG : main :  : NodeContainer : Joiner : 0:210 : Joiner 0:210 has new state: CONFIGURED
+2021-09-15 17:49:21,183 : DEBUG : main :  : Node : Joiner : 0:211 : Configure succeeded. (Joiner)
+2021-09-15 17:49:21,183 : DEBUG : main :  : NodeContainer : Joiner : 0:210 : Joiner 0:211 has new state: CONFIGURED
+2021-09-15 17:49:21,183 : DEBUG : main :  : Node : Number To String : 0:205 : Configure succeeded. (Number To String)
+2021-09-15 17:49:21,183 : DEBUG : main :  : NodeContainer : Joiner : 0:210 : Number To String 0:205 has new state: CONFIGURED
+2021-09-15 17:49:21,183 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : Configure succeeded. (Normalizer (PMML))
+2021-09-15 17:49:21,183 : DEBUG : main :  : NodeContainer : Joiner : 0:210 : Normalizer (PMML) 0:200 has new state: CONFIGURED
+2021-09-15 17:49:21,184 : DEBUG : main :  : Node : k-Means : 0:138 : Configure succeeded. (k-Means)
+2021-09-15 17:49:21,184 : DEBUG : main :  : NodeContainer : Joiner : 0:210 : k-Means 0:138 has new state: CONFIGURED
+2021-09-15 17:49:21,184 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:49:21,184 : DEBUG : main :  : NodeContainer : Joiner : 0:210 : Denormalizer (PMML) 0:140 has new state: CONFIGURED
+2021-09-15 17:49:21,184 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:49:21,184 : DEBUG : main :  : NodeContainer : Joiner : 0:210 : Denormalizer (PMML) 0:141 has new state: CONFIGURED
+2021-09-15 17:49:21,184 : DEBUG : main :  : Node : Data to Report : 0:202 : Configure succeeded. (Data to Report)
+2021-09-15 17:49:21,184 : DEBUG : main :  : NodeContainer : Joiner : 0:210 : Data to Report 0:202 has new state: CONFIGURED
+2021-09-15 17:49:22,360 : DEBUG : main :  : VariableTypeRegistry : Joiner : 0:211 : The following variable types could all correspond to the config 'excluded_names': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:49:22,360 : DEBUG : main :  : VariableTypeRegistry : Joiner : 0:211 : The following variable types could all correspond to the config 'excluded_names': [STRINGARRAY, BOOLEANARRAY, INTARRAY, LONGARRAY, DOUBLEARRAY]. Taking the first.
+2021-09-15 17:49:25,416 : DEBUG : main :  : Node : Data to Report : 0:202 : reset
+2021-09-15 17:49:25,417 : DEBUG : main :  : Node : Data to Report : 0:202 : clean output ports.
+2021-09-15 17:49:25,417 : DEBUG : main :  : NodeContainer : Joiner : 0:211 : Data to Report 0:202 has new state: IDLE
+2021-09-15 17:49:25,417 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : reset
+2021-09-15 17:49:25,417 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : clean output ports.
+2021-09-15 17:49:25,417 : DEBUG : main :  : NodeContainer : Joiner : 0:211 : Denormalizer (PMML) 0:140 has new state: IDLE
+2021-09-15 17:49:25,417 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : reset
+2021-09-15 17:49:25,417 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : clean output ports.
+2021-09-15 17:49:25,417 : DEBUG : main :  : NodeContainer : Joiner : 0:211 : Denormalizer (PMML) 0:141 has new state: IDLE
+2021-09-15 17:49:25,417 : DEBUG : main :  : Node : k-Means : 0:138 : reset
+2021-09-15 17:49:25,417 : DEBUG : main :  : Node : k-Means : 0:138 : clean output ports.
+2021-09-15 17:49:25,417 : DEBUG : main :  : NodeContainer : Joiner : 0:211 : k-Means 0:138 has new state: IDLE
+2021-09-15 17:49:25,417 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : reset
+2021-09-15 17:49:25,417 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : clean output ports.
+2021-09-15 17:49:25,417 : DEBUG : main :  : NodeContainer : Joiner : 0:211 : Normalizer (PMML) 0:200 has new state: IDLE
+2021-09-15 17:49:25,417 : DEBUG : main :  : Node : Number To String : 0:205 : reset
+2021-09-15 17:49:25,417 : DEBUG : main :  : Node : Number To String : 0:205 : clean output ports.
+2021-09-15 17:49:25,417 : DEBUG : main :  : NodeContainer : Joiner : 0:211 : Number To String 0:205 has new state: IDLE
+2021-09-15 17:49:25,417 : DEBUG : main :  : Node : Joiner : 0:211 : reset
+2021-09-15 17:49:25,417 : DEBUG : main :  : Node : Joiner : 0:211 : clean output ports.
+2021-09-15 17:49:25,417 : DEBUG : main :  : NodeContainer : Joiner : 0:211 : Joiner 0:211 has new state: IDLE
+2021-09-15 17:49:25,418 : DEBUG : main :  : Node : Joiner : 0:211 : Configure succeeded. (Joiner)
+2021-09-15 17:49:25,418 : DEBUG : main :  : NodeContainer : Joiner : 0:211 : Joiner 0:211 has new state: CONFIGURED
+2021-09-15 17:49:25,418 : DEBUG : main :  : Node : Number To String : 0:205 : Configure succeeded. (Number To String)
+2021-09-15 17:49:25,418 : DEBUG : main :  : NodeContainer : Joiner : 0:211 : Number To String 0:205 has new state: CONFIGURED
+2021-09-15 17:49:25,418 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : Configure succeeded. (Normalizer (PMML))
+2021-09-15 17:49:25,418 : DEBUG : main :  : NodeContainer : Joiner : 0:211 : Normalizer (PMML) 0:200 has new state: CONFIGURED
+2021-09-15 17:49:25,419 : DEBUG : main :  : Node : k-Means : 0:138 : Configure succeeded. (k-Means)
+2021-09-15 17:49:25,419 : DEBUG : main :  : NodeContainer : Joiner : 0:211 : k-Means 0:138 has new state: CONFIGURED
+2021-09-15 17:49:25,419 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:49:25,419 : DEBUG : main :  : NodeContainer : Joiner : 0:211 : Denormalizer (PMML) 0:140 has new state: CONFIGURED
+2021-09-15 17:49:25,419 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : Configure succeeded. (Denormalizer (PMML))
+2021-09-15 17:49:25,419 : DEBUG : main :  : NodeContainer : Joiner : 0:211 : Denormalizer (PMML) 0:141 has new state: CONFIGURED
+2021-09-15 17:49:25,419 : DEBUG : main :  : Node : Data to Report : 0:202 : Configure succeeded. (Data to Report)
+2021-09-15 17:49:25,419 : DEBUG : main :  : NodeContainer : Joiner : 0:211 : Data to Report 0:202 has new state: CONFIGURED
+2021-09-15 17:49:29,204 : DEBUG : main :  : Node : Data to Report : 0:202 : reset
+2021-09-15 17:49:29,204 : DEBUG : main :  : Node : Data to Report : 0:202 : clean output ports.
+2021-09-15 17:49:29,204 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : reset
+2021-09-15 17:49:29,204 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:140 : clean output ports.
+2021-09-15 17:49:29,204 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : reset
+2021-09-15 17:49:29,204 : DEBUG : main :  : Node : Denormalizer (PMML) : 0:141 : clean output ports.
+2021-09-15 17:49:29,204 : DEBUG : main :  : Node : k-Means : 0:138 : reset
+2021-09-15 17:49:29,204 : DEBUG : main :  : Node : k-Means : 0:138 : clean output ports.
+2021-09-15 17:49:29,204 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : reset
+2021-09-15 17:49:29,205 : DEBUG : main :  : Node : Normalizer (PMML) : 0:200 : clean output ports.
+2021-09-15 17:49:29,205 : DEBUG : main :  : Node : Number To String : 0:205 : reset
+2021-09-15 17:49:29,205 : DEBUG : main :  : Node : Number To String : 0:205 : clean output ports.
+2021-09-15 17:49:29,205 : DEBUG : main :  : Node : Joiner : 0:211 : reset
+2021-09-15 17:49:29,205 : DEBUG : main :  : Node : Joiner : 0:211 : clean output ports.
+2021-09-15 17:49:29,205 : DEBUG : main :  : Node : Joiner : 0:210 : reset
+2021-09-15 17:49:29,205 : DEBUG : main :  : Node : Joiner : 0:210 : clean output ports.
+2021-09-15 17:49:29,205 : DEBUG : main :  : Node : Excel Reader : 0:207 : reset
+2021-09-15 17:49:29,205 : DEBUG : main :  : Node : Excel Reader : 0:207 : clean output ports.
+2021-09-15 17:49:29,205 : DEBUG : main :  : Node : Excel Reader : 0:207 : Configure succeeded. (Excel Reader)
+2021-09-15 17:49:29,206 : DEBUG : main :  : Node : File Reader : 0:208 : reset
+2021-09-15 17:49:29,206 : DEBUG : main :  : Node : File Reader : 0:208 : clean output ports.
+2021-09-15 17:49:29,206 : DEBUG : main :  : Node : File Reader : 0:208 : Configure succeeded. (File Reader)
+2021-09-15 17:49:29,207 : DEBUG : main :  : Node : Table Reader : 0:209 : reset
+2021-09-15 17:49:29,207 : DEBUG : main :  : Node : Table Reader : 0:209 : clean output ports.
+2021-09-15 17:49:29,207 : DEBUG : main :  : Node : Table Reader : 0:209 : Configure succeeded. (Table Reader)
+2021-09-15 17:49:31,369 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : k-Means : 0:138 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\k_Means (#138)"
+2021-09-15 17:49:31,372 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Denormalizer (PMML) : 0:140 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Denormalizer _PMML_ (#140)"
+2021-09-15 17:49:31,376 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Denormalizer (PMML) : 0:141 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Denormalizer _PMML_ (#141)"
+2021-09-15 17:49:31,379 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Normalizer (PMML) : 0:200 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Normalizer _PMML_ (#200)"
+2021-09-15 17:49:31,383 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Data to Report : 0:202 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Data to Report (#202)"
+2021-09-15 17:49:31,386 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Number To String : 0:205 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Number To String (#205)"
+2021-09-15 17:49:31,389 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Excel Reader : 0:207 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Excel Reader (#207)"
+2021-09-15 17:49:31,392 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : File Reader : 0:208 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\File Reader (#208)"
+2021-09-15 17:49:31,395 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Table Reader : 0:209 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Table Reader (#209)"
+2021-09-15 17:49:31,397 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Joiner : 0:210 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Joiner (#210)"
+2021-09-15 17:49:31,399 : DEBUG : ModalContext :  : FileSingleNodeContainerPersistor : Joiner : 0:211 : Replaced node directory "C:\tmp\knime_temp_space_MP_79594\01. Remote Workflow Execution79613\01. Remote Workflow Execution\Joiner (#211)"

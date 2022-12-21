@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="label" type="xstring" value=""/>
+<entry key="description" type="xstring" value=""/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="customCSS" type="xstring" value=""/>
+<entry key="textFormat" type="xstring" value="Html"/>
+<entry key="text" type="xstring" value="&lt;div class=&quot;sidetext&quot;&gt;%%00010&lt;h1 class=&quot;sidetext&quot;&gt;2. Data Cleaning&lt;/h1&gt;%%00010&lt;hr class=&quot;sidetext&quot;&gt;%%00010%%00010&lt;p class=&quot;sidetext&quot;&gt;%%00010This KNIME component allows you to apply various data cleaning steps interactively.%%00010Default configuration will implement cleaning of missing values, outliers and duplicates.%%00010&lt;br&gt;&lt;br&gt;%%00010Availble pre-processing steps:%%00010&lt;ul&gt;%%00010 &lt;li&gt;&lt;b&gt;Automatic type guessing:&lt;/b&gt; determine the most specific type in each string column and change the column types accordingly.&lt;/li&gt;%%00010 &lt;li&gt;&lt;b&gt;Treatment of missing values:&lt;/b&gt; separate configurations for missing values in string and number columns.&lt;/li&gt;%%00010 &lt;li&gt;&lt;b&gt;Outlier removal:&lt;/b&gt; configuration on how to treat outliers.&lt;/li&gt;%%00010 &lt;li&gt;&lt;b&gt;Duplicate removal:&lt;/b&gt; which columns to use to identify duplicates and how to treat those.&lt;/li&gt;%%00010&lt;/ul&gt;%%00010All preprocessing steps have a &lt;i&gt;&quot;Do nothing&quot;&lt;/i&gt; option, that will allow to skip the corresponding step.%%00010&lt;br&gt;&lt;br&gt;%%00010In addition, you can select and (optionally) rename a subset of columns to be used in the following.%%00010If no columns are selected, whole data table will be used.%%00010&lt;br&gt;&lt;br&gt;%%00010At the bottom of the page there is a summary of the input data presented to drive decisions about pre-processing steps.%%00010&lt;/p&gt;%%00010&lt;/div&gt;%%00010%%00010%%00010"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Guide"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="-52"/>
+<entry key="y-coordinate" type="xint" value="259"/>
+<entry key="width" type="xint" value="104"/>
+<entry key="height" type="xint" value="13"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.js.base.node.widget.output.text.TextOutputWidgetNodeFactory"/>
+<entry key="node-name" type="xstring" value="Text Output Widget"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.3.0.v202012011540"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.3.0.v202012020231"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Text Output Widget"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports"/>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="274302de-d1ca-484c-a1cb-456e0a92413c"/>
+</config>
+</config>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="class_to_explain-832">
+            <entry key="column" type="xstring" value="Survived"/>
+            <entry key="value" type="xstring" value="NO"/>
+        </config>
+        <config key="model_name-843">
+            <entry key="string" type="xstring" value="Model"/>
+        </config>
+    </config>
+    <config key="variables">
+        <entry key="version" type="xstring" value="V_2019_09_13"/>
+        <config key="tree">
+            <config key="class_to_explain-832">
+                <config key="column">
+                    <entry key="used_variable" type="xstring" value="target_column"/>
+                    <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+                </config>
+                <config key="value">
+                    <entry key="used_variable" type="xstring" value="positive"/>
+                    <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+                </config>
+            </config>
+            <config key="model_name-843">
+                <config key="string">
+                    <entry key="used_variable" type="xstring" value="exported_model"/>
+                    <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Right Click &gt; Execute &amp; Open View%%00013%%00010%%00013%%00010top: Dataset Sample%%00013%%00010middle: from AutoML component%%00013%%00010bottom: Explainable Instances%%00013%%00010----%%00013%%00010output: Explanations"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="825"/>
+        <entry key="y-coordinate" type="xint" value="319"/>
+        <entry key="width" type="xint" value="190"/>
+        <entry key="height" type="xint" value="105"/>
+        <entry key="alignment" type="xstring" value="LEFT"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles">
+            <config key="style_0">
+                <entry key="start" type="xint" value="0"/>
+                <entry key="length" type="xint" value="35"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="2"/>
+                <entry key="fontsize" type="xint" value="9"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+            <config key="style_1">
+                <entry key="start" type="xint" value="35"/>
+                <entry key="length" type="xint" value="5"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="1"/>
+                <entry key="fontsize" type="xint" value="9"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+            <config key="style_2">
+                <entry key="start" type="xint" value="42"/>
+                <entry key="length" type="xint" value="14"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="0"/>
+                <entry key="fontsize" type="xint" value="9"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+            <config key="style_3">
+                <entry key="start" type="xint" value="58"/>
+                <entry key="length" type="xint" value="6"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="1"/>
+                <entry key="fontsize" type="xint" value="9"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+            <config key="style_4">
+                <entry key="start" type="xint" value="89"/>
+                <entry key="length" type="xint" value="6"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="1"/>
+                <entry key="fontsize" type="xint" value="9"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+            <config key="style_5">
+                <entry key="start" type="xint" value="97"/>
+                <entry key="length" type="xint" value="29"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="0"/>
+                <entry key="fontsize" type="xint" value="9"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+            <config key="style_6">
+                <entry key="start" type="xint" value="126"/>
+                <entry key="length" type="xint" value="6"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="1"/>
+                <entry key="fontsize" type="xint" value="9"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+            <config key="style_7">
+                <entry key="start" type="xint" value="132"/>
+                <entry key="length" type="xint" value="14"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="0"/>
+                <entry key="fontsize" type="xint" value="9"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="workflow-file" type="xstring" value="workflow.knime"/>
+    <entry key="virtual-in-ID" type="xint" value="879"/>
+    <config key="inports">
+        <config key="inport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="inport_1">
+            <entry key="index" type="xint" value="1"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.workflow.capture.WorkflowPortObject"/>
+            </config>
+        </config>
+        <config key="inport_2">
+            <entry key="index" type="xint" value="2"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <entry key="virtual-out-ID" type="xint" value="899"/>
+    <config key="outports">
+        <config key="outport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <config key="metadata">
+        <entry key="description" type="xstring" value="In order to decipher the decision making process of a black-box model you can use the eXplainable Artificial Intelligence (XAI) view. The view works for machine learning classifiers for binary and multiclass targets. The component generates an interactive dashboard view visualizing explanations for a set of instances you provide, as well other charts and Machine Learning Interpretability (MLI) techniques.%%00013%%00010%%00013%%00010This component computes SHAP explanations, Partial Dependence Plot (PDP), Individual Conditional Expectation (ICE) curves and surrogate decision tree view. %%00013%%00010%%00013%%00010- SHAP values help in explaining the prediction by computing the contribution of each feature to the prediction. The sum of all SHAP values adds up to the difference between the prediction value and the average prediction in the provided sample dataset. Each explanation in the view is represented as a bubble and the aggregated sum of multiple explanations values in a violin plot.%%00013%%00010%%00013%%00010- A Partial Dependence Plot (PDP) denotes the relationship between the target and a single feature in a cartesian graph as a filled area. Individual Conditional Expectation (ICE) curves in the PDP show the reaction of a single prediction when changing a single feature.%%00013%%00010%%00013%%00010- Surrogate Decision Tree View is the result of overfitting a Decision Tree on the predictions of the original model instead of using the actual ground truth target. By committing the same mistakes of the original model, a view of the tree explains the black box model as a hierarchical decision process.%%00013%%00010%%00013%%00010The dashboard is interactive, select explanations bubbles to see the same predictions highlighted in the other views. If the component is used as a nested component you can also add additional charts to visualize its output in other ways.%%00013%%00010%%00013%%00010The user needs to provide a sample of the dataset used to train a model, the model and a set of instances (rows) from the test set. %%00013%%00010%%00013%%00010DATA INPUT REQUIREMENTS%%00013%%00010- The two input data tables (top and bottom ports) need to have exactly the same columns (Table Spec) beside the target column which can be omitted in the bottom port as you might need to explain instances for which the ground truth is not available.%%00013%%00010%%00013%%00010- The bottom input with instances to be explained can be at max 100 rows. More instances would clutter the visualization and take even more time to compute.%%00013%%00010%%00013%%00010BLACK-BOX MODEL REQUIREMENTS %%00013%%00010We recommend using the &quot;AutoML&quot; component to test the “XAI View”, but any model could be explained by the component as long as it behaves as a black box and it is captured with Integrated Deployment. Precise requirements are listed below.%%00013%%00010%%00013%%00010- The model should be captured with Integrated Deployment and have a single input and single output of type Data.%%00013%%00010%%00013%%00010- All features columns have to be provided at the input.%%00013%%00010%%00013%%00010- Any other additional columns that are not features can be provided at the input.%%00013%%00010%%00013%%00010- The output should store all the input data (features and non-features) and present attached the output predictions columns.%%00013%%00010%%00013%%00010- The output predictions should be one String type and “n” Double type, where “n” is the number of classes in the target column.%%00013%%00010%%00013%%00010- The String type prediction column should be named “Prediction([T])” where [T] is the name of your target class (e.g. “Prediction (Churn)”).%%00013%%00010%%00013%%00010- The Double type prediction columns should be named “P ([T]=[C1])”, “P ([T]=[C2])”, …, “P (T=[Cn])”, where [Cn] is the name of the class that probability is predicting (e.g. “P (Churn=not churned)” and ”P (Churn=churned)” in the binary case).%%00013%%00010%%00013%%00010Additionally, if you are not using the AutoML component, you need to provide a flow variable called “target_column” of type String with the name of your ground truth / target column in the top input of the XAI View component."/>
+        <entry key="type" type="xstring" value="LEARNER"/>
+        <entry key="icon" type="xstring" value="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAi0lEQVR4nGNgoDYwMDBwMDIyaoBhID+AaM1ADQUmJiYOQE0CMDEQ39jYeD1QTIGgZlyKQAYaGhouwOdsA6ABCfgsABkOsgSX7Q14nUdI3cAbAAppEManGW8YQE2fgBx92GzHG5UgSWzxDTIUpBkUjfgsQLYpATklQtOHACwtEGUIHlcOIkMIxRrRAABplTOgJ4UUigAAAABJRU5ErkJggg=="/>
+        <config key="inports">
+            <config key="inport_0">
+                <entry key="name" type="xstring" value="Sampling Table"/>
+                <entry key="description" type="xstring" value="Provide the table that contains feature and target column (Dataset Sample)."/>
+                <entry key="index" type="xint" value="0"/>
+            </config>
+            <config key="inport_1">
+                <entry key="name" type="xstring" value="Models"/>
+                <entry key="description" type="xstring" value="Provide the model table from the top output of &quot;AutoML&quot; Component."/>
+                <entry key="index" type="xint" value="1"/>
+            </config>
+            <config key="inport_2">
+                <entry key="name" type="xstring" value="Explainable Instances"/>
+                <entry key="description" type="xstring" value="Provide the table with predictions that have to be explained (Explainable Instances) ."/>
+                <entry key="index" type="xint" value="2"/>
+            </config>
+        </config>
+        <config key="outports">
+            <config key="outport_0">
+                <entry key="name" type="xstring" value="Explanations"/>
+                <entry key="description" type="xstring" value="The instances (second input) is rendered with attached the SHAP explanations and predictions."/>
+                <entry key="index" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
+    <entry key="layoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:true,&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[],&quot;widthXS&quot;:1},{&quot;content&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;746&quot;,&quot;resizeTolerance&quot;:5,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;878&quot;,&quot;resizeTolerance&quot;:5,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false},{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;807&quot;,&quot;resizeTolerance&quot;:5,&quot;resizeMethod&quot;:&quot;aspectRatio1by1&quot;,&quot;useLegacyMode&quot;:true,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false}],&quot;widthXS&quot;:6},{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;877&quot;,&quot;resizeTolerance&quot;:5,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false},{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;785&quot;,&quot;resizeTolerance&quot;:5,&quot;resizeMethod&quot;:&quot;aspectRatio16by9&quot;,&quot;useLegacyMode&quot;:true,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false},{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;876&quot;,&quot;resizeTolerance&quot;:5,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false},{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;761&quot;,&quot;resizeTolerance&quot;:5,&quot;resizeMethod&quot;:&quot;aspectRatio16by9&quot;,&quot;useLegacyMode&quot;:true,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false}],&quot;widthXS&quot;:6}]},{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;875&quot;,&quot;resizeTolerance&quot;:5,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;useLegacyMode&quot;:true,&quot;scrolling&quot;:false,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false},{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;774&quot;,&quot;resizeTolerance&quot;:5,&quot;resizeMethod&quot;:&quot;viewTaggedElement&quot;,&quot;useLegacyMode&quot;:true,&quot;scrolling&quot;:true,&quot;sizeHeight&quot;:true,&quot;autoResize&quot;:true,&quot;sizeWidth&quot;:false}],&quot;widthXS&quot;:12}]}],&quot;widthXS&quot;:10},{&quot;content&quot;:[],&quot;widthXS&quot;:1}]}]}"/>
+    <entry key="configurationLayoutJSON" type="xstring" value="{}"/>
+    <entry key="hideInWizard" type="xboolean" value="false"/>
+    <entry key="customCSS" type="xstring" value=""/>
+</config>

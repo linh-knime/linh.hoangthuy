@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">Lukas.Siedentop</element><element xmlns="" form="date" name="Creation Date">19/9/2021/10:11:52 +02:00</element><element xmlns="" form="multiline" name="Comments">[KNIME Server Onboarding] Connect &amp; Deploy Workflows
+
+Alice already built this workflow providing and preprocessing the data. It contains some basic visualizations, which we will improve upon in the following emails. Today’s exercise is to deploy this workflow to the Users/your.username folder on the KNIME Server of your organization. In the next email we will learn how to do something with deployed workflows.&#xd;
+&#xd;
+
+
+VIDEO: How to Connect and deploy to KNIME Server https://www.youtube.com/watch?v=dPoWbC-mODM
+TAGS: KNIME Server Onboarding,Connect &amp; Deploy Workflows</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2022-06-08 17:31:44 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2021-11-03 16:26:54 +0100</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

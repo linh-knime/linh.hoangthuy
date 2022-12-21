@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">paolotamag</element><element xmlns="" form="date" name="Creation Date">24/5/2020/12:2:13 +02:00</element><element xmlns="" form="multiline" name="Comments">AutoML Component via Interactive Views
+
+This application is a simple example of AutoML with KNIME Software for binary and multiclass classification. The key of this example is the AutoML Component verified and developed by the KNIME Team. This Component (in green) uses the extension KNIME Integrated Deployment in order to train several models and combine them with other nodes and output a deployment workflow. The other Components (in blue) offer interactive views to control the AutoML process from any web browser via the KNIME WebPortal on KNIME Server. &#xd;
+&#xd;
+The workflow also works locally on KNIME Analytics Platform. Make sure to use "Apply and Close" in bottom-right corner of each view.&#xd;
+&#xd;
+
+
+URL: KNIME Integrated Deployment - KNIME.com https://www.knime.com/integrated-deployment
+URL: Guided Automation: a more complex AutoML example with KNIME Software https://kni.me/w/eAGfGtEAIr-1iYR-
+BLOG: Deploying an AutoML Application with Guided Analytics - KNIME Blog https://www.knime.com/blog/integrated-deployment-deploying-an-automl-application-with-guided-analytics
+BLOG: Automated Machine Learning - KNIME Blog https://www.knime.com/blog/integrated-deployment-blog-series-episode-3-automated-machine-learning
+TAGS: autoML,automated machine learning,guided analytics,integrated deployment</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2021-07-30 13:21:51 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2021-08-23 12:04:18 +0200</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

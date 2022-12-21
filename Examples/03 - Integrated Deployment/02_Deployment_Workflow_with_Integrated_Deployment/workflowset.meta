@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">paolotamag</element><element xmlns="" form="date" name="Creation Date">7/6/2020/15:50:24 +02:00</element><element xmlns="" form="multiline" name="Comments">Production Workflow with Integrated Deployment
+
+This workflow shows a simple example of churn prediction with interactive threshold optimization. This workflow is used for showcasing Integrated Deployment introduce in KNIME 4.2. You can see how the trained model automatically captured (via Capture Workflow nodes) and deployed (via a Workflow Writer node). The PortObject Reference Reader nodes are used to load static parameters used by the deployed model: the missing value imputation model, the trained random forest and the optimized threshold.&#xd;
+&#xd;
+
+
+TAGS: integrated deployment,capture,portobject,reference,written workflow,deployed workflow,deployment,deployed</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2021-08-30 13:05:46 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2020-07-10 18:17:19 +0200</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

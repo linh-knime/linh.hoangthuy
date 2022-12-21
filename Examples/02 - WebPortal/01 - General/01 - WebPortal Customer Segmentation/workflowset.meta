@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">albrecht</element><element xmlns="" form="date" name="Creation Date">9/2/2016/10:39:18 +01:00</element><element xmlns="" form="multiline" name="Comments">Customer Segmentation
+
+This workflow performs a customer segmentation by means of clustering k-Means node. The second part of the workflow implements an interactive wizard on the WebPortal to visualize and label (or write notes) about the single clusters.
+
+URL: Customer Segmentation comfortably from a Web Browser https://www.knime.org/files/white-papers/customer_segmentation.pdf
+TAG: clustering, k-Means, customer segmentation, WebPortal, visualization, labelling, interactive visualization</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2016-12-01 15:00:23 +0100</element><element xmlns="" form="text " name="Last Edited" read-only="true">2021-08-26 14:17:42 +0200</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

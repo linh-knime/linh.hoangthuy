@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="input-features-1523">
+            <config key="columns">
+                <entry key="array-size" type="xint" value="20"/>
+                <entry key="0" type="xstring" value="DepTime"/>
+                <entry key="1" type="xstring" value="CRSDepTime"/>
+                <entry key="2" type="xstring" value="ArrTime"/>
+                <entry key="3" type="xstring" value="CRSArrTime"/>
+                <entry key="4" type="xstring" value="UniqueCarrier"/>
+                <entry key="5" type="xstring" value="FlightNum"/>
+                <entry key="6" type="xstring" value="TailNum"/>
+                <entry key="7" type="xstring" value="ActualElapsedTime"/>
+                <entry key="8" type="xstring" value="CRSElapsedTime"/>
+                <entry key="9" type="xstring" value="AirTime"/>
+                <entry key="10" type="xstring" value="Origin"/>
+                <entry key="11" type="xstring" value="Dest"/>
+                <entry key="12" type="xstring" value="Distance"/>
+                <entry key="13" type="xstring" value="TaxiIn"/>
+                <entry key="14" type="xstring" value="TaxiOut"/>
+                <entry key="15" type="xstring" value="Cancelled"/>
+                <entry key="16" type="xstring" value="CancellationCode"/>
+                <entry key="17" type="xstring" value="Diverted"/>
+                <entry key="18" type="xstring" value="NASDelay"/>
+                <entry key="19" type="xstring" value="delayed"/>
+            </config>
+            <config key="columnFilter">
+                <config key="columnFilter">
+                    <entry key="filter-type" type="xstring" value="STANDARD"/>
+                    <config key="included_names">
+                        <entry key="array-size" type="xint" value="20"/>
+                        <entry key="0" type="xstring" value="DepTime"/>
+                        <entry key="1" type="xstring" value="CRSDepTime"/>
+                        <entry key="2" type="xstring" value="ArrTime"/>
+                        <entry key="3" type="xstring" value="CRSArrTime"/>
+                        <entry key="4" type="xstring" value="UniqueCarrier"/>
+                        <entry key="5" type="xstring" value="FlightNum"/>
+                        <entry key="6" type="xstring" value="TailNum"/>
+                        <entry key="7" type="xstring" value="ActualElapsedTime"/>
+                        <entry key="8" type="xstring" value="CRSElapsedTime"/>
+                        <entry key="9" type="xstring" value="AirTime"/>
+                        <entry key="10" type="xstring" value="Origin"/>
+                        <entry key="11" type="xstring" value="Dest"/>
+                        <entry key="12" type="xstring" value="Distance"/>
+                        <entry key="13" type="xstring" value="TaxiIn"/>
+                        <entry key="14" type="xstring" value="TaxiOut"/>
+                        <entry key="15" type="xstring" value="Cancelled"/>
+                        <entry key="16" type="xstring" value="CancellationCode"/>
+                        <entry key="17" type="xstring" value="Diverted"/>
+                        <entry key="18" type="xstring" value="NASDelay"/>
+                        <entry key="19" type="xstring" value="delayed"/>
+                    </config>
+                    <config key="excluded_names">
+                        <entry key="array-size" type="xint" value="6"/>
+                        <entry key="0" type="xstring" value="ArrDelay"/>
+                        <entry key="1" type="xstring" value="DepDelay"/>
+                        <entry key="2" type="xstring" value="CarrierDelay"/>
+                        <entry key="3" type="xstring" value="WeatherDelay"/>
+                        <entry key="4" type="xstring" value="SecurityDelay"/>
+                        <entry key="5" type="xstring" value="LateAircraftDelay"/>
+                    </config>
+                    <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+                    <config key="name_pattern">
+                        <entry key="pattern" type="xstring" value=""/>
+                        <entry key="type" type="xstring" value="Wildcard"/>
+                        <entry key="caseSensitive" type="xboolean" value="true"/>
+                    </config>
+                    <config key="datatype">
+                        <config key="typelist">
+                            <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                            <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                        </config>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="model_to_be_trained-1533">
+            <config key="variable_value">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Naive Bayes"/>
+            </config>
+        </config>
+        <config key="target_column-1534">
+            <entry key="column" type="xstring" value="delayed"/>
+        </config>
+        <config key="metric_auto-1535">
+            <config key="variable_value">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Accuracy"/>
+            </config>
+        </config>
+        <config key="one_hot_encoding-1536">
+            <entry key="boolean" type="xboolean" value="true"/>
+        </config>
+        <config key="Number_of_Validations-1538">
+            <entry key="integer" type="xint" value="4"/>
+        </config>
+        <config key="Train_split-1540">
+            <entry key="integer" type="xint" value="80"/>
+        </config>
+        <config key="rowids-cap-1541">
+            <entry key="integer" type="xint" value="100"/>
+        </config>
+        <config key="activate_view-1543">
+            <entry key="boolean" type="xboolean" value="true"/>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="load a simple%%00013%%00010ML Model"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="247"/>
+        <entry key="y-coordinate" type="xint" value="419"/>
+        <entry key="width" type="xint" value="106"/>
+        <entry key="height" type="xint" value="30"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles">
+            <config key="style_0">
+                <entry key="start" type="xint" value="0"/>
+                <entry key="length" type="xint" value="4"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="0"/>
+                <entry key="fontsize" type="xint" value="9"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Component Input 3:0:0:100: Component does not have input data, execute upstream nodes first"/>
+    </config>
+    <entry key="workflow-file" type="xstring" value="workflow.knime"/>
+    <entry key="virtual-in-ID" type="xint" value="100"/>
+    <config key="inports">
+        <config key="inport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <entry key="virtual-out-ID" type="xint" value="1343"/>
+    <config key="outports">
+        <config key="outport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.workflow.capture.WorkflowPortObject"/>
+            </config>
+        </config>
+    </config>
+    <config key="metadata">
+        <entry key="description" type="xstring" value="This Component automatically trains supervised machine learning models for both binary and multiclass classification.  The component is able to automate the whole ML cycle by performing some data preparation, parameter optimization with cross validation, scoring, evaluation and selection. The component also captures the entire end to end process and outputs the deployment workflow using the KNIME Integrated Deployment Extension.%%00013%%00010%%00013%%00010STEP-BY-STEP GUIDE:%%00013%%00010- Drag&amp;drop the Component from KNIME Hub to KNIME Analytics Platform.%%00013%%00010- Connect with your data table of features and target column. Consider using a subsample first.%%00013%%00010- IMPORTANT! Execute all up-stream nodes.%%00013%%00010- Double click Component to open its dialogue.%%00013%%00010- Save your settings with “OK” and execute the Component.%%00013%%00010- Wait for models to train, tune, validate, etc. and the best one to be selected and exported.%%00013%%00010- Connect Workflow Executor/Writer node to the Component output to reuse the model.%%00013%%00010- (OPTIONAL) Right click Component : “Component” &gt; “Open” to inspect our implementation for you to customize.%%00013%%00010- (IF PREVIOUSLY ENABLED) Right click Component : “Open Interactive View: AutoML” to inspect all trained models. Selecting one manually (with “Apply&amp;Close” in local View bottom right corner controls) unfortunately requires training all models again.%%00013%%00010%%00013%%00010DATA PREPARATION: %%00013%%00010Before training the models the data is cleaned by replacing the missing values with the categorical column most frequent value or the mean for the numerical columns. Optionally the categorical data can be one-hot encoded and columns with too many unique values are removed based on a user-defined parameter. Numerical features are all converted to double, normalized using min-max normalization. The data is automatically split into the two train and test partitions using stratified sampling technique on the target class and 80% split. The data preparation models are stored for deployment both for pre-processing and post-processing the data around the model predictor.%%00013%%00010%%00013%%00010MODEL TRAINING: %%00013%%00010Each model has a number of parameters to be tuned using cross validation and the user-defined evaluation metric on train data. The extent of the parameter optimization, the optimization strategy as well as other settings of the model can be changed directly in the Component.%%00013%%00010%%00013%%00010- Naive Bayes: trained with optimized parameter “Default probability”.%%00013%%00010- Logistic Regression: trained with optimized parameter “Step size”.%%00013%%00010- Neural Network: an Rprop Multi-layer Perceptron (MLP) trained with optimized parameters  “Number of hidden layers” and “Number of hidden neurons per layer”.%%00013%%00010- Gradient Boosted Trees: trained with optimized parameter “Number of trees”.%%00013%%00010- Decision Tree: trained with optimized parameter “Min number records per node”.%%00013%%00010- Random Forest: trained with optimized parameters “Tree Depth”, “Number of models” and “Minimum child node size”.%%00013%%00010- XGBoost Trees: trained with optimized parameters  “eta” and “max depth”.%%00013%%00010- Generalized Linear Model (H2O): trained with the KNIME H2O Machine Learning Integration with optimized parameters “lambda” and “alpha”.%%00013%%00010- Deep Learning (Keras): trained with KNIME Deep Learning - Keras Integration with no parameter optimization and two simple architectures for binary and multiclass classification. %%00013%%00010   A few simple heuristics are in place to shape the network architecture and Keras training process based on the size of the input data.%%00013%%00010%%00013%%00010MODEL SCORING AND SELECTION:%%00013%%00010After the training of the specified models is completed and all models are stored in a single table, the system applies the model to the test set. The predictions of all models are scored against the ground truth and several performance metrics are computed. The best model is selected using the performance metric specified by the user. %%00013%%00010%%00013%%00010DEPLOYMENT WORKFLOW:%%00013%%00010The data pre-processing, the best model and the data post-processing are captured via the KNIME Integrated Deployment Extension. The end-to-end encapsulated workflow is provided at the output of the Component and it can be used to score raw new data in deployment. Connect to Workflow Writer node or Workflow Executor node to reuse the trained model where ever needed.%%00013%%00010%%00013%%00010AUTOML OUTPUT METADATA:%%00013%%00010The Component additionally outputs flow variables for advanced users.%%00013%%00010- &quot;metric_auto&quot; (String) : the name of the user-defined performance metric.%%00013%%00010- &quot;target_column&quot; (String) : the name of the user-defined target column.%%00013%%00010- &quot;positive&quot; (String) : the positive class used in binary classification.%%00013%%00010- &quot;exported_model&quot; (String) : the best model that was selected.%%00013%%00010- &quot;exported_model_params” (String Array) : list of the optimized parameters names and values for the exported model.%%00013%%00010- &quot;trained_models&quot; (String Array) : list of all the selected models that were successfully trained and ranked by &quot;metric_auto&quot; metric.%%00013%%00010- &quot;trained_metrics&quot; (Double Array) : list of the &quot;metric_auto&quot; metrics for all “trained_models”.%%00013%%00010- &quot;failed_models&quot; (String Array) : list of all selected models failed during training or testing.%%00013%%00010- &quot;static_prediction_models&quot; (String Array) : models always predicting the majority class are discarded and listed here."/>
+        <entry key="type" type="xstring" value="LEARNER"/>
+        <entry key="icon" type="xstring" value="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlElEQVR4nGNgoAUwMDAQMDIyKgDiBiguAIopEKUZpNjExKQBZAi6gcbGxvmENCfgswkkh9MQoKQByAAiXJgAdKEDNokGQpqR1E6g1ABMtYPCAKLiGqQGZ2ADo2g+EbZjBiCy6UBDJoBoUOIxNDRcgJygiHIlSAMoJYL8CTRsAbKrkA0jCkCTtQNJmpBtA6VOsjSTAgCY9TAwIZkx9AAAAABJRU5ErkJggg=="/>
+        <config key="inports">
+            <config key="inport_0">
+                <entry key="name" type="xstring" value="Data to Train and Test model"/>
+                <entry key="description" type="xstring" value="A KNIME Table with data rows with input features and ground truth."/>
+                <entry key="index" type="xint" value="0"/>
+            </config>
+        </config>
+        <config key="outports">
+            <config key="outport_0">
+                <entry key="name" type="xstring" value="Trained Model"/>
+                <entry key="description" type="xstring" value="The best trained model stored in a model port with KNIME Integrated Deployment. Connect this output port to either the Workflow Writer or Workflow Executor node."/>
+                <entry key="index" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
+    <entry key="layoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:false,&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;1323&quot;},{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;1322&quot;}],&quot;widthXS&quot;:12}]}]}"/>
+    <entry key="configurationLayoutJSON" type="xstring" value="{}"/>
+    <entry key="hideInWizard" type="xboolean" value="false"/>
+    <entry key="customCSS" type="xstring" value=""/>
+</config>

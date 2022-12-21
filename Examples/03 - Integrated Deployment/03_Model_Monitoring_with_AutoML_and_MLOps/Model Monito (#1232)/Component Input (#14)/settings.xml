@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="target_column"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="delayed"/>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="target_column"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="delayed"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="variable-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="9"/>
+                <entry key="0" type="xstring" value="target_column"/>
+                <entry key="1" type="xstring" value="Fit Line"/>
+                <entry key="2" type="xstring" value="Model_Monitoring_F-measure"/>
+                <entry key="3" type="xstring" value="Iteration"/>
+                <entry key="4" type="xstring" value="TimeStamp"/>
+                <entry key="5" type="xstring" value="Model_Monitoring_Recall"/>
+                <entry key="6" type="xstring" value="Model_Monitoring_Precision"/>
+                <entry key="7" type="xstring" value="Model_Monitoring_Accuracy"/>
+                <entry key="8" type="xstring" value="Model_Monitoring_Cohen's kappa"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="9"/>
+                <entry key="0" type="xstring" value="positive"/>
+                <entry key="1" type="xstring" value="trained_models"/>
+                <entry key="2" type="xstring" value="exported_model"/>
+                <entry key="3" type="xstring" value="exported_model_params"/>
+                <entry key="4" type="xstring" value="trained_metrics"/>
+                <entry key="5" type="xstring" value="failed_models"/>
+                <entry key="6" type="xstring" value="static_prediction_models"/>
+                <entry key="7" type="xstring" value="metric_auto"/>
+                <entry key="8" type="xstring" value="retrain"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+            </config>
+        </config>
+        <entry key="variable-prefix" type="xstring" isnull="true" value=""/>
+        <config key="port-names">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="Model"/>
+            <entry key="1" type="xstring" value="Deployment data"/>
+        </config>
+        <config key="port-descriptions">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="A model captured with Integrated Deployment."/>
+            <entry key="1" type="xstring" value="Deployment data with target/ground truth and timestamp:%%00013%%00010%%00013%%00010- A table of instances gathered after the deployment where the model was previously applied.%%00013%%00010- The collected afterwards ground truth (also called target) column should also be available. %%00013%%00010- The timestamp needs to be already converted to either &quot;Date&amp;Time&quot; Column Type or similar as long as it has a date and it is not String Column Type."/>
+        </config>
+        <entry key="sub-node-description" type="xstring" value="%%00013%%00010This Component generates a view monitoring the performance of a model captured by Integrated Deployment. The view works for machine learning classifiers for binary as well as multiclass targets.  The Component requires the deployment data with timestamps (dates) and target columns in order to showcase the performance over time. %%00013%%00010%%00013%%00010In the Interactive View generated, the performance metric is plotted with respect to the time axis, and further, a trend line is plotted based on this performance.  A “Retrain” button has been provided in the view. Based on the model performance the user can decide if retraining is necessary. This retraining decision is given at the output of the component via a flow variable. Connect the flow variable output to the workflow branch which retrains the model. Such branch should execute only if the user checked the box in the view. %%00013%%00010%%00013%%00010CAPTURED MODEL REQUIREMENTS (Top Port)%%00013%%00010We recommend using the &quot;AutoML&quot; component with this component. All you need is connect the two components via the black integrated deployment port. %%00013%%00010 %%00013%%00010You can also monitor a customly trained model with this component. When providing a model not trained by the “AutoML” component, you need to satisfy the below black box requirements:%%00013%%00010%%00013%%00010- The model should be captured with Integrated Deployment and have a single input and single output of type Data.%%00013%%00010%%00013%%00010- All features columns have to be provided at the model input.%%00013%%00010%%00013%%00010- Any other additional columns that are not features can be provided at the model input.%%00013%%00010%%00013%%00010- The model output should store all the model input data (features and non-features) and present attached the output predictions columns.%%00013%%00010%%00013%%00010- The model output predictions should be one String type and “n” Double type, where “n” is the number of classes in the target column.%%00013%%00010%%00013%%00010- The String type prediction column should be named “Prediction([T])” where [T] is the name of your target class (e.g. “Prediction (Churn)”).%%00013%%00010%%00013%%00010- The Double type prediction columns should be named “P ([T]=[C1])”, “P ([T]=[C2])”, …, “P (T=[Cn])”, where [Cn] is the name of the class that probability is predicting (e.g. “P (Churn=not churned)” and ”P (Churn=churned)” in the binary case).%%00013%%00010%%00013%%00010Additionally, if you are not using the AutoML component, you need to provide a flow variable called “target_column” of type String with the name of your ground truth/target column in the top input of the “Model Monitor View“ Component.%%00013%%00010%%00013%%00010INPUT DEPLOYMENT TABLE REQUIREMENTS (Bottom Port)%%00013%%00010- All features columns that were used in the training of the captured model.%%00013%%00010- Availability of target column and timestamp column. Each record timestamp tracks the date in which the model was applied on that data row. The timestamp should be of “Date&amp;Time” column Types. “Time” and “String” types are not supported. Use the “String to Date&amp;Time” node. The timestamp column should be uniformly distributed across the sample: time ranges in between dates where samples are missing should be somewhat constant."/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value=""/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="147"/>
+        <entry key="y-coordinate" type="xint" value="559"/>
+        <entry key="width" type="xint" value="106"/>
+        <entry key="height" type="xint" value="15"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="11"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="isDeletable" type="xboolean" value="false"/>
+    <entry key="factory" type="xstring" value="org.knime.core.node.workflow.virtual.subnode.VirtualSubNodeInputNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Component Input"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Core API"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.core"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.4.0.v202106241953"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME AP Core feature"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.core.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.4.0.v202106241953"/>
+    <config key="factory_settings">
+        <config key="port_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.workflow.capture.WorkflowPortObject"/>
+            </config>
+        </config>
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <entry key="name" type="xstring" value="Component Input"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

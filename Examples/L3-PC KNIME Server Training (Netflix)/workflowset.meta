@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">lukas.siedentop</element><element xmlns="" form="date" name="Creation Date">12/7/2021/12:0:1 +02:00</element><element xmlns="" form="multiline" name="Comments">L3-PC KNIME Server Training (Netflix)
+
+Remodeled Janinas molecules usecase to a netflix watchlist generator for less life-scientific people. Exercises are still the same.</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2022-10-25 17:24:39 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2022-10-25 17:24:39 +0200</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

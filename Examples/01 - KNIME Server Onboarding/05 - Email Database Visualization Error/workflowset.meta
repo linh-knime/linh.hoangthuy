@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">Lukas.Siedentop</element><element xmlns="" form="date" name="Creation Date">19/9/2021/10:11:52 +02:00</element><element xmlns="" form="multiline" name="Comments">[KNIME Server Onboarding] Editing Workflows and Jobs
+
+Oh no, Bob accidentally created a bug in this  workflow ! Your exercise consists of deploying the Workflow as usual, then let it run as a Job and observe the (artificial) error. Please use the Remote workflow editor and resolve the error: for example, by replacing the Email DB Preprocessing component with the correct version. Save the repaired Job as a workflow to keep the changes permanently.
+
+VIDEO: Remote Workflow Editor Tutorial https://www.youtube.com/watch?v=7dzNMH4ir2M
+TAGS: KNIME Server Onboarding,Editing Workflows and Jobs</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2022-06-08 17:31:45 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2021-11-22 15:16:55 +0100</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

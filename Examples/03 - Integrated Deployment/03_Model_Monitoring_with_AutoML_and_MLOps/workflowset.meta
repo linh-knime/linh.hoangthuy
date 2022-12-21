@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?><KNIMEMetaInfo xmlns="http://www.knime.org/2.9/metainfo"><element xmlns="" form="text" name="Author">paolo</element><element xmlns="" form="date" name="Creation Date">29/8/2020/19:36:34 +02:00</element><element xmlns="" form="multiline" name="Comments">Model Monitoring with Integrated Deployment
+
+This is an example showing how you can monitor a deployed model using Integrated Deployment and Guided Analytics.&#xd;
+&#xd;
+When training a classification model with the AutoML component on KNIME Server, you can use this workflow to monitor its performance from the KNIME WebPortal.&#xd;
+&#xd;
+The workflow uses two special Verified Components:&#xd;
+&#xd;
+- Model Monitor View : it displays the performance over time of the model and offers controls to trigger the retraining of the model.&#xd;
+&#xd;
+- Model Monitor View (Compare) : it displays performances of two models for over time comparison and offers controls to trigger the deployment of the newer model.&#xd;
+&#xd;
+The two components work especially well when the model was produced by the Verified Component "AutoML". You can also capture your custom black box classifier with Integrated Deployment and monitor its performance in the same way. More details in the single component descriptions.&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+
+
+URL: KNIME Integrated Deployment - knime.com https://www.knime.com/integrated-deployment
+URL: Guided Analytics - knime.com https://www.knime.com/guided-analytics
+URL: KNIME Verified Components - knime.com https://www.knime.com/verified-components
+URL: Model Monitor View (Compare) - Verified Component - hub.knime.com https://kni.me/c/1OK0-S9S7PZFarzD
+URL: Model Monitor View - Verified Component - hub.knime.com https://kni.me/c/qoPsGhs0i5GjUiPu
+TAGS: model management,model monitoring,monitor,model governance,MLOps,integrated deployment,AIOps,ModelOps,DataOps</element><element xmlns="" form="text" name="Last Uploaded" read-only="true">2021-08-30 13:05:46 +0200</element><element xmlns="" form="text " name="Last Edited" read-only="true">2021-08-24 11:15:59 +0200</element><nrOfElements xmlns="">5</nrOfElements></KNIMEMetaInfo>

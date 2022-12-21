@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="target_column"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Churn"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="metric_auto"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Accuracy"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="static_prediction_models"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="No static prediction models found."/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="failed_models"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="No model failed execution during training."/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="trained_metrics"/>
+<entry key="class" type="xstring" value="DOUBLEARRAY"/>
+<config key="value">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xdouble" value="0.951310861423221"/>
+<entry key="1" type="xdouble" value="0.949438202247191"/>
+<entry key="2" type="xdouble" value="0.9250936329588015"/>
+<entry key="3" type="xdouble" value="0.8782771535580525"/>
+<entry key="4" type="xdouble" value="0.8689138576779026"/>
+<entry key="5" type="xdouble" value="0.848314606741573"/>
+<entry key="6" type="xdouble" value="0.8314606741573034"/>
+<entry key="7" type="xdouble" value="0.8239700374531835"/>
+<entry key="8" type="xdouble" value="0.15543071161048688"/>
+</config>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="exported_model"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Gradient Boosted Trees"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="trained_models"/>
+<entry key="class" type="xstring" value="STRINGARRAY"/>
+<config key="value">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xstring" value="Gradient Boosted Trees"/>
+<entry key="1" type="xstring" value="XGBoost Trees"/>
+<entry key="2" type="xstring" value="Decision Tree"/>
+<entry key="3" type="xstring" value="Random Forest"/>
+<entry key="4" type="xstring" value="Deep Learning (Keras)"/>
+<entry key="5" type="xstring" value="Logistic Regression"/>
+<entry key="6" type="xstring" value="Neural Network"/>
+<entry key="7" type="xstring" value="Generalized Linear Model (H2O)"/>
+<entry key="8" type="xstring" value="Naive Bayes"/>
+</config>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="positive"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="churned"/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="target_column"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Churn"/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="metric_auto"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Accuracy"/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="static_prediction_models"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="No static prediction models found."/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="failed_models"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="No model failed execution during training."/>
+</config>
+<config key="Variable_12">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="trained_metrics"/>
+<entry key="class" type="xstring" value="DOUBLEARRAY"/>
+<config key="value">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xdouble" value="0.951310861423221"/>
+<entry key="1" type="xdouble" value="0.949438202247191"/>
+<entry key="2" type="xdouble" value="0.9250936329588015"/>
+<entry key="3" type="xdouble" value="0.8782771535580525"/>
+<entry key="4" type="xdouble" value="0.8689138576779026"/>
+<entry key="5" type="xdouble" value="0.848314606741573"/>
+<entry key="6" type="xdouble" value="0.8314606741573034"/>
+<entry key="7" type="xdouble" value="0.8239700374531835"/>
+<entry key="8" type="xdouble" value="0.15543071161048688"/>
+</config>
+</config>
+<config key="Variable_13">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="exported_model"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Gradient Boosted Trees"/>
+</config>
+<config key="Variable_14">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="trained_models"/>
+<entry key="class" type="xstring" value="STRINGARRAY"/>
+<config key="value">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xstring" value="Gradient Boosted Trees"/>
+<entry key="1" type="xstring" value="XGBoost Trees"/>
+<entry key="2" type="xstring" value="Decision Tree"/>
+<entry key="3" type="xstring" value="Random Forest"/>
+<entry key="4" type="xstring" value="Deep Learning (Keras)"/>
+<entry key="5" type="xstring" value="Logistic Regression"/>
+<entry key="6" type="xstring" value="Neural Network"/>
+<entry key="7" type="xstring" value="Generalized Linear Model (H2O)"/>
+<entry key="8" type="xstring" value="Naive Bayes"/>
+</config>
+</config>
+<config key="Variable_15">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="positive"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="churned"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="input-features-1523">
+<config key="columns">
+<entry key="array-size" type="xint" value="21"/>
+<entry key="0" type="xstring" value="VMail Message"/>
+<entry key="1" type="xstring" value="Day Mins"/>
+<entry key="2" type="xstring" value="Eve Mins"/>
+<entry key="3" type="xstring" value="Night Mins"/>
+<entry key="4" type="xstring" value="Intl Mins"/>
+<entry key="5" type="xstring" value="CustServ Calls"/>
+<entry key="6" type="xstring" value="Day Calls"/>
+<entry key="7" type="xstring" value="Day Charge"/>
+<entry key="8" type="xstring" value="Eve Calls"/>
+<entry key="9" type="xstring" value="Eve Charge"/>
+<entry key="10" type="xstring" value="Night Calls"/>
+<entry key="11" type="xstring" value="Night Charge"/>
+<entry key="12" type="xstring" value="Intl Calls"/>
+<entry key="13" type="xstring" value="Intl Charge"/>
+<entry key="14" type="xstring" value="Area Code"/>
+<entry key="15" type="xstring" value="Phone"/>
+<entry key="16" type="xstring" value="Account Length"/>
+<entry key="17" type="xstring" value="Churn"/>
+<entry key="18" type="xstring" value="Int'l Plan"/>
+<entry key="19" type="xstring" value="VMail Plan"/>
+<entry key="20" type="xstring" value="State"/>
+</config>
+<config key="columnFilter">
+<config key="columnFilter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="21"/>
+<entry key="0" type="xstring" value="VMail Message"/>
+<entry key="1" type="xstring" value="Day Mins"/>
+<entry key="2" type="xstring" value="Eve Mins"/>
+<entry key="3" type="xstring" value="Night Mins"/>
+<entry key="4" type="xstring" value="Intl Mins"/>
+<entry key="5" type="xstring" value="CustServ Calls"/>
+<entry key="6" type="xstring" value="Day Calls"/>
+<entry key="7" type="xstring" value="Day Charge"/>
+<entry key="8" type="xstring" value="Eve Calls"/>
+<entry key="9" type="xstring" value="Eve Charge"/>
+<entry key="10" type="xstring" value="Night Calls"/>
+<entry key="11" type="xstring" value="Night Charge"/>
+<entry key="12" type="xstring" value="Intl Calls"/>
+<entry key="13" type="xstring" value="Intl Charge"/>
+<entry key="14" type="xstring" value="Area Code"/>
+<entry key="15" type="xstring" value="Phone"/>
+<entry key="16" type="xstring" value="Account Length"/>
+<entry key="17" type="xstring" value="Churn"/>
+<entry key="18" type="xstring" value="Int'l Plan"/>
+<entry key="19" type="xstring" value="VMail Plan"/>
+<entry key="20" type="xstring" value="State"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+</config>
+<config key="model_to_be_trained-1533">
+<config key="variable_value">
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xstring" value="Naive Bayes"/>
+<entry key="1" type="xstring" value="Logistic Regression"/>
+<entry key="2" type="xstring" value="Neural Network"/>
+<entry key="3" type="xstring" value="Gradient Boosted Trees"/>
+<entry key="4" type="xstring" value="Decision Tree"/>
+<entry key="5" type="xstring" value="Random Forest"/>
+<entry key="6" type="xstring" value="XGBoost Trees"/>
+<entry key="7" type="xstring" value="Generalized Linear Model (H2O)"/>
+<entry key="8" type="xstring" value="Deep Learning (Keras)"/>
+</config>
+</config>
+<config key="target_column-1534">
+<entry key="column" type="xstring" isnull="true" value=""/>
+</config>
+<config key="metric_auto-1535">
+<config key="variable_value">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Accuracy"/>
+</config>
+</config>
+<config key="one_hot_encoding-1536">
+<entry key="boolean" type="xboolean" value="true"/>
+</config>
+<config key="Number_of_Validations-1538">
+<entry key="integer" type="xint" value="4"/>
+</config>
+<config key="Train_split-1540">
+<entry key="integer" type="xint" value="80"/>
+</config>
+<config key="rowids-cap-1541">
+<entry key="integer" type="xint" value="100"/>
+</config>
+<config key="activate_view-1543">
+<entry key="boolean" type="xboolean" value="false"/>
+</config>
+</config>
+<config key="variables">
+<entry key="version" type="xstring" value="V_2019_09_13"/>
+<config key="tree">
+<config key="model_to_be_trained-1533">
+<config key="variable_value">
+<entry key="used_variable" type="xstring" value="models"/>
+<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="target_column-1534">
+<config key="column">
+<entry key="used_variable" type="xstring" value="target-selection"/>
+<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="metric_auto-1535">
+<config key="variable_value">
+<entry key="used_variable" type="xstring" value="metric-selection"/>
+<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+</config>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="execute up-stream%%00013%%00010before configuration"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="306"/>
+<entry key="y-coordinate" type="xint" value="219"/>
+<entry key="width" type="xint" value="109"/>
+<entry key="height" type="xint" value="30"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles">
+<config key="style_0">
+<entry key="start" type="xint" value="26"/>
+<entry key="length" type="xint" value="13"/>
+<entry key="fontname" type="xstring" value="Arial"/>
+<entry key="fontstyle" type="xint" value="0"/>
+<entry key="fontsize" type="xint" value="9"/>
+<entry key="fgcolor" type="xint" value="0"/>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="virtual-in-ID" type="xint" value="100"/>
+<config key="inports">
+<config key="inport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+</config>
+<entry key="virtual-out-ID" type="xint" value="1343"/>
+<config key="outports">
+<config key="outport_0">
+<entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.workflow.capture.WorkflowPortObject"/>
+</config>
+</config>
+</config>
+<config key="metadata">
+<entry key="description" type="xstring" value="This Component automatically trains supervised machine learning models for both binary and multiclass classification.  The component is able to automate the whole ML cycle by performing some data preparation, parameter optimization with cross validation, scoring, evaluation and selection. The component also captures the entire end to end process and outputs the deployment workflow using the KNIME Integrated Deployment Extension.%%00013%%00010%%00013%%00010STEP-BY-STEP GUIDE:%%00013%%00010- Drag&amp;drop the Component from KNIME Hub to KNIME Analytics Platform.%%00013%%00010- Connect with your data table of features and target column. Consider using a subsample first.%%00013%%00010- IMPORTANT! Execute all up-stream nodes.%%00013%%00010- Double click Component to open its dialogue.%%00013%%00010- Save your settings with “OK” and execute the Component.%%00013%%00010- Wait for models to train, tune, validate, etc. and the best one to be selected and exported.%%00013%%00010- Connect Workflow Executor/Writer node to the Component output to reuse the model.%%00013%%00010- (OPTIONAL) Right click Component : “Component” &gt; “Open” to inspect our implementation for you to customize.%%00013%%00010- (IF PREVIOUSLY ENABLED) Right click Component : “Open Interactive View: AutoML” to inspect all trained models. Selecting one manually (with “Apply&amp;Close” in local View bottom right corner controls) unfortunately requires training all models again.%%00013%%00010%%00013%%00010%%00013%%00010DATA PREPARATION: %%00013%%00010Before training the models the data is cleaned by replacing the missing values with the categorical column most frequent value or the mean for the numerical columns. Optionally the categorical data can be one-hot encoded and columns with too many unique values are removed based on a user-defined parameter. Numerical features are all converted to double, normalized using min-max normalization. The data is automatically split into the two train and test partitions using stratified sampling technique on the target class and 80% split. The data preparation models are stored for deployment both for pre-processing and post-processing the data around the model predictor.%%00013%%00010%%00013%%00010MODEL TRAINING: %%00013%%00010Each model has a number of parameters to be tuned using cross validation and the user-defined evaluation metric on train data. The extent of the parameter optimization, the optimization strategy as well as other settings of the model can be changed directly in the Component.%%00013%%00010%%00013%%00010%%00013%%00010- Naive Bayes: trained with optimized parameter “Default probability”.%%00013%%00010- Logistic Regression: trained with optimized parameter “Step size”.%%00013%%00010- Neural Network: an Rprop Multi-layer Perceptron (MLP) trained with optimized parameters  “Number of hidden layers” and “Number of hidden neurons per layer”.%%00013%%00010- Gradient Boosted Trees: trained with optimized parameter “Number of trees”.%%00013%%00010- Decision Tree: trained with optimized parameter “Min number records per node”.%%00013%%00010- Random Forest: trained with optimized parameters “Tree Depth”, “Number of models” and “Minimum child node size”.%%00013%%00010- XGBoost Trees: trained with optimized parameters  “eta” and “max depth”.%%00013%%00010- Generalized Linear Model (H2O): trained with the KNIME H2O Machine Learning Integration with optimized parameters “lambda” and “alpha”.%%00013%%00010- Deep Learning (Keras): trained with KNIME Deep Learning - Keras Integration with no parameter optimization and two simple architectures for binary and multiclass classification. %%00013%%00010   A few simple heuristics are in place to shape the network architecture and Keras training process based on the size of the input data.%%00013%%00010%%00013%%00010MODEL SCORING AND SELECTION:%%00013%%00010After the training of the specified models is completed and all models are stored in a single table, the system applies the model to the test set. The predictions of all models are scored against the ground truth and several performance metrics are computed. The best model is selected using the performance metric specified by the user. %%00013%%00010%%00013%%00010DEPLOYMENT WORKFLOW:%%00013%%00010The data pre-processing, the best model and the data post-processing are captured via the KNIME Integrated Deployment Extension. The end-to-end encapsulated workflow is provided at the output of the Component and it can be used to score raw new data in deployment. Connect to Workflow Writer node or Workflow Executor node to reuse the trained model where ever needed.%%00013%%00010%%00013%%00010AUTOML OUTPUT METADATA:%%00013%%00010The Component additionally outputs flow variables for advanced users.%%00013%%00010- &quot;metric_auto&quot; (String) : the name of the user-defined performance metric.%%00013%%00010- &quot;target_column&quot; (String) : the name of the user-defined target column.%%00013%%00010- &quot;positive&quot; (String) : the positive class used in binary classification.%%00013%%00010- &quot;exported_model&quot; (String) : the best model that was selected.%%00013%%00010- &quot;trained_models&quot; (String Array) : list of all the selected models that were successfully trained and ranked by &quot;metric_auto&quot; metric.%%00013%%00010- &quot;trained_metrics&quot; (Double Array) : list of the &quot;metric_auto&quot; metrics for all “trained_models”.%%00013%%00010- &quot;failed_models&quot; (String Array) : list of all selected models failed during training or testing.%%00013%%00010- &quot;static_prediction_models&quot; (String Array) : models always predicting the majority class are discarded and listed here."/>
+<entry key="type" type="xstring" value="LEARNER"/>
+<entry key="icon" type="xstring" value="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAlElEQVR4nGNgoAUwMDAQMDIyKgDiBiguAIopEKUZpNjExKQBZAi6gcbGxvmENCfgswkkh9MQoKQByAAiXJgAdKEDNokGQpqR1E6g1ABMtYPCAKLiGqQGZ2ADo2g+EbZjBiCy6UBDJoBoUOIxNDRcgJygiHIlSAMoJYL8CTRsAbKrkA0jCkCTtQNJmpBtA6VOsjSTAgCY9TAwIZkx9AAAAABJRU5ErkJggg=="/>
+<config key="inports">
+<config key="inport_0">
+<entry key="name" type="xstring" value="Data to Train and Test model"/>
+<entry key="description" type="xstring" value="A KNIME Table with data rows with input features and ground truth."/>
+<entry key="index" type="xint" value="0"/>
+</config>
+</config>
+<config key="outports">
+<config key="outport_0">
+<entry key="name" type="xstring" value="Trained Model"/>
+<entry key="description" type="xstring" value="The best trained model stored in a model port with KNIME Integrated Deployment. Connect this output port to either the Workflow Writer or Workflow Executor node."/>
+<entry key="index" type="xint" value="0"/>
+</config>
+</config>
+</config>
+<config key="workflow_template_information">
+<entry key="role" type="xstring" value="Link"/>
+<entry key="timestamp" type="xstring" value="2020-08-21 12:21:17"/>
+<entry key="sourceURI" type="xstring" value="knime://My-KNIME-Hub/Users/knime/Examples/00_Components/Automation/AutoML"/>
+</config>
+<entry key="layoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:false,&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;1323&quot;},{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;1322&quot;}],&quot;widthXS&quot;:12}]}]}"/>
+<entry key="hideInWizard" type="xboolean" value="false"/>
+<entry key="customCSS" type="xstring" value=""/>
+</config>
