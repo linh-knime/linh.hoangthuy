@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+    <entry key="spec_name" type="xstring" value="default"/>
+    <entry key="number_columns" type="xint" value="1"/>
+    <config key="column_spec_0">
+        <entry key="column_name" type="xstring" value="children"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain">
+            <config key="possible_values">
+                <entry key="array-size" type="xint" value="21"/>
+                <config key="0">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/dashiell.brookhart/ODs/PA_d/AutoML/Data/Deprecated/networking.csv"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/dashiell.brookhart/ODs/PA_d/AutoML/Data/Deprecated/part_failure.csv"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/dashiell.brookhart/ODs/PA_d/AutoML/Data/Deprecated/vendor_credit.csv"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/aline.bessa/Data%20Apps%20Course/Session%201/Tests/Unit_Tests/Simple_Testflow/01.Testflow_1__Testing_Component_Calculate_Scores__Simple"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/aline.bessa/Data%20Apps%20Course/Session%201/Session%201/Unit_Tests/Simple_Testflow/01.Testflow_1__Testing_Component_Calculate_Scores__Simple"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/ana.vedoveli/36_Guided_Analytics_for_ML_Automation/01_Guided_Analytics_for_ML_Automation/Models/classification/learning_templates/h2o_gbm_learning"/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/ana.vedoveli/36_Guided_Analytics_for_ML_Automation/01_Guided_Analytics_for_ML_Automation/Models/classification/learning_templates/log_regression_learning"/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/ana.vedoveli/36_Guided_Analytics_for_ML_Automation/01_Guided_Analytics_for_ML_Automation/Models/classification/learning_templates/mlp_learning"/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/ana.vedoveli/36_Guided_Analytics_for_ML_Automation/01_Guided_Analytics_for_ML_Automation/Models/classification/learning_templates/xgboost_learning"/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/ana.vedoveli/36_Guided_Analytics_for_ML_Automation/01_Guided_Analytics_for_ML_Automation/Models/classification/learning_templates/log_regression_Get%20first%20target%20value"/>
+                    </config>
+                </config>
+                <config key="10">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/ana.vedoveli/36_Guided_Analytics_for_ML_Automation/01_Guided_Analytics_for_ML_Automation/Models/classification/learning_templates/h2o_rndfor_learning"/>
+                    </config>
+                </config>
+                <config key="11">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/ana.vedoveli/36_Guided_Analytics_for_ML_Automation/01_Guided_Analytics_for_ML_Automation/Models/classification/learning_templates/svm_learning"/>
+                    </config>
+                </config>
+                <config key="12">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/ana.vedoveli/36_Guided_Analytics_for_ML_Automation/01_Guided_Analytics_for_ML_Automation/Models/classification/learning_templates/dec_tree_learning"/>
+                    </config>
+                </config>
+                <config key="13">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/ana.vedoveli/36_Guided_Analytics_for_ML_Automation/01_Guided_Analytics_for_ML_Automation/Models/classification/learning_templates/h2o_glm_learning"/>
+                    </config>
+                </config>
+                <config key="14">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/ana.vedoveli/36_Guided_Analytics_for_ML_Automation/01_Guided_Analytics_for_ML_Automation/Models/classification/learning_templates/h2o_naive_learning"/>
+                    </config>
+                </config>
+                <config key="15">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/simon.schmid/knime-edge-server-workflows/Edge_Dynamic/config/docker/inference-agent/Dockerfile"/>
+                    </config>
+                </config>
+                <config key="16">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/simon.schmid/knime-edge-server-workflows/Edge_Dynamic/config/docker/inference-agent/knime-ap-exec_install.sh"/>
+                    </config>
+                </config>
+                <config key="17">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/simon.schmid/knime-edge-server-workflows/Edge_Dynamic/config/docker/inference-agent/knime-ext_install.sh"/>
+                    </config>
+                </config>
+                <config key="18">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/simon.schmid/knime-edge-server-workflows/Edge_2.5/config/docker/inference-agent/Dockerfile"/>
+                    </config>
+                </config>
+                <config key="19">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/simon.schmid/knime-edge-server-workflows/Edge_2.5/config/docker/inference-agent/knime-ap-exec_install.sh"/>
+                    </config>
+                </config>
+                <config key="20">
+                    <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                    <config key="org.knime.core.data.def.StringCell">
+                        <entry key="StringCell" type="xstring" value="https://datascience2.knime.com/knime/rest/v4/repository/Users/simon.schmid/knime-edge-server-workflows/Edge_2.5/config/docker/inference-agent/knime-ext_install.sh"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+</config>
